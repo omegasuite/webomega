@@ -1,0 +1,108 @@
+fr:|:users
+a:|:ALL:|:Tous
+a:|:Account Signup:|:Inscription nouveau membre
+a:|:Add Group:|:Ajouter un groupe
+a:|:Add Member:|:Ajouter un membre
+a:|:Add User:|:Ajouter un utilisateur
+a:|:Admin:|:Admin
+a:|:Administer your Account:|:Gérer votre compte
+a:|:Administrate your Account:|:Gérer votre compte
+a:|:Administrator:|:Administrateur
+a:|:All users can apply:|:Tous les visiteurs peuvent l'utiliser
+a:|:Allow New User Signup:|:Autoriser les nouvelles inscriptions
+a:|:Allow:|:Autoriser
+a:|:Apply for Account:|:Appliquer pour ce compte
+a:|:Authentication Method:|:Méthode d'authentification
+a:|:Available Groups:|:Groupes disponibles
+a:|:Available Users:|:Utilisateurs disponibles
+a:|:Change Successful:|:Modifications enregistrées
+a:|:Change Your Password:|:Modifiez votre mot de passe
+a:|:Choose an option from the panel above:|:Choisissez une option dans le panneau ci-dessus
+a:|:Commands:|:Commandes
+a:|:Contact Information:|:Information pour contact
+a:|:Control Panel:|:Panneau de contrôle
+a:|:Cookie Refreshed:|:Rafraîchir mon cookie
+a:|:Create Group:|:Créer un groupe
+a:|:Create User:|:Créer un utilisateur
+a:|:Create a group by clicking on Add Group above:|:Créez un groupe en utilisant le lien Créer un groupe ci-dessus
+a:|:Default to Control Panel:|:Afficher d'abord le panneau de contrôle
+a:|:Deity:|:Immortel
+a:|:Do you wish to remove their status:|:Voulez-vous supprimer leur status
+a:|:Drop Group:|:Supprimer le groupe
+a:|:Drop Member:|:Supprimer le membre
+a:|:Email Address:|:Adresse email
+a:|:Email:|:Email
+a:|:Enter Again:|:Saisissez à nouveau
+a:|:External Filename:|:Nom fichier externe
+a:|:External PHP function:|:Fonction php externe
+a:|:Forgot Password:|:Mot de passe oublié
+a:|:Go:|:En avant
+a:|:Greeting:|:Salutations
+a:|:Group Name:|:Nom du groupe
+a:|:Group created:|:Groupe crée
+a:|:Group updated:|:Groupe modifié
+a:|:Hello [var1]:|:Bonjour [var1]
+a:|:Home:|:Accueil
+a:|:If you think you might already have an account, try the lost password option:|:Si vous pensez déjà avoir un compte, essayez l'option "Mot de passe perdu"
+a:|:Improperly formatted username:|:Nom d'utilisateur incorrect
+a:|:In Group:|:Dans le groupe
+a:|:In Groups:|:Dans les groupes
+a:|:Inherits:|:Hérite
+a:|:Limit:|:Limite
+a:|:Local Database:|:Base de données locale
+a:|:Log In:|:Connexion
+a:|:Log Out:|:Déconnexion
+a:|:Make [var1] a Deity:|:Rendre [var1] immortel
+a:|:Manage Groups:|:Gérer les groupes
+a:|:Manage Users:|:Gérer les utilisateurs
+a:|:Members:|:Membres
+a:|:Missing Settings:|:Réglages manquants
+a:|:Module Rights:|:Droits du module
+a:|:Mortal:|:Mortel
+a:|:Name:|:Nom
+a:|:New Account Signup:|:Inscription
+a:|:No groups available:|:Aucun groupe disponible
+a:|:No groups found:|:Aucun groupe
+a:|:No, do leave them mortal:|:Non, le laisser simple mortel
+a:|:No, let them remain a deity:|:Non, le laisser immortel
+a:|:Only approved users can apply:|:Ne peut être utilisé que par des utilisateur désignés
+a:|:Password must be five characters or more in length:|:Le mot de passe doit faire au moins cinq caractères de long
+a:|:Password:|:Mot de passe
+a:|:Please check your email for the change of password form:|:Veuillez consulter votre boite aux lettres pour accèder au formulaire de changement de votre mot de passe.
+a:|:Please try another:|:Veuillez en essayer un autre
+a:|:Refresh My Cookie:|:Refraîchir mon cookie
+a:|:Request Successful:|:Demande réussie
+a:|:Send Information:|:Envoyer les informations
+a:|:Shall we deify them:|:Devons nous l'immortaliser
+a:|:Show Login Box:|:Montrer la boîte de connexion
+a:|:Subject Line:|:Ligne du sujet
+a:|:Success:|:Succès
+a:|:Thank you for applying for an account:|:Merci d'avoir demandé l'ouverture d'un compte
+a:|:The username you have entered is not permitted to change their password:|:Ce compte n'a pas l'autorisation de changer son mot de passe
+a:|:This is a mortal:|:C'est un mortel
+a:|:This user is currently a deity:|:Cet utilisateur est actuellement immortel
+a:|:Unable to locate saved cookie:|:Impossible de retrouver le cookie sauvegardé
+a:|:Update Group:|:Modifier le groupe
+a:|:Update My Information:|:Mettre à jour mes informations
+a:|:Update User:|:Modifier l'utilisateur
+a:|:User Defaults:|:Réglages par défaut des utilisateurs
+a:|:User Email Contact:|:Email pour contacter l'utilisateur
+a:|:User created:|:Utilisateur crée
+a:|:User information changed successfully:|:User information changed successfully
+a:|:User is a deity:|:Utilisateur immortel
+a:|:User is a mere mortal:|:L'utilisateur est un simple mortel
+a:|:User updated:|:Utilisateur mis à jour
+a:|:Username already in use:|:Ce nom d'utilisateur est déjà utilisé
+a:|:Username:|:Nom de connexion
+a:|:We've logged you in and activated your new password:|:Votre nouveau mot de passe est enregistré et vous êtes connecté.
+a:|:Welcome:|:Bienvenue
+a:|:When you receive it, log in using your new username and password:|:Quand vous le receverez, connectez vous en utilisant votre nom d'utilisateur et votre mot de passe
+a:|:Yes, make them a deity:|:Oui, le rendre immortel
+a:|:Yes, make them mortal:|:Oui, le rendre mortel
+a:|:You may need to log out for changes to take effect:|:Vous devez vous déconnecter pour que les modifications soient prises en compte
+a:|:You should shortly receive an email with account verification information:|:Un courriel contenant les informations nécessaires à votre connexion (identifiant et mot de passe) vient de vous être expédié.
+a:|:Your password will be sent to your email address:|:Votre mot de passe vous sera envoyé par email
+a:|:Your request is being reviewed:|:Votre demande va être soumise à validation
+a:|:Your session timed out. Please log back in.:|:Votre session a expiré, veuillez-vous re-identifier.
+a:|:Your username and email combination was refused:|:La combinaison utilisateur - email n'est pas valide
+a:|:match:|:Correspond

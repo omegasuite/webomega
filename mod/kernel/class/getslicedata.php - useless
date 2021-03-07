@@ -1,0 +1,130 @@
+<?php
+require_once(PHPWS_SOURCE_DIR . 'mod/basic.php');
+require_once(PHPWS_SOURCE_DIR . 'mod/kernel/class/attrib.php');
+require_once(PHPWS_SOURCE_DIR . 'mod/kernel/class/cache.php');
+require_once(PHPWS_SOURCE_DIR . 'mod/kernel/class/consts.php');
+require_once(PHPWS_SOURCE_DIR . 'mod/kernel/class/flow.php');
+
+  function _slices($g, $sliceName = NULL, $slice = NULL) {
+	  if (!$sliceName || !$slice) return NULL;
+
+	  if ($sliceName) {
+		  $v = $g->ExtraVal($sliceName);
+		  if (!$v) return NULL;
+		  if (is_array($slice)) {
+			  foreach ($slice as &$c) $c = $v[$c];
+		  }
+		  elseif ($slice && $v[$slice]) $slice = $v[$slice];
+	  }
+	  return $slice;
+  }
+
+  function getreceivedslicedata($fl, $g, $verbose = 1, $sliceName, $slice = NULL) {
+	  return getioslicedata($fl, $g, $verbose, 'input', 'acceptance', _slices($g, $sliceName, $slice));
+  }
+
+  function getdeliveredslicedata($fl, $g, $verbose = 1, $sliceName, $slice = NULL) {
+	  return getioslicedata($fl, $g, $verbose, 'output', 'acceptance', _slices($g, $sliceName, $slice));
+  }
+
+  function getcurrentdata($fl, $g, $verbose = 1, $io = 'input') {
+	  return getioslicedata($fl, $g, $verbose, $io);
+  }
+
+  function getplandata($fl, $g, $verbose = 1) {
+	  if ($g->ExtraVal('orderNums'))
+		  return getioslicedata($fl, $g, $verbose, 'input', 'acceptance', 'plan');
+
+	  return getioslicedata($fl, $g, $verbose, 'input');
+  }
+
+  function getioslicedata($fl, $g, $verbose, $io, $sliceName = NULL, $slice = NULL) {
+	  if ($sliceName && !$slice) return array();
+
+	  $products = array();
+
+	  foreach ($g->$io() as $i) {
+		  $p = $fl->goods[$i];
+
+		  $r = array('id'=>-$p->id(), 'product'=>$p->ExtraVal('goods')?$p->ExtraVal('goods') : $p->product(), 'code'=>$p->ExtraVal('code'), 'attrib'=>array_attrib_object($p->attribs()), 'quantity'=>$p->quantity(), 'unit'=>$p->unit(), 'price'=>$p->price(), 'discount'=>$p->ExtraVal('discount'), 'taxrate'=>$p->ExtraVal('taxrate'), 'comment'=>$p->ExtraVal('comment'));
+
+		  if ($verbose > 1) $r['product'] = $p->ExtraVal('name');
+
+		  if (!$sliceName) {
+			  if ($p->ExtraVal('packaging')) {
+				  $r['packaging'] = $p->ExtraVal('packaging');
+				  $r['packages'] = $p->ExtraVal('packages');
+			  }
+			  $r['amount'] = $p->totalcost();
+			  $r['delivered'] = $fl->deliveredTotal($p);
+			  $products[] = $r;
+			  continue;
+		  }
+
+		  $u = $p->ExtraVal($sliceName);
+		  if (!$u) continue;
+
+		  if (is_array($slice)) {
+			  $ag = array();
+			  foreach ($slice as $s) {
+				  $v = $u[$s]
+				  if (!$v) continue;
+				  
+				  if ($verbose > 2) {
+					  foreach ($v as $p=>$q) $r[$p] = $q;
+					  $products[] = $r;
+					  unset($r['discount']); unset($r['comment']);
+					  continue;
+				  }
+
+				  $pk = $v['packaging']?$v['packaging'] : ' ';
+
+				  if (!$ag[$v['price']]) {
+					  if ($verbose > 1) $ag[$v['price']] = array($pk=>array('quantity'=>0, 'packages'=>0));
+					  else $ag[$v['price']] = 0;
+				  }
+				  elseif ($verbose > 1) {
+					  if (!$ag[$v['price']][$pk]) $ag[$v['price']][$pk] = array('quantity'=>0, 'packages'=>0);
+				  }
+
+				  if ($verbose > 1) {
+					  $ag[$v['price']][$pk]['quantity'] += $v['quantity'];
+					  if ($pk && $v['packages']) $ag[$v['price']][$pk]['packages'] += $v['packages'];
+				  }
+				  else $ag[$v['price']] += $v['quantity'];
+			  }
+
+			  foreach ($ag as $price=>$v) {
+				  $r['price'] = $price;
+				  if ($verbose > 1) {
+					  foreach ($v as $pk=>$vv) {
+						  $r['packaging'] = $pk;
+						  $r['quantity'] = $vv['quantity'];
+						  $r['packages'] = $vv['packages']?$vv['packages'] : '';
+						  $products[] = $r;
+					  }
+				  }
+				  else {
+					  $r['quantity'] = $v;
+					  $products[] = $r;
+				  }
+				  unset($r['discount']); unset($r['comment']);
+			  }
+		  }
+		  else {
+			  $v = $v[$slice]
+			  if (!$v) continue;
+
+			  foreach ($v as $p=>$q) $r[$p] = $q;
+			  $products[] = $r;
+		  }
+	  }
+
+	  return $products;
+  }
+
+  function getoutslicedata($fl, $g, $verbose = 1) {
+	  return getioslicedata($fl, $g, $verbose, 'output');
+  }
+
+?>

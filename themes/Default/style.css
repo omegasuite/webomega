@@ -1,0 +1,332 @@
+/* 全局 */
+*{margin:0; padding:0;}
+body { margin:0; padding:0; width:100%; font: normal 16px "微软雅黑", Arial, Helvetica, sans-serif; color:#585858; }
+img {border: none;}
+html { padding:0; margin:0;}
+.bg { clear:both; padding:0; margin:10px 0; height:3px; list-style:none; }
+.clr { clear:both; padding:0; margin:0;}
+.obituary_bg { clear:both; padding:0; margin:10px 0; height:23px; list-style:none;}
+.main { margin:0 auto; padding:0;}
+
+/* header(定义顶部宽度) */
+.header_resize { margin:0 auto; padding:0; width:932px;}
+/*.header { background:url(images/header_bg.gif) top; margin:0; padding:0;}*/
+.header { margin:0; padding:0;}
+
+/* logo */
+.logo { width:380px; margin:0 auto; padding:0px; float:left;}
+
+/********** login **********/
+.login { padding:10px 20px 0 0; margin:0; width:600px; float:right;}
+.login form { font-size:14px; float:right; padding:2px 0 0 0; margin:0; font-weight:bold; color:#000000;}
+.login span { display:block; float:left; width:110px; padding:0 5px;}
+.login form .keywords { width:113px; line-height:14px; height:14px; float:left; background:none; border:0; padding:5px 2px; margin:0;}
+.login form .button { float:left; margin:0 0 0 5px; padding:0;}
+.login a { padding:0 0 0 0; margin:0; font: bold 13px "Times New Roman", Times, serif; color:#000000; text-decoration:none;}
+.login a:hover { color:#ff0000; text-decoration:none; }
+.reg a { padding:0 0 0 0; margin:0; font: bold 13px "Times New Roman", Times, serif; color:#2a2aff; text-decoration:none; }
+.reg a:hover { color:#ff0000; text-decoration:none; }
+
+/********** register form **********/
+.regboxleft { float:left; width:430px; margin:0; padding:15px 0 0 15px;}
+.regboxcenter { float:left; width:874px; margin:0; padding:15px 0 0 15px;}
+.sboxleft { float:left; width:600px; margin:0; padding:15px 5 5 15px;}
+.sboxright { float:left; left:620px; position:absolute; width:310px; margin:0; padding:15px 5 5 15px;}
+
+#regbox1 { margin:0; padding:5px 250px; }
+#regbox1 * { color:#F00; }
+#regbox1 ol { margin:0; padding:0; list-style:none; }
+#regbox1 li { margin:0; padding:0; background:none; border:none; display:block; clear:both; }
+#regbox1 label { margin:0; width:120px; display:block; padding:2px 10px 0 0; color:#666; font: normal 14px Arial, Helvetica, sans-serif; text-align:right; float:right;}
+#regbox1 input.text { width:150px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff; float:left; }
+#regbox1 li.buttons input {border:1px solid #000; background:#ea7d1b; padding:10px; margin:5px 0 0 115px; color:#fff; float:center; font: normal 14px Arial, Helvetica, sans-serif;}
+
+#regbox { margin:0; padding:5px 10px; }
+#regbox * { color:#F00; }
+#regbox ol { margin:0; padding:0; list-style:none; }
+#regbox li { margin:0; padding:0; background:none; border:none; display:block; clear:both; }
+#regbox li.buttons { margin:5px 0 5px 0; }
+#regbox label { margin:0; width:120px; display:block; padding:2px 5px 0 0; color:#666; font: normal 14px Arial, Helvetica, sans-serif; text-align:right; float:left;}
+#regbox input.text { width:70px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff; float:left; }
+#regbox textarea { width:180px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff; float:left; }
+#regbox li.buttons input {border:1px solid #000; background:#ea7d1b; padding:10px; margin:5px 0 0 10px;  color:#fff; float:center; font: normal 14px Arial, Helvetica, sans-serif; }
+
+/*menu*/
+.menu { padding:0 0 0 0; margin:0 ; width:340px;  float:left; }
+.menu ul { padding:0; margin:0; list-style:none; border:0; float:left;}
+.menu ul li { float:left; margin:0; padding:10px 5px; }
+.menu ul li a {float:left; margin:0; padding:0 20px 0 0; color:#000; font: bold 12px "微软雅黑"; text-decoration:none;}
+.menu ul li a:hover { color:#c05622; }
+.menu ul li a.active { color:#c05622; }
+
+/*oauth*/
+.oauth { padding:0 0 0 0; margin:0; width:370px; float:right; }
+.oauth ul { padding:0; margin:0; list-style:none; border:0; float:right;}
+.oauth ul li { float:left; margin:0; padding:15px 5px; }
+.oauth ul li a {float:left; margin:0; padding:0 15px 0 0; color:#2a2aff; font: bold 13px "宋体"; text-decoration:none;}
+.oauth ul li a:hover { color:#c05622; }
+.oauth ul li a.active { color:#c05622; }
+.oauth ul li a span { float:left; padding:0 20px 0 0;}
+
+/*content*/
+.content_resize { margin:0 auto; width:932px; background:#fff; position:relative; font: normal 16px "微软雅黑", Arial, Helvetica, sans-serif;}
+.content { margin:0; padding:0;}
+.content h2 {  font: bold 30px "微软雅黑", Arial, Helvetica, sans-serif; color:#c05622; padding:0 0 6px 0; margin:0 0 45px 0; line-height:2em; }
+.content h2 span { font: 16px "微软雅黑", Arial, Helvetica, sans-serif; color:#575c5c;}
+.content h3 { color:#575c5c; font: bold 18px "微软雅黑", Arial, Helvetica, sans-serif;  padding:10px 0 6px 0; margin:0 0 10px 0; }
+.content h4 {  font:20px "微软雅黑", Arial, Helvetica, sans-serif; color:#c05622; padding:0 0 12px 0; margin:0 0 10px 0; line-height:35px; }
+.content h4 span { font: 16px "微软雅黑", Arial, Helvetica, sans-serif; color:#575c5c; float:right;}
+.content h5 { font: bold 20px "微软雅黑", Arial, Helvetica, sans-serif; color:#c05622;}
+.content p { font: normal 16px "微软雅黑", Arial, Helvetica, sans-serif; color:#585858; padding:6px; margin:0; line-height:1.8em;}
+.content img { float:left; margin:5px; padding:0;}
+.content img.floated { float:right; margin:5px; padding:0;}
+.content a { color:#c05622; text-decoration:none;}
+.left { float:left; width:636px; margin:0; padding:20px 0;}
+
+.right { float:right; width:214px; margin:0; padding:0 0 20px 0;}
+.right ul { list-style:none; margin:5px 10px; padding:0;}
+.right li { font: normal 14px Arial, Helvetica, sans-serif; color:#464646;  padding:5px 0;}
+.right li a {  background:url(images/ul_li.gif) left no-repeat; padding:0 0 0 20px; margin:0; font: bold 17px "Times New Roman", Times, serif; color:#575c5c; text-decoration:none;}
+.right li a:hover { color:#c05622; text-decoration:none; }
+.right ul.sponsors { list-style:none; margin:5px 10px; padding:0;}
+.right li.sponsors { width:200px; background:url(images/bg.gif) bottom repeat-x; font: normal 13px "Times New Roman", Times, serif; color:#575c5c; padding:8px 0px 8px 0px;}
+.right li.sponsors a { background:url(images/ul_li.gif) left no-repeat; padding:0 0 0 20px; margin:0; font: bold 14px "Times New Roman", Times, serif; color:#575c5c; text-decoration:none;}
+.right li.sponsors span { color:#c05622; font: bold 13px "Times New Roman", Times, serif;}
+.msgroll {height: 230px;}
+
+.box {
+	background:#c9fefe;
+	border:1px solid #c4c4c3;
+	padding:28px 29px 43px 29px;
+	position:relative;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+
+.mgmtbox {
+	background:#c9fefe;
+	border:1px solid #c4c4c3;
+	padding:10px 10px 10px 10px;
+	position:relative;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	text-align:left;
+}
+.mgmtbox ul {list-style:square inside url('/images/eg_arrow.gif'); margin:8px 20px; padding:0;}
+.mgmtbox h4 {  font:16px "微软雅黑", Arial, Helvetica, sans-serif; color:#c05622; padding:0 0 0 0; margin:0 0 0 0;}
+
+.wbox {
+	background:#ffffff;
+	border:1px solid #c4c4c3;
+	padding:28px 29px 43px 29px;
+	position:relative;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+}
+.obituary_resize { float:left; margin:0 auto; padding:0; width:230px; background:#fff000;}
+.imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
+.imgl{float:left; margin:0 8px 8px 0; clear:left;}
+.imgr{float:right; margin:0 0 8px 8px; clear:right;}
+.page2 ul {list-style:none; margin:0; padding:0; float:right;}
+.page2 ul li { float:left; margin:0; padding:0; }
+.obituary_style { background: url(obituary/bg_2.jpg) no-repeat right;}
+
+/* ------Comments-----*/
+
+#comments{margin-bottom:40px;}
+#comments .commentlist {margin:0; padding:0;}
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+#comments .commentlist li.comment_odd{color:#666666; background-color:#F7F7F7;}
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight: normal;text-transform: none;}
+#comments .commentlist li .avatar{float:left; border:1px solid #EEEEEE; margin:0 0 0 10px; padding:0 5px 0 0;}
+
+/* FBG */
+.FBG_resize { margin:0 auto; padding:0; width:930px; background:#fff;}
+.FBG { margin:0; padding:0; }
+.FBG img { float:left; margin:5px 20px 5px 0; padding:0;}
+.FBG img.floated { float:right; margin:5px 0 5px 10px; padding:0;}
+.FBG h2 { color:#c05622; font: normal 30px  "Times New Roman", Times, serif;  padding:3px 0; margin:5px 0 15px 0;}
+.FBG p { color:#575c5c; font: normal 14px  "Times New Roman", Times, serif;  padding:5px 0; margin:0; line-height:1.6em;}
+.FBG ul { width:560px; list-style:none; float:left; padding:0; margin:10px 0;}
+.FBG li { float:left; padding:4px 1px; margin:0;}
+.FBG li a { color:#575c5c; font: normal 14px "Times New Roman", Times, serif;  text-decoration: none; padding:0 0 0 10px;}
+.FBG li a:hover { color:#c05622; text-decoration:none;}
+.FBG .blok { width:270px; float:left; padding:5px 20px; margin:0;}
+
+/* footer */
+.footer_resize { margin:0 auto; padding:0;}
+.footer { padding:0 0; margin:0 auto;  width:932px; background-color:#FFF}
+.footer img { margin:0 auto; padding:0; text-align:center;}
+.footer p { color:#575c5c; font: normal 12px "Times New Roman", Times, serif; padding:10px 0 0 0; margin:0; line-height:16px; text-align:center; height:25px;}
+.footer a { color:#575c5c; text-decoration:none;}
+.footer a:hover { color:#593616;}
+
+/********** register form **********/
+#registerform { margin:0; padding:5px 10px; }
+#registerform * { color:#F00; }
+#registerform ol { margin:0; padding:0; list-style:none; }
+#registerform li { margin:0; padding:5px; background:none; border:none; display:block; clear:both; text-align:left; }
+#registerform li.buttons { margin:5px 0 5px 0; }
+#registerform label { margin:0; width:160px; display:block; padding:3px 10px 0 0; color:#666; font: normal 14px Arial, Helvetica, sans-serif; text-align:right; float:left; }
+#registerform label span { color:#F00; }
+#contactform input.text { width:240px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff; float:left; }
+#registerform select { padding:5px 2px;}
+#registerform textarea { width:280px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff; float:left; }
+#registerform li.buttons input { border:1px solid #000; background:#ea7d1b; padding:10px; margin:10px 0 0 240px;  color:#fff; float:left; font: normal 14px Arial, Helvetica, sans-serif;}
+p.response { text-align:center; color:#F00; font: normal 11px Georgia, "Times New Roman", Times, serif; line-height:1.8em; width:auto; }
+
+/********** news content **********/
+#content_left .content_left_section_02{clear: both; width: 640px;}
+.content_left_section_02  .section_02_box { float: left; width: 290px; border: 1px solid #CCCCCC; margin: 0 20px 0 0px;}
+.section_02_box .section_02_box_content{ float: left; padding: 15px;}
+.section_02_box_content .section_02_box_content_title { font-weight: bold;}
+.section_02_box_content ul{ clear: both; list-style: none; margin: 0;padding: 0;}
+
+.section_02_box_content ul li{ font-size:14px; padding: 0 0 10px 15px;margin: 0; background: url(images/listicon.gif) top left no-repeat;
+}
+.section_02_box_content span { float:right;}
+
+.section_02_box img { float: left; margin: 3px 15px 0 0;}
+.section_02_box h6 { letter-spacing: 5px; margin: 0; padding: 3px 0 3px 10px; font-size: 16px; font-weight: bold; color: #ffffff; background: #26405b;}
+.cleaner_with_height { clear: both; width: 100%; height: 30px;}
+
+.headhr {
+	display: block;
+	height: 5px;
+    border: 0;
+	border-top: 0px;
+	padding: 0;
+	background-color:#F0F000;
+	color:#F0F000;
+}
+
+.weibo {
+	padding-left:23px;
+	margin-left:15px;
+	margin-right:25px;
+	background:url(http://www.sinaimg.cn/blog/developer/wiki/LOGO_16x16.png) no-repeat transparent;
+	margin-top:6px;
+}
+
+.grouptitle {
+	font-weight:bold;
+	font-size: 16px;
+	text-align:center;
+}
+
+.nav-inner,.left-nav,.right-nav,.nav-inner li  {
+	background:url(images/nav-bgg.png) repeat-x;
+}
+
+
+.nav-inner li a:hover,.nav-inner li a.current {
+	background:url(images/nav-bgr.png) repeat-x;
+}
+
+ul{
+	 list-style:none;
+}
+
+.clearfix:after {
+	content: '\0020';
+	 display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+
+#navigation {
+	width:932px;
+	height:32px;
+	margin:0 auto;
+}
+
+
+.left-nav {
+	float:left;
+	width:2px;
+	height:32px;
+	background-position:0 -61px;
+}
+
+
+.nav-inner {
+	float:left;
+	width:932px;
+	height:32px;
+	background-position:0 0;
+}
+
+
+.nav-inner li {
+	float:left;
+	height:32px;
+	line-height:32px;
+	background-position:-35px -61px;
+}
+
+
+.nav-inner li.list-first {
+	display:inline;
+	margin-left:16px;
+	background:none;
+}
+
+.nav-inner li a:hover,.nav-inner li a.current {
+	background-position:0 0px;
+	text-decoration:none;
+}
+
+.right-nav {
+	float:right;
+	width:2px;
+	height:32px;
+	background-position:-2px -61px;
+}
+
+.roundcheckbox {
+	width: 40px;
+	height: 40px;
+	background: #ddd;
+	margin: 0px 0px;
+ 
+	border-radius: 100%;
+	position: relative;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.roundcheckbox label {
+	display: block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+ 
+	-webkit-transition: all .5s ease;
+	-moz-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: 1;
+ 
+	background: #fff;
+ 
+	-webkit-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+	box-shadow:inset 0px 1px 3px rgba(0,0,0,0.5);
+}
+
+.roundcheckbox input[type=checkbox]:checked + label {
+	background: #26ca28;
+}

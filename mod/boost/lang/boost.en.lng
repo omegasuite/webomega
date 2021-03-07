@@ -1,0 +1,86 @@
+en:|:boost
+a:|:All dependancies found:|:All dependancies found
+a:|:Are you ABSOLUTELY SURE you want completely remove this module:|:Are you ABSOLUTELY SURE you want completely remove this module
+a:|:Are you sure you want to uninstall this module:|:Are you sure you want to uninstall this module
+a:|:Assuming files are only requirement for installation:|:Assuming files are only requirement for installation
+a:|:Assuming it is not needed:|:Assuming it is not needed
+a:|:Assuming update needed registering only:|:Assuming update needed registering only
+a:|:Building extra modules:|:Building extra modules
+a:|:Building required modules:|:Building required modules
+a:|:Check:|:Check
+a:|:Checking dependancies:|:Checking dependancies
+a:|:Checking language file for [var1]:|:Checking language file for [var1]
+a:|:Core Modules:|:Core Modules
+a:|:Core tables successfully installed:|:Core tables successfully installed
+a:|:Current Version:|:Current Version
+a:|:Download Here:|:Download Here
+a:|:Download the latest version from the following link(s):|:Download the latest version from the following link(s)
+a:|:External Page:|:External Page
+a:|:Finished uninstalling [var1] from languages:|:Finished uninstalling [var1] from languages
+a:|:Flat:|:Flat
+a:|:If you uninstall a module from the hub, you will get a prompt:|:If you uninstall a module from the hub, you will get a prompt
+a:|:In A Box:|:In A Box
+a:|:Install Module:|:Install Module
+a:|:Install the dependant modules, then try installing again:|:Install the dependant modules, then try installing again
+a:|:Install:|:Install
+a:|:Installation file missing for [var1]:|:Installation file missing for [var1]
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface for installing, uninstalling, and updating modules.
+a:|:Internal Page:|:Internal Page
+a:|:It should be safe to remove all the files in:|:It should be safe to remove all the files in
+a:|:Layout box created:|:Layout box created
+a:|:Layout for [var1] installed successfully:|:Layout for [var1] installed successfully
+a:|:Layout for [var1] uninstalled successfully:|:Layout for [var1] uninstalled successfully
+a:|:Make sure to edit to match your theme:|:Make sure to edit to match your theme
+a:|:Module Information:|:Module Information
+a:|:Module Installer/Updater:|:Module Installer/Updater
+a:|:Module is no longer registered:|:Module is no longer registered
+a:|:Nested:|:Nested
+a:|:New Window:|:New Window
+a:|:Newest First:|:Newest First
+a:|:No Update Info:|:No Update Info
+a:|:No install file for [var1]:|:No install file for [var1]
+a:|:No language directory in [var1]:|:No language directory in [var1]
+a:|:No language file present for [var1]:|:No language file present for [var1]
+a:|:Oldest First:|:Oldest First
+a:|:Other Modules:|:Other Modules
+a:|:Post Installation Procedures:|:Post Installation Procedures
+a:|:Registering Default Language:|:Registering Default Language
+a:|:Registering Layout:|:Registering Layout
+a:|:Removing phrases from:|:Removing phrases from
+a:|:This module's version appears to be current:|:This module's version appears to be current
+a:|:Threaded:|:Threaded
+a:|:Unable to find Layout Info file for [var1]:|:Unable to find Layout Info file for [var1]
+a:|:Unable to locate update file for [var1]:|:Unable to locate update file for [var1]
+a:|:Unable to read update.txt file from [var1]:|:Unable to read update.txt file from [var1]
+a:|:Uninstall Module:|:Uninstall Module
+a:|:Uninstall did not encounter any errors:|:Uninstall did not encounter any errors
+a:|:Uninstall:|:Uninstall
+a:|:Uninstallation file missing for [var1]:|:Uninstallation file missing for [var1]
+a:|:Uninstalling Module:|:Uninstalling Module
+a:|:Up to Date:|:Up to Date
+a:|:Update All Modules:|:Update All Modules
+a:|:Update Boost:|:Update Boost
+a:|:Update Core:|:Update Core
+a:|:Update Module:|:Update Module
+a:|:Update Version:|:Update Version
+a:|:Update available:|:Update available
+a:|:Update not found at:|:Update not found at
+a:|:Update not needed:|:Update not needed
+a:|:Updating:|:Updating
+a:|:Version Check:|:Version Check
+a:|:Version:|:Version
+a:|:Write to modules table successful:|:Write to modules table successful
+a:|:You must update Boost before updating any other modules.:|:You must update Boost before updating any other modules.
+a:|:You will NOT get a prompt uninstalling a branch site module:|:You will NOT get a prompt uninstalling a branch site module
+a:|:Your Version:|:Your Version
+a:|:[var1] NOT found:|:[var1] NOT found
+a:|:[var1] found:|:[var1] found
+a:|:[var1] has been unregistered:|:[var1] has been unregistered
+a:|:[var1] installation successful:|:[var1] installation successful
+a:|:[var1] language file installed:|:[var1] language file installed
+a:|:[var1] post-installation successful:|:[var1] post-installation successful
+a:|:[var1] requires the above modules to be installed before it will function:|:[var1] requires the above modules to be installed before it will function
+a:|:[var1] uninstallation NOT successful:|:[var1] uninstallation NOT successful
+a:|:[var1] uninstallation successful:|:[var1] uninstallation successful
+a:|:[var1] updated successfully:|:[var1] updated successfully
+a:|:[var1] was successfully installed:|:[var1] was successfully installed

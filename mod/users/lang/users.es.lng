@@ -1,0 +1,54 @@
+es:|:users
+a:|:ALL:|:Todos
+a:|:Account Signup:|:Registro cuenta
+a:|:Add Group:|:Agregar Grupo
+a:|:Add Member:|:Agregar Miembro
+a:|:Add User:|:Agregar Usuario
+a:|:Admin:|:Admin
+a:|:Administrator:|:Administrador
+a:|:All users can apply:|:Todos los usuarios pueden aplicar
+a:|:Allow New User Signup:|:Permitir registro de nuevos usuarios
+a:|:Authentication Method:|:Metodo de autenticación
+a:|:Available Users:|:Usuarios disponibles
+a:|:Choose an option from the panel above:|:Escoger una opción del panel de arriba
+a:|:Commands:|:Comandos
+a:|:Contact Information:|:Información de Contacto
+a:|:Control Panel:|:Panel de Control
+a:|:Create Group:|:Crear Grupo
+a:|:Create User:|:Crear Usuario
+a:|:Create a group by clicking on Add Group above:|:Crear un grupo haciendo click en Agregar Grupo arriba
+a:|:Deity:|:Deidad
+a:|:Drop Member:|:Eliminar Miembro
+a:|:Email Address:|:Correo Electrónico
+a:|:Email:|:Email
+a:|:External Filename:|:Nombre de archivo externo
+a:|:External PHP function:|:Función externa PHP
+a:|:Forgot Password:|:Olvidé la contraseña
+a:|:Go:|:Seguir
+a:|:Greeting:|:Saludo
+a:|:Group Name:|:Nombre del Grupo
+a:|:Hello [var1]:|:Hola [var1]
+a:|:Home:|:Inicio
+a:|:In Group:|:En Grupo
+a:|:Limit:|:Limite
+a:|:Local Database:|:Base de datos local
+a:|:Log In:|:Entrar
+a:|:Log Out:|:Salir
+a:|:Manage Groups:|:Administrar Grupos
+a:|:Manage Users:|:Administrar Usuarios
+a:|:Module Rights:|:Derechos del Módulo
+a:|:New Account Signup:|:Registro Nueva Cuenta
+a:|:No groups available:|:No hay grupos disponibles
+a:|:No groups found:|:No se encontró grupo
+a:|:Only approved users can apply:|:Solo usuarios approbados pueden aplicar
+a:|:Password:|:Contraseña
+a:|:Send Information:|:Mandar Información
+a:|:Show Login Box:|:Mostrar campo de entrar
+a:|:Subject Line:|:Line del tema
+a:|:User Defaults:|:Info por defecto de usuario
+a:|:User Email Contact:|:Correo electrónico del usuario
+a:|:Username:|:Nombre de Usuario
+a:|:Welcome:|:Bienvenido
+a:|:When you receive it, log in using your new username and password:|:Cuando lo reciba, entre usando su nuevo nombre de usuario y contraseña
+a:|:Your password will be sent to your email address:|:Su contraseña será manada a su correo electrónico
+a:|:match:|:Acierto

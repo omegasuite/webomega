@@ -1,0 +1,119 @@
+en:|:besøgende
+a:|:Visitors:|:Besøgende
+a:|:You are on your own.:|:Du er alene.
+a:|:Currently [var1] anonymous souls are browsing this site.:|:I øjeblikket er der [var1] anonyme sjæle, der besøger din side.:
+a:|:There is no guest here, only [var1] members. Why are you seeing this?:|:Der er ingen gæster her, kun [var1] medlemmer. Hvorfor ser du det her?
+a:|:Currently, out of [var1] users, there is only one registered.:|:I øjeblikket er der, ud af [var1] brugere, kun én registreret.
+a:|:[var1] users, [var2] of them registered.:|:[var1] brugere, [var2] af dem er registeret.
+a:|:no guest:|:ingen gæst
+a:|:1 guest:|:1 gæst
+a:|:[var1] guests:|:[var1] gæster
+a:|:[var1], all alone.:|:[var1], helt alene.
+a:|:[var1] and [var2]:|:[var1] og [var2]
+a:|:Guest:|:Gæst
+a:|:using [var1] (var2):|:anvender [var1] (var2)
+a:|:Details of IP [var1]:|:Detaljer om IP [var1]
+a:|:cannot resolve this IP.:|:can ikke bestemme denne IP.
+a:|:this IP resolves to [var1]:|:denne IP bestemmes til [var1]
+a:|:CLIENT_IP is unknown.:|:CLIENT_IP er ukendt.
+a:|:CLIENT_IP equals the IP I got:|:CLIENT_IP er lig med den IP jeg har
+a:|:CLIENT_IP is [var1]:|:CLIENT_IP er [var1]
+a:|:REMOTE_ADDR is unknown.:|:REMOTE_ADDR er ukendt.
+a:|:REMOTE_ADDR equals the IP I got.:|:REMOTE_ADDR er lig med den IP jeg har.
+a:|:REMOTE_ADDR is [var1]:|:REMOTE_ADDR er [var1]
+a:|:Does not resolve:|:Kan ikke gennemføres
+a:|:User Details:|:Bruger Detaljer
+a:|:could not determine user agent.:|:kunne ikke angive bruger agent.
+a:|:user is using [var1]:|:brugeren anvender [var1]
+a:|:Details for user:|:Detaljer for bruger
+a:|:user is not logged in, couldn't find one that matches IP.:|:bruger er ikke logget ind, kunne ikke finde en der passer med IP.
+a:|:user is not logged in but could be [var1]:|:bruger er ikke logget ind men kunne være [var1]
+a:|:user is logged in as [var1], uid [var2].:|:bruger er logget ind som [var1], uid [var2].
+a:|:What's happening?:|:Hvad sker der?
+a:|:current URI: [var1]:|:nuværende URI: [var1]
+a:|:Clickpath:|:Kliksti
+a:|:please log in as deity to do that.:|:log venligst ind som guddom for at gøre dette.
+a:|:no session-id specified!:|:intet sessions-id specificeret!
+a:|:could not retrieve data for Session_ID [var1]:|:kunne ikke modtage data for Session_ID [var1]
+a:|:first referrer:|:første referrer
+a:|:Users on [var1]:|:Brugere på [var1]
+a:|:Referrer hosts on [var1]:|:Referent hosts på [var1]
+a:|:Hits on [var1]:|:Hits på [var1]
+a:|:User Statistics:|:Bruger Statistikker
+a:|:Referrer Hosts:|:Referent Hosts
+a:|:Hit Statistics:|:Hit Statistikker
+a:|:Visits of User [var1]:|:Besøg fra Bruger [var1]
+a:|:This list shows you where your visitors come from. Only the hostnames are counted here, not the full URLs!:|:Denne liste viser dig, hvor dine besøgende kommer fra. Kun hostnavne bliver talt her, ikke de fulde URLs!
+a:|:Note:|:Notat
+a:|:[var1] There is no direct link to the referer on purpose: to hinder referrer-spam. Please try to use the archive.org or google url instead. You can of course always enter the url directly in your address-bar, if you insist to.:|:[var1] Der er intet direkte link til referenten fordi: for at forhindre referent-spam. Prøv venligst at bruge archive.org eller google url istedet. Du kan selvfølgelig altid skrive url'en direkte i din adresse-bar, hvis du insistere.
+a:|:User Visits:|:Bruger Besøg
+a:|:Here you can see, how often a certain user has visited your site.:|:Her kan du se hvor tit en given bruger, har besøgt din side.
+a:|:statistics:|:statistikker
+a:|:by users:|:af brugere
+a:|:by hits:|:af hits
+a:|:by referrer hosts:|:af referent hosts
+a:|:year:|:år
+a:|:month:|:måned
+a:|:day:|:dag
+a:|:hour:|:time
+a:|:hits:|:hits
+a:|:users:|:brugere
+a:|:usernames:|:brugernavne
+a:|:hosts:|:hosts
+a:|:referrer hosts:|:referent hosts
+a:|:Anonymous ([var1]):|:Anonyme ([var1])
+a:|:first visit: [var1], latest: [var2], [var3] visits per day:|:første besøg: [var1], senste: [var2], [var3] besøgende pr. dag
+a:|:clickpath for session [var1]:|:kliksti for session [var1]
+a:|:not set ([var1]):|:ikke sat ([var1])
+a:|:not set:|:ikke sat
+a:|:no data:|:ingen data
+a:|:TOTAL:|:TOTAL
+a:|:AVG:|:Gns.
+a:|:on the mainpage.:|:på forsiden.
+a:|:browsing through list of new articles.:|:gennemser listen af nye artikler.
+a:|:browsing through the archives.:|:gennemser arkiverne.
+a:|:don't know what to do with that article.:|:ved ikke hvad der skal gøres med en artikel.
+a:|:browsing the calendar for day [var1]:|:gennemser kalenderen for dag [var1]
+a:|:browsing the calendar for week [var1] in [var2]:|:gennemser kalenderen for uge [var1] i [var2]
+a:|:browsing the calendar for month [var1]:|:gennemser kalenderen for måned [var1]
+a:|:don't know what to do with calendar-view [var1]:|:ved ikke hvad der skal gøres med calender-view [var1]
+a:|:entering controlpanel.:|:åbner kontrolpanelet.
+a:|:don't have document operation in [var1]:|:har ikke en dokument operation i [var1]
+a:|:don't know about document operation [var1] yet:|:ved ikke hvad der skal gøres med dokument operation [var1] endnu
+a:|:don't have a document id!:|:har ikke et dokument id!
+a:|:viewing document [var1] ([var2]):|:læser dokument [var1] ([var2])
+a:|:don't know what to do with that fatcat.:|:ved ikke hvad der skal gøres med den fatcat.
+a:|:browsing category [var1] ([var2]):|:gennemser kategori [var1] ([var2])
+a:|:viewing IDLA-LVA [var1] ([var2]):|:læser IDLA-LVA [var1] ([var2])
+a:|:don't know how to handle idla-feature [var1]:|:ved ikke hvordan idla-feature [var1] skal håndteres
+a:|:no linkman operation in [var1]!:|:ingen linkman operation i [var1]!
+a:|:don't know what to do with linkman op [var1]:|:ved ikke hvad der skal gøres med linkman op [var1]
+a:|:no category set!:|:ingen kategori sat!
+a:|:viewing linkman category [var1] ([var2]):|:læser linkman kategori [var1] ([var2])
+a:|:no pagemaster operation!:|:ingen pagemaster operation!
+a:|:don't know what to do with pagemaster op [var1]:|:ved ikke hvad der skal gøres med pagemaster op [var1]
+a:|:viewing pagemaster page [var1] ([var2]):|:ser pagemaster side [var1] ([var2])
+a:|:no photoalbum operation!:|:ingen fotoalbum operation!
+a:|:don't know what to do with photoalbum op [var1]:|:ved ikke hvad der skal gøres med photoalbum op [var1]
+a:|:viewing photo [var1] ([var2]):|:ser foto [var1] ([var2])
+a:|:listing all forums.:|:lister alle fora.
+a:|:browsing forum [var1] ([var2]):|:gennemser forum [var1] ([var2])
+a:|:editing post [var1] ([var2]):|:redigér post [var1] ([var2])
+a:|:viewing:|:ser
+a:|:replying to:|:besvarer
+a:|:don't know what to do with phpwsbb op [var1]:|:ved ikke hvad der skal gøres med phpwsbb op [var1]
+a:|:[var1] phpwsbb thread [var2] ([var3]):|:[var1] phpwsbb tråd [var2] ([var3])
+a:|:don't know what to do with that visitor.:|:ved ikke hvad der skal gøres med den besøgende.
+a:|:user is viewing session [var1] ([var2]):|:bruger ser session [var1] ([var2])
+a:|:don't know about module [var1]:|:kender ikke modulet [var1]
+a:|:What do your visitors actually do on your site at the moment?:|:Hvad laver dine besøgende egentlig på dine side i øjeblikket
+a:|:by ext. search queries:|:ved udvidede. søgeforespørgseler
+a:|:External search queries on [var1]:|:Ekstern søgeforespørgsel på [var1]
+a:|:External search queries:|:Ekstern søgeforespørgsel
+a:|:#origins:|:#oprindelser
+a:|:origin:|:oprindelse
+a:|:#terms:|:#termer
+a:|:term:|:term
+a:|:#words:|:#ord
+a:|:word:|:ord
+

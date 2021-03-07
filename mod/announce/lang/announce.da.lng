@@ -1,0 +1,107 @@
+da:|:announce
+a:|:Action:|:Aktion
+a:|:Allow Comments?:|:Tillad kommentarer?
+a:|:Announcement Deleted!:|:Annoncering slettet!
+a:|:Announcement List:|:Annonceringsliste
+a:|:Announcement Saved:|:Annoncering gemt
+a:|:Announcement Sent:|:Annoncering sendt
+a:|:Announcement Settings:|:Annonceringsindstillinger
+a:|:Announcement Submitted:|:Annoncering registreret
+a:|:Announcement Updated:|:Annoncering opdateret
+a:|:Announcements:|:Annonceringer
+a:|:Announcements Menu:|:Annoncerings menu
+a:|:Anonymous:|:Anonymt
+a:|:Anonymous Posts?:|:Tillad anonyme kommentarer?
+a:|:Are you sure you wish to delete this announcement with subject:|:Er du sikker på, at du ønsker at slette denne annoncering med tilhørende emne
+a:|:Assuming it is not needed:|:Forventer at det ikke er nødvendigt
+a:|:Body:|:Brødtekst
+a:|:Building extra modules:|:Bygger ekstra moduler
+a:|:Building required modules:|:Bygger nødvendige moduler
+a:|:Category:|:Kategori
+a:|:Checking language file for [var1]:|:Kontrollerer sprogfilen for [var1]
+a:|:Core tables successfully installed:|:Core tabel installation lykkedes
+a:|:Date Posted:|:Oprettet dato
+a:|:Delete Announcement?:|:Slet annoncering?
+a:|:Download:|:Download
+a:|:Edit Announcement:|:Ret annoncering
+a:|:Expiration:|:Udløbsdato
+a:|:Filename:|:Filnavn
+a:|:Go here to post announcements to your home page about upcoming events or other helpful information.:|:Opretter og vedligeholder annonceringer
+a:|:Hide:|:Skjul
+a:|:Image:|:Billede
+a:|:Installation file missing for [var1]:|:Installations fil manglede for [var1]
+a:|:Layout for [var1] installed successfully:|:Layout for [var1] installation lykkedes
+a:|:List Announcements:|:List annonceringer
+a:|:Modified:|:Ændret
+a:|:New Announcement:|:Ny annoncering
+a:|:No announcements found!:|:Ingen annonceringer fundet!
+a:|:Number of announcements shown on home page:|:Annonceringer vist på hjemmesiden
+a:|:Number of past announcements shown:|:Tidligere annonceringer vist på hjemmesiden
+a:|:Past:|:Sidste
+a:|:Post Installation Procedures:|:Efter installations procedure
+a:|:Post On:|:Oprettelsesdato
+a:|:Post on Date:|:Send på dato
+a:|:Posted by:|:Oprettet af
+a:|:Registering Default Language:|:Registrering af standardsprog
+a:|:Registering Layout:|:Registreringslayout
+a:|:Save:|:Gem
+a:|:Save Settings:|:Gem indstillinger
+a:|:Settings Saved!:|:Indstillinger gemt!
+a:|:Short Description:|:Kort beskrivelse
+a:|:Show:|:Vis
+a:|:Show Announcements:|:Vis annoncering
+a:|:Show Past Announcements:|:Vis tidligere annonceringer
+a:|:Sticky:|:Fastlåst
+a:|:Subject:|:Emne
+a:|:Submit News:|:Registrer nyhed
+a:|:Summary:|:Opsummering
+a:|:The announcement was successfully <b>deleted</b>.:|:Annonceringen er <b>slettet</b>.
+a:|:Type:|:Type
+a:|:Your announcement was submitted for approval.:|:Din annoncering er sendt til godkendelse.
+a:|:Your announcement was successfully saved.:|:Din annoncering er nu gemt.
+a:|:Your announcement was successfully updated.:|:Din annoncering er nu opdateret.
+a:|:Your settings have successfully been saved!:|:Dine indstillinger er blevet gemt!
+a:|:[var1] installation successful:|:[var1] installation lykkedes
+a:|:[var1] language file installed:|:[var1] sprogfil installeret
+a:|:[var1] post-installation successful:|:[var1] efter-installation lykkedes
+a:|:ACCESS DENIED!:|:ADGANG NÆGTET!
+a:|:Actions:|:Handlinger
+a:|:Allow Anonymous Posts?:|:Tillad anonyme oprettelser?
+a:|:Are you sure you wish to delete the announcement with subject:|:Er du sikker på, at du ønsker at slette annonceringen med tilhørende emne
+a:|:Back to View:|:Tilbage til oversigt
+a:|:Categories:|:Kategorier
+a:|:Comments:|:Kommentarer
+a:|:Current announcements:|:Nuværende annonceringer
+a:|:Date:|:Dato
+a:|:Delete:|:Slet
+a:|:ERROR!:|:FEJL
+a:|:Edit:|:Ret
+a:|:Expire Date:|:Udløbs dato
+a:|:If the problem persists contact your system administrator.:|:Hvis problemet fortsætter, kontakt venligst systemadministratoren.
+a:|:If you don't wish to have this announcement appear yet in the 'What's Related' box go to announcements settings and choose the 'Synchronize With Fatcat' option.:|:Hvis du ikke ønsker, at denne annoncering skal vises i 'Relaterede' blokken endnu, skal du gå til annoncerings indstillingerne og vælge 'Synkroniser med kategorier' funktionen.
+a:|:No:|:Nej
+a:|:None:|:Ingen
+a:|:Post Date:|:Oprettet dato
+a:|:Read:|:Læs
+a:|:Read More:|:Læs mere
+a:|:Remove Image:|:Fjern billede
+a:|:Settings:|:Indstillinger
+a:|:Successfully synchronized announcements and fatcat.:|:Synkronisering med kategorier gennemført
+a:|:Synchronize With FatCat:|:Synkroniser med kategorier
+a:|:The allowed types are:|:De tilladte typer er
+a:|:The file you uploaded is not an allowed type on this server:|:Den uploadede fil er ikke en tilladt type på denne server
+a:|:There was a problem deleting your announcement.:|:Der opstod en fejl under sletning af din annoncering.
+a:|:There was a problem saving your announcement.:|:Der opstod en fejl under lagring af din annoncering.
+a:|:There was a problem updating your announcement.:|:Der opstod en fejl under opdatering af din annoncering.
+a:|:There was a problem uploading the image you specified.  Check your permissions.:|:Der opstod en fejl under upload af det valgte billede. Kontroller dine tilladelser.
+a:|:View:|:Vis
+a:|:Yes:|:Ja
+a:|:You did not provide a subject for your announcement.:|:Du har ikke angivet et emne for din annoncering.
+a:|:You did not provide a summary for your announcement.:|:Du har ikke angivet en opsummering for din annoncering.
+a:|:You have chosen <b>not</b> to delete the announcement.:|:Du har valgt <b>ikke</b> at slette annonceringen.
+a:|:You must provide a short description for the image you supplied.:|:Du skal angive en kort beskrivelse for det tilføjede billede.
+a:|:anonymous:|:anonym
+a:|:Make announcement sticky?:|:Lav annonceringen fastlåst?
+a:|:on:|:den
+a:|:Updated by:|:Opdateret af
+a:|:Expires:|:Udløber

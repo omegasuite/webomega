@@ -1,0 +1,83 @@
+de:|:announce
+a:|:ACCESS DENIED!:|:ZUGRIFF VERWEIGERT!
+a:|:Action:|:Aktion
+a:|:Allow Comments?:|:Kommentare erlauben?
+a:|:Announcement Deleted!:|:Ank&uuml;ndigung gelöscht!
+a:|:Announcement List:|:Liste der Ank&uuml;ndigungen
+a:|:Announcement Saved:|:Ank&uuml;ndigung gespeichert
+a:|:Announcement Sent:|:Ank&uuml;ndigung gesendet
+a:|:Announcement Settings:|:Ank&uuml;ndigungseinstellungen
+a:|:Announcement Submitted:|:Ank&uuml;ndigung &uuml;bermittelt
+a:|:Announcement Updated:|:Ank&uuml;ndigung aktualisiert
+a:|:Announcements Menu:|:Ank&uuml;ndigunsmenü
+a:|:Announcements:|:Ank&uuml;ndigungen
+a:|:Anonymous Posts?:|:Anonyme Ank&uuml;ndigung?
+a:|:Anonymous:|:Anonym
+a:|:Are you sure you wish to delete the announcement with subject:|:Möchten Sie wirklich die Ank&uuml;ndigung löschen. Betreff
+a:|:Are you sure you wish to delete this announcement with subject:|:Sind Sie sicher, dass Sie diese Ank&uuml;ndigung l&ouml;schen m&ouml;chten
+a:|:Assuming it is not needed:|:Wahrscheinlich ist es nicht notwendig
+a:|:Back to View:|:Zurück zu Ansicht
+a:|:Body:|:Inhalt
+a:|:Building extra modules:|:Erstelle zusätzliche Module
+a:|:Building required modules:|:Erstelle ben&ouml;tigte Module
+a:|:Categories:|:Kategorien
+a:|:Category:|:Kategorie
+a:|:Checking language file for [var1]:|:&Uuml;berpr&uuml;fe Sprachdatei f&uuml;r [var1]
+a:|:Core tables successfully installed:|:Kern-Tabellen erfolgreich installiert
+a:|:Current announcements:|:Aktuelle Ank&uuml;ndigungen
+a:|:Date Posted:|:Datum
+a:|:Delete Announcement?:|:Ank&uuml;ndigung l&ouml;schen
+a:|:Download:|:Download
+a:|:Edit Announcement:|:Ank&uuml;ndigung bearbeiten
+a:|:Expiration:|:Verfallsdatum
+a:|:Filename:|:Dateiname
+a:|:Go here to post announcements to your home page about upcoming events or other helpful information.:|:Sie k&ouml;nnen auf Ihrer Homepage Ank&uuml;ndigungen &uuml;ber kommende Ereignisse oder hilfreiche Informationen anzeigen.
+a:|:Hide:|:Verstecken
+a:|:If the problem persists contact your system administrator.:|:Ist dieses Problem dauernd, informieren Sie den Administrator.
+a:|:Image:|:Bild
+a:|:Installation file missing for [var1]:|:Installationsdatei f&uuml;r [var1] fehlt
+a:|:Layout for [var1] installed successfully:|:Layout f&uuml;r [var1] erfolgreich installiert
+a:|:List Announcements:|:Ank&uuml;ndigungen auflisten
+a:|:Modified:|:Bearbeitet
+a:|:New Announcement:|:Neue Ank&uuml;ndigung
+a:|:No announcements found!:|:Keine Ank&uuml;ndigung gefunden!
+a:|:None:|:Keine
+a:|:Number of announcements shown on home page:|:Anzahl der auf der Homepage gezeigten Ank&uuml;ndigungen
+a:|:Number of past announcements shown:|:Anzahl der angezeigten &auml;lteren Ank&uuml;ndigungen
+a:|:Past:|:Letzte
+a:|:Post Installation Procedures:|:Post-Installations Schritte
+a:|:Post On:|:Gesendet am
+a:|:Post on Date:|:Ver&ouml;ffentlichen am
+a:|:Posted by:|:Gesendet von
+a:|:Read:|:Gelesen
+a:|:Registering Default Language:|:Registriere Standardsprache
+a:|:Registering Layout:|:Registriere Layout
+a:|:Save Settings:|:Speichere Einstellungen
+a:|:Save:|:Speichern
+a:|:Settings Saved!:|:Einstellungen gespeichert
+a:|:Short Description:|:Kurze Beschreibung
+a:|:Show Announcements:|:Zeige Ank&uuml;ndigungen
+a:|:Show Past Announcements:|:Zeige &auml;ltere Ank&uuml;ndigungen
+a:|:Show:|:Zeigen
+a:|:Sticky:|:Immer
+a:|:Subject:|:Betreff
+a:|:Submit News:|:Nachrichten absenden
+a:|:Successfully synchronized announcements and fatcat.:|:Erfolgreich synchronisiert mit Ank&uuml;ndigungen und Fatcat
+a:|:Summary:|:Zusammenfassung
+a:|:Synchronize With FatCat:|:Synchronisiert mit FatCat
+a:|:The announcement was successfully <b>deleted</b>.:|:Die Ank&uuml;ndigung wurde erfolgreich <b>gel&ouml;scht</b>.
+a:|:The file you uploaded is not an allowed type on this server:|:Die von Ihnen gew&auml;hlte Datei ist kein erlaubter Typ auf diesem Server.
+a:|:There was a problem saving your announcement:|:Es gab ein Problem beim Speichern Ihrer Ank&uuml;ndigung
+a:|:There was a problem uploading the image you specified.  Check your permissions.:|:Es gab ein Problem mit dem Upload Ihres Bildes. Pr&uuml;fen Sie die Schreibrechte des Verzeichnisses.
+a:|:Type:|:Typ
+a:|:You did not provide a subject for your announcement.:|:Sie haben keinen Betreff f&uuml;r Ihre Ank&uuml;ndigung zur Verf&uuml;gung gestellt.
+a:|:You did not provide a summary for your announcement.:|:Sie haben keine Zusammenfassung f&uuml;r Ihre Ank&uuml;ndigung zur Verf&uuml;gung gestellt.
+a:|:You must provide a short description for the image you supplied.:|:Sie m&uuml;ssen eine Kurzbeschreibung f&uuml;r Ihr Bild eintragen damit es angezeigt wird
+a:|:Your announcement was submitted for approval.:|:Ihre Ank&uuml;ndigung wurde erfolgreich f&uuml; die Best&auml;tigung &uuml;bermittelt.
+a:|:Your announcement was successfully saved.:|:Ihre Ank&uuml;ndigung wurde erfolgreich gespeichert.
+a:|:Your announcement was successfully updated.:|:Ihre Ank&uuml;ndigung wurde erfolgreich aktualisiert.
+a:|:Your settings have successfully been saved!:|:Ihre Einstellungen wurden erfolgreich gespeichert!
+a:|:[var1] installation successful:|:[var1] Installation erfolgreich
+a:|:[var1] language file installed:|:[var1] Sprachdatei installiert
+a:|:[var1] post-installation successful:|:[var1] Post-Installation erfolgreich
+a:|:on:|:Ein

@@ -1,0 +1,2 @@
+This module is licensed under GNU LGPL
+Please refer to the LICENSE.txt file in the core docs directory for more information.

@@ -1,0 +1,39 @@
+da:|:security
+a:|:Add Error Page:|:Tilføj fejlside
+a:|:Apache Settings:|:Apache
+a:|:Are you sure you want to delete the:|:Er du sikker på, at du vil slette
+a:|:Content:|:Indhold
+a:|:Delete Error Page:|:Slet fejlside
+a:|:Deny:|:Afvis
+a:|:Deny List:|:Afviste IP adresser
+a:|:Error Label:|:Fejlbesked
+a:|:Error Lable:|:Fejlbesked
+a:|:Error Number:|:Fejlnummer
+a:|:ErrorDocument:|:Fejldokument
+a:|:Go here to manage access to your web site as well as create custom error pages.:|:Konfigurerer Apache serveren
+a:|:IP Address:|:IP adresse
+a:|:Label:|:Mærke
+a:|:Manage Access:|:Administrer tilgang
+a:|:Manage Error Pages:|:Administrer fejlsider
+a:|:No:|:Nej
+a:|:Or:|:Eller
+a:|:Save:|:Gem
+a:|:Security Admin:|:Sikkerheds admin
+a:|:The public by default.:|:alle IP adresser pr. default.
+a:|:Time:|:Tid
+a:|:Yes:|:Ja
+a:|:error page:|:fejlside
+a:|:htaccess extra:|:htaccess extra
+a:|:.htaccess extra info:|:.htaccess extra info
+a:|:Add:|:Tilføj
+a:|:Allow:|:Tillad
+a:|:Allow List:|:Tillad liste
+a:|:Delete:|:Slet
+a:|:Edit:|:Ret
+a:|:Edit htacces info:|:Ret htacces info
+a:|:Security Logs:|:Sikkerhedsregistreringer
+a:|:Security Log:|:Sikkerhedsregistrering
+a:|:Clear Logs:|:Slet registreringer
+a:|:Are you sure you wish to clear all logs:|:Er du sikker på, at du vil slette alle registreringer
+a:|:You have choosen not to clear the logs.:|:Registreringerne blev ikke slettet.
+a:|:Logs cleared successfully.:|:Registreringerne blev slettet.

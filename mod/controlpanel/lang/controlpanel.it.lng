@@ -1,0 +1,34 @@
+it:|:controlpanel
+a:|:A bulletin board module.:|:Il modulo FORUM
+a:|:Allows you to approve elements from different modules in one convenient place.:|:Ti permette di approvare tutti gli elementi in un unico posto
+a:|:Allows you to change your email address and password.:|:Permette di cambiare il tuo indirizzo e password.
+a:|:Allows you to set your bulletin board preferences.:|:Permette di modificare le preferenze del Forum
+a:|:Assists developers in the creation and editing of module settings.:|:Assiste gli sviluppatori nella gestione dei moduli.
+a:|:Categorizes all of the information on your site.:|:Categorizza tutte le informazioni del sito.
+a:|:Creates branch sites off your hub code.:|:Crea siti collegati
+a:|:Desc Off:|:Senza Desc.
+a:|:Desc On:|:Desc SI
+a:|:Document Manager allows you to manage documents which can have mutiple files associated with it.:|:Gestione Documenti permette di raggruppare pi&ugrave; files collegandoli ai documenti
+a:|:Event calendar for phpWebSite.:|:Calendario eventi.
+a:|:Go here to create and edit your site's polls.:|:Per gestire i sondaggi del sito.
+a:|:Go here to create and edit your site's web pages.:|:Per gestire le pagine del sito
+a:|:Go here to create online forms that can be viewed and filled out by your site visitors. Reports can be made on the data submitted.:|:Crea e gestisci i form del sito. I dati raccolti, possono venire anche riepilogati
+a:|:Go here to manage access to your web site as well as create custom error pages.:|:Per gestire gli accessi e le pagine di errore del sito
+a:|:Go here to post announcements to your home page about upcoming events or other helpful information.:|:Per pubblicare in home page annunci sugli eventi imminenti e altre informazioni importanti
+a:|:Go here to send notes to other users on this site.:|:Vai qui per inviare messaggi ad altri utenti
+a:|:Image Off:|:Senza Immag.
+a:|:Image On:|:Immagini NO
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interfaccia per installare, rimuovere o aggiornare i moduli.
+a:|:Lets you administrate the language options for your site.:|:Permette di amministrare le opzioni di lingua del sito.
+a:|:Lets you create and edit users and groups.:|:Ti permette di creare e modificare utenti e gruppi
+a:|:Lets you create and manage Mailing Lists.  Send the mass mailings here!:|:Per gestire ed inviare email alle mailinglist
+a:|:Lets you pick the language to display the site in.:|:Per scegliere la lingua del sito
+a:|:Lets you subscribe and unsubscribe from website mailing lists.:|:Per iscriversi o rimuoversi dalle mailing list del sito
+a:|:Link to and display RSS news feeds from other sites.:|:Collegamento per mostrare RSS di altri siti
+a:|:Personal Comment settings allows you to set the default way you view comment threads on the site.:|:Impostazione commenti personali ti permette di scegliere come visualizzare i messaggio
+a:|:Provides an interface to manage a list of frequently asked questions.:|:Interfaccia per gestire le FAQ (domande frequenti)
+a:|:Search settings allow you to turn on and off the search block for specific modules and change the title for those blocks.:|:Le impostazioni di ricerca permettono di attivare o disattivare specifici blocchi di ricerca
+a:|:The Comment Manager administration allows you to manage all of the comment threads on your site.:|:Per gestire i commenti degli utenti agli elementi del sito
+a:|:The Help module allows you to manage help information shown in key areas on your site.:|:Per gestire gli aiuti nelle varie pagine del sito
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:TIl menu manager ti permette di creare menu dinamici nel sito.
+a:|:The Photo Album allows you to manage sets of image galleries.:|:Per gestire le gallerie di immagini

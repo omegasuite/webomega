@@ -1,0 +1,43 @@
+<h3>{TITLE}</h3>
+<!-- BEGIN SUBJECT -->
+{SUBJECT_LABEL}:<br />{SUBJECT}<br /><br />
+<!-- END SUBJECT -->
+<!-- BEGIN SUMMARY -->
+{SUMMARY_LABEL}:<br />{SUMMARY}<br /><br />
+<!-- END SUMMARY -->
+<!-- BEGIN BODY -->
+{BODY_LABEL}:<br />{BODY}<br /><br />
+<!-- END BODY -->
+<!-- BEGIN SET_STICKY -->
+{SET_STICKY} {SET_STICKY_LABEL}{STICKY_HELP}<br />
+<!-- END SET_STICKY -->
+<!-- BEGIN IMAGE -->
+<br />{IMAGE_LABEL}:<br />{IMAGE}<br />
+<!-- END IMAGE -->
+<!-- BEGIN REMOVE_CHECK -->
+{REMOVE_CHECK} {REMOVE_LABEL}<br />
+<!-- END REMOVE_CHECK -->
+<!-- BEGIN IMAGE_ALT -- >
+{IMAGE_ALT_LABEL}:<br />{IMAGE_ALT}<br />
+<!-- END IMAGE_ALT -->
+<!-- BEGIN CATEGORIES -->
+{CATEGORIES_LABEL}:<br />{CATEGORIES}<br /><br />
+<!-- END CATEGORIES -->
+<!-- BEGIN CLASS -->
+{CLASS_LABEL}:<br />{CLASS}<br /><br />
+<!-- END CLASS -->
+<!-- BEGIN POSTON -->
+{POSTON_LABEL}: {POSTON}<br />
+<!-- END POSTON -->
+<!-- BEGIN EXPIRATION -->
+{EXPIRATION_LABEL}: {EXPIRATION}<br /><br />
+<!-- END EXPIRATION -->
+<!-- BEGIN COMMENTS -->
+{COMMENTS_LABEL}: {YES_COMMENTS} {NO_COMMENTS}<br />
+<!-- END COMMENTS -->
+<!-- BEGIN ANONYMOUS -->
+{ANON_LABEL}: {ANON_YES} {ANON_NO}<br />
+<!-- END ANONYMOUS -->
+<!-- BEGIN SUBMIT -->
+<br />{SUBMIT_BUTTON}
+<!-- END SUBMIT -->

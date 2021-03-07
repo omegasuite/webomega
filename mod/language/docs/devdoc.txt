@@ -1,0 +1,254 @@
+Language System for phpWebSite
+Written by Matthew McNaney
+
+
+Introduction
+------------
+Welcome! This is the developer documentation for using the language system within phpWebSite.
+The language system takes the work out of module developers having to worry about language translation.
+However, to take advantage of it, you will, of course, need to know the API.
+
+
+There are two types of translation in phpWebSite. First is the standard language translation. This
+process translates your code and requires you to learn one function for programming.
+The other process is dynamic translation. This allows people to translate the dynamic content of
+your module. It is a little more complicated but it only requires a handful of functions.
+
+Version
+----------
+1.0 First version. Yahoo!
+1.1 Removed lock recommendation from the sqlInsert example
+1.2 Added information on dynDrop function
+
+Thanks to:
+----------
+Brian, Adam, Steven, Jeremy and all those who complained that we didn't have dynamic
+translation in phpWebSite. There! Ya happy now! ;-)
+
+--------------------------------------------------------------------------------------------------------
+
+Standard Translation
+--------------------
+Almost all modules require the addition of text beyond the code itself. This information is communicated
+to users in buttons, instructions, titles, etc. To make sure that any text you include in your code
+can be translated into another language you will need to use the "translate" object and the "it" method.
+========================================================
+Like so:
+
+$translate->it("Hello World");
+
+or actually since you will need to use the session
+
+$_SESSION["translate"]->it("Hello World");
+========================================================
+
+This will tell phpWebSite that you want the text that appears in the parathesis to be translated into
+the user's current language.
+
+If there is a variable in your phrase that can change just indicate it using square brackets surrounding
+var1, var2, or var3 (the limit is three variables). Then send the variables along in the function.
+
+========================================================
+For example:
+
+$first_name = "Tommy";
+$last_name = "Hill";
+
+$_SESSION["translate"]->it("Hello [var1] [var2]", $first_name, $last_name) . "!";
+
+This would return:
+
+Hello Tommy Hill!
+
+or in French if it was translated
+
+Bonjour Tommy Hill!
+
+========================================================
+
+Notice that I did not include the punctuation within the translate. This is important. While it won't
+harm anything, it is better form to remove punctuation whenever possible. The reason is that the module
+occasionally will find a match from another module and merge the translations. This speeds up the system
+(very slightly but still). If three modules used "Go!", "Go", "Go !" for their buttons, the simplification
+process would never happen.
+
+That is all there is to it!
+
+
+Making a Language File
+----------------------
+
+While you have been coding your module and surrounding them with translate->it() (you are right?), eventually
+you might want to create a language file. These files are used automatically when someone installs your great
+module.
+
+The format for these files is the name of the module, period, the abbreviation of the language the file is for,
+period, and then the abbrevation "lng".
+
+For example, take a look in the setup directory of the language module. You should see a file named:
+language.en.lng
+
+This tells the system which module uses this file and what language it is for. If you open the file, you will
+see something like the following:
+
+========================================================
+en::language
+a::Compare [var1] to [var2]::Compare [var1] to [var2]
+a::None Found::None Found
+a::Update Checked::Update Checked
+a::Translation::Translation
+a::Phrases::Phrases
+a::Update::Update
+a::Search Result::Search Result
+a::Delete::Delete
+
+...etc
+========================================================
+The first line verifies the language and module again. The rest of the lines tell the system how to utilize the
+phrases and translations.
+
+The first letter tells the system what to do with that line. "a" means add it. "d" means remove it.
+The second section (after the double colons) is the PHRASE. The phrase is what appears in the code itself.
+The third section is the TRANSLATION. That is what the PHRASE translates to in this language.
+
+But wait, what a pain in the butt! Worry not. Just as there is a way to import language files, there is a 
+way to export them as well.
+
+First, you need to get all your translations into the system. You may have noticed all the phrases you have
+entered have question marks in front of them (if you have Mark, Language Active, and Auto Update On, and Ignore
+Default Language Off). These question marks indicate that your code tried to translate something that was not
+in the dictionary. So you will need to add them.
+
+Pick the language you want to add them to, click Edit Language, and then click Go. At the new menu, click
+Search for Missing Translations. You should now see a list of all the untranslated phrases. If you are creating
+a language file for the same language you coded with, you can just check each phrase and move on. However, if
+you are translating into another language, go ahead and edit the text in the translation text box. Make sure
+that the phrase is using the correct module and then click the checkbox. When you have editted and checked all
+the new translations you wish to enter, click the Update Checked button and they will all be entered into 
+the dictionary.
+
+Once you are sure all your phrases are in the dictionary, you can move on to the next step.
+
+Now you need to make sure phpWebSite can write to the setup directory in your module. Give the webserver
+write priviledges for that directory. Make sure to change it back when you are done.
+
+Now go into phpWebSite and open the language module. First set the language to 
+one you wish to export. Then pick your module from the drop down box in the Import/Export section. Click
+on the Import Language File radio button and then click the Go button. It will give you a message as to its
+success.
+
+If your module becomes popular enough, people may send you their native language file exports. It would be
+in your best interest to include them in your distribution :)
+
+
+Dynamic Translation
+-----------------------------------
+
+Dynamic translation is a touch more difficult, but I am sure you will get the hang of it. What it does is that
+it allows an admin of a bilingual, trilingual, etc. site to translate submitted content. So, if I post an
+announcement in English it is tagged as needing translation. The admin puts his translator on the job. When
+they finish translating it, into say French, then a French user will see the translation instead of the English
+original.
+
+Here is how it works. First, you need to tell the system that your module takes advantage of this system. So, in
+your install.php file, put the following:
+===============================================
+
+$module_name     = "Matt's Deep Thoughts";  // The name of the module process. This will identify what this
+                                            // particular table holds
+$module_table    = "mod_deep_thoughts";     // The name of the table that holds the content
+$id_column       = "thought_id";            // The name of the id column that identified the content
+$content_columns = "title:thought";         // The name of the columns that hold the content.
+
+$_SESSION["translate"]->registerModule($module_name, $module_table, $id_column, $content_columns);
+
+===============================================
+
+You could also send $content_columns an array of column names but it is turned into the above anyway so it
+is just as easy to do it that way.
+
+If you need to register another table, just run the function again with the proper information.
+
+
+Creating a translation and Updating it
+---------------------------------------
+I will need to register any new translations to the system. To do so I run the following:
+===============================================
+$table_name = "mod_deep_thoughts";
+$id         = $recently_added_thought;
+
+$_SESSION["translate"]->registerDyn($table_name, $id);
+==============================================
+
+Now where did I get $recently_added_thought? Well, I would run something like the following
+=================================================
+$recently_added_thought = $GLOBALS["core"]->sql_insert($reg_data, "mod_deep_thoughts", TRUE, TRUE);
+=================================================
+The fourth parameter (the second TRUE) tells that function to send me the highest id value of thought_id
+after inserting the new row. (BTW, the first TRUE tells insert not to insert a row if a duplicate value exists.)
+
+What registerDyn does is creates a blank entry that waits patiently for translation at a later time.
+
+If you want to help the system out, you can let it know that the original has been recently updated.
+Just run:
+$_SESSION["translate"]->dynUpdate($table_name, $id);
+
+and that will let the admin know they need to check out their current translation.
+
+
+Removing Translations
+-------------------------------
+If your module has dropped an element, you can inform language of it.
+
+$_SESSION["translate"]->dynDrop($table_name, $id);
+
+This will remove all the translations for that element.
+
+
+
+Retrieving the Translation
+--------------------------------------
+Now we get to the place where your information is displayed. What we want to do is see if a translation
+exists and if so to use it instead. The function "dyn" returns an array indexed by the name of the content
+columns.
+
+IMPORTANT: If there isn't a translation or if the current user's language doesn't require one, you
+will receive a NULL value.
+
+=================================================
+Your code might look like this:
+
+if ($translation = $_SESSION["translate"]->dyn("mod_deep_thoughts", $thought_id))
+   echo $translation["title"] . "<br />" . $translation["thought"];
+else
+   echo speakMyMind($thought_id);
+
+=================================================
+
+To go over it again.
+I first checked to see if there was a translation available and needed for what I normally store in
+the table "mod_deep_thoughts" with the id of $thought_id. If there is, I echo the contents of the
+array. If there is NOT (it returned NULL), then I just pass my id off to my function that will echo the
+original data.
+
+
+The Last Step
+--------------
+Should some simple goober uninstall your masterpiece, you might as well clear their database of all
+the dynamic translations that were used with it. To do so, put the following in your uninstall.php
+file.
+
+$table_name = "mod_deep_thoughts";
+$_SESSION["translate"]->unregisterModule($table_name);
+
+
+
+
+Conclusion
+------------------------------------------------
+I hope you find language easy to use. If you find this document lacking in instruction, please
+drop me an email at:
+
+matt@NOSPAM_tux.appstate.edu
+
+Drop the NOSPAM_ obviously.

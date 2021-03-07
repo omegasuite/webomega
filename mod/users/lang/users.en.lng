@@ -1,0 +1,188 @@
+en:|:users
+a:|:A Problem Occurred:|:A Problem Occurred
+a:|:A secure cookie will only be sent over a secure connection (HTTPS):|:A secure cookie will only be sent over a secure connection (HTTPS)
+a:|:ALL:|:ALL
+a:|:Access:|:Access
+a:|:Account Signup:|:Account Signup
+a:|:Add Group:|:Add Group
+a:|:Add Member:|:Add Member
+a:|:Add User:|:Add User
+a:|:Add Users:|:Add Users
+a:|:Add to [var1]:|:Add to [var1]
+a:|:Administrate your Account:|:Administrate your Account
+a:|:Administrator Modules:|:Administrator Modules
+a:|:Administrator:|:管理员
+a:|:Admins Only:|:Admins Only
+a:|:All users can apply:|:All users can apply
+a:|:Allow Cookies:|:Allow Cookies
+a:|:Allow New User Signup:|:Allow New User Signup
+a:|:Allow:|:Allow
+a:|:Allows you to change your email address and password.:|:Allows you to change your email address and password.
+a:|:Another deity will need to change your password:|:Another deity will need to change your password
+a:|:Apply for Account:|:Apply for Account
+a:|:Are you sure you want to delete this user:|:Are you sure you want to delete this user
+a:|:Authentication Method:|:Authentication Method
+a:|:Available Groups:|:Available Groups
+a:|:Available Users:|:Available Users
+a:|:Change Cookie Permissions:|:Change Cookie Permissions
+a:|:Change Successful:|:Change Successful
+a:|:Change User Defaults:|:Change User Defaults
+a:|:Change Your Password:|:Change Your Password
+a:|:Change my Menu:|:Change my Menu
+a:|:Choose an option from the panel above:|:Choose an option from the panel above
+a:|:Commands:|:Commands
+a:|:Contact Information:|:Contact Information
+a:|:Control Panel:|:Control Panel
+a:|:Cookie Refreshed:|:Cookie Refreshed
+a:|:Create Group:|:Create Group
+a:|:Create User:|:Create User
+a:|:Create a group by clicking on Add Group above:|:Create a group by clicking on Add Group above
+a:|:Default Menu Edit:|:Default Menu Edit
+a:|:Default to Control Panel:|:Default to Control Panel
+a:|:Deity users are not permitted to use this form:|:Deity users are not permitted to use this form
+a:|:Deity:|:Deity
+a:|:Directory:|:Directory
+a:|:Do you wish to remove their status:|:Do you wish to remove their status
+a:|:Domain:|:Domain
+a:|:Done:|:Done
+a:|:Drop Group:|:Drop Group
+a:|:Drop Member:|:Drop Member
+a:|:Edit Menu Off:|:Edit Menu Off
+a:|:Edit Menu On:|:Edit Menu On
+a:|:Edit:|:Edit
+a:|:Email Address:|:Email Address
+a:|:Email:|:Email
+a:|:Enter Again:|:Enter Again
+a:|:External Authorization is set on site, but authorization file doesn't exist. Please notify system administrator.:|:External Authorization is set on site, but authorization file doesn't exist. Please notify system administrator.
+a:|:External Filename:|:External Filename
+a:|:External PHP function:|:External PHP function
+a:|:Forgot Your Password?:|:Forgot Your Password?
+a:|:Go to signup page:|:Go to signup page
+a:|:Greeting:|:Greeting
+a:|:Group Name:|:Group Name
+a:|:Group created:|:Group created
+a:|:Group updated:|:Group updated
+a:|:Hello [var1]:|:Hello [var1]
+a:|:Home:|:Home
+a:|:If you think you might already have an account, try the lost password option:|:If you think you might already have an account, try the lost password option
+a:|:In Group:|:In Group
+a:|:In Groups:|:In Groups
+a:|:In most cases, this can be left off:|:In most cases, this can be left off
+a:|:Inherits:|:Inherits
+a:|:Insert:|:Insert
+a:|:Keep in mind that these options only cover user cookies:|:Keep in mind that these options only cover user cookies
+a:|:Lets you create and edit users and groups.:|:Lets you create and edit users and groups.
+a:|:Limit:|:Limit
+a:|:Load:|:Load
+a:|:Local Database:|:Local Database
+a:|:Log In:|:Log In
+a:|:Log Out:|:Log Out
+a:|:Logout:|:Logout
+a:|:Make [var1] a Deity:|:Make [var1] a Deity
+a:|:Manage Groups:|:Manage Groups
+a:|:Manage Users:|:Manage Users
+a:|:Manage:|:Manage
+a:|:Members:|:Members
+a:|:Missing Settings:|:Missing Settings
+a:|:Missing adminMenu templates:|:Missing adminMenu templates
+a:|:Missing password:|:Missing password
+a:|:Missing username:|:Missing username
+a:|:Module Name:|:Module Name
+a:|:Module Rights:|:Module Rights
+a:|:Modules:|:Modules
+a:|:Mortal:|:Mortal
+a:|:Name:|:Name
+a:|:New Account Signup:|:New Account Signup
+a:|:New users can not be accepted until the admin establishes a contact email:|:New users can not be accepted until the admin establishes a contact email
+a:|:No groups available:|:No Groups Available
+a:|:No groups found:|:No groups found
+a:|:No users found:|:No users found
+a:|:No, do leave them mortal:|:No, do leave them mortal
+a:|:No, let them remain a deity:|:No, let them remain a deity
+a:|:None:|:None
+a:|:Only approved users can apply:|:Only approved users can apply
+a:|:Other Information:|:Other Information
+a:|:Password must be five characters or more in length:|:Password must be five characters or more in length
+a:|:Password too familiar:|:Password too familiar
+a:|:Password:|:Password
+a:|:Passwords did not match:|:Passwords did not match
+a:|:Please apply for a new password change form:|:Please apply for a new password change form
+a:|:Please check your email for the change of password form:|:Please check your email for the change of password form
+a:|:Please contact the systems administrator:|:Please contact the systems administrator
+a:|:Please go under Settings in the admin User Manager and enter an user contact email address:|:Please go under Settings in the admin User Manager and enter an user contact email address
+a:|:Please load new modules into a menu:|:Please load new modules into a menu
+a:|:Please try again later:|:Please try again later
+a:|:Please try another:|:Please try another
+a:|:Refresh My Cookie:|:Refresh My Cookie
+a:|:Refresh:|:Refresh
+a:|:Remove Member:|:Remove Member
+a:|:Remove:|:Remove
+a:|:Request Successful:|:Request Successful
+a:|:Search:|:Search
+a:|:Secure Cookie:|:Secure Cookie
+a:|:Send Information:|:Send Information
+a:|:Set Cookie Preferences:|:Set Cookie Preferences
+a:|:Settings:|:Settings
+a:|:Setup Default Menu:|:Setup Default Menu
+a:|:Setup My Menu:|:Setup My Menu
+a:|:Shall we deify them:|:Shall we deify them
+a:|:Show Login Box:|:Show Login Box
+a:|:Sign In:|:Sign In
+a:|:Simple vs. Domain/Directory:|:Simple vs. Domain/Directory
+a:|:Simple:|:Simple
+a:|:Sorry but there is a problem with our email:|:Sorry but there is a problem with our email
+a:|:Sorry:|:Sorry
+a:|:Subject Line:|:Subject Line
+a:|:Success:|:Success
+a:|:Thank you for applying for an account:|:Thank you for applying for an account
+a:|:The Domain/Directory option also includes your web address for greater security:|:The Domain/Directory option also includes your web address for greater security
+a:|:The number of minutes you want to phpWebSite to allow the cookie to remain active:|:The number of minutes you want to phpWebSite to allow the cookie to remain active
+a:|:The simple cookie only contains the information and a time limit:|:The simple cookie only contains the information and a time limit
+a:|:The username you have entered is invalid:|:The username you have entered is invalid
+a:|:The username you have entered is not permitted to change their password:|:The username you have entered is not permitted to change their password
+a:|:This MUST be set:|:This MUST be set
+a:|:This allows for easier interaction and administration between sites using the same hub:|:This allows for easier interaction and administration between sites using the same hub
+a:|:This is a mortal:|:This is a mortal
+a:|:This user is currently a deity:|:This user is currently a deity
+a:|:This value must be greater than 10 minutes:|:This value must be greater than 10 minutes
+a:|:Time Limit:|:Time Limit
+a:|:Try again:|:Try again
+a:|:Unable to email change form:|:Unable to email change form
+a:|:Unable to locate saved cookie:|:Unable to locate saved cookie
+a:|:Unable to send email from a new user sign-up request:|:Unable to send email from a new user sign-up request
+a:|:Update Cookie Settings:|:Update Cookie Settings
+a:|:Update Group:|:Update Group
+a:|:Update My Information:|:Update My Information
+a:|:Update Permissions:|:Update Permissions
+a:|:Update User:|:Update User
+a:|:User Admin:|:User Admin
+a:|:User Defaults:|:User Defaults
+a:|:User Email Contact:|:User Email Contact
+a:|:User created:|:User created
+a:|:User deleted:|:User deleted
+a:|:User information changed successfully:|:User information changed successfully
+a:|:User is a deity:|:User is a deity
+a:|:User updated:|:User updated
+a:|:Username already in use:|:Username already in use
+a:|:Username may not contain spaces or non-alphanumeric characters:|:Username may not contain spaces or non-alphanumeric characters
+a:|:Username:|:Username
+a:|:WARNING:|:WARNING
+a:|:Welcome:|:Welcome
+a:|:When you receive it, log in using your new username and password:|:When you receive it, log in using your new username and password
+a:|:Yes, make them a deity:|:Yes, make them a deity
+a:|:Yes, make them mortal:|:Yes, make them mortal
+a:|:You have not requested a password change:|:You have not requested a password change
+a:|:You have run out of time to update your password:|:You have run out of time to update your password
+a:|:You have the option to allow your site to use cookies to assist in user authorization:|:You have the option to allow your site to use cookies to assist in user authorization
+a:|:You may need to log out for changes to take effect:|:You may need to log out for changes to take effect
+a:|:You may now login with your new password:|:You may now login with your new password
+a:|:You must give your group a name:|:You must give your group a name
+a:|:You should shortly receive an email with account verification information:|:You should shortly receive an email with account verification information
+a:|:Your Modules:|:Your Modules
+a:|:Your password will be sent to your email address:|:Your password will be sent to your email address
+a:|:Your request is being reviewed:|:Your request is being reviewed
+a:|:Your username and email combination was refused:|:Your username and email combination were refused
+a:|:match:|:match
+a:|:nobody:|:nobody
+a:|:of:|:of
+a:|:You should shortly receive an email with account verification information:|:You should shortly receive an email with account verification information

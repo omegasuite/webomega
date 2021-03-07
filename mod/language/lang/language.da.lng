@@ -1,0 +1,113 @@
+da:|:language
+a:|:Add:|:Tilføj
+a:|:Admin:|:Admin
+a:|:Administrate:|:Administrer
+a:|:Are you sure you want to remove these language tables and ALL the translations associated with them:|:Er du sikker på, at du vil fjerne disse sprogtabeller og ALLE tilhørende oversættelser
+a:|:Auto Update:|:Auto opdatering
+a:|:Back to Admin:|:Tilbage til administration
+a:|:Back to List:|:Tilbage til listen
+a:|:Both:|:Begge
+a:|:Check Updated:|:Kontroller opdatering
+a:|:Check this box to confirm the deletion:|:Afkryds for at bekræfte sletningen
+a:|:Choose:|:Vælg
+a:|:Column:|:Kolonne
+a:|:Column Name:|:Kolonne navn
+a:|:Column(s):|:Kolonne(r)
+a:|:Compare [var1] to [var2]:|:Sammenlign [var1] med [var2]
+a:|:Compare to [var1]:|:Sammenlign med [var1]
+a:|:Create Dynamic Table:|:Opret dynamisk tabel
+a:|:Create Language Table:|:Opret sprogtabel
+a:|:Create New Entry:|:Opret nyt indlæg
+a:|:Create Table:|:Opret tabel
+a:|:Created:|:Oprettet
+a:|:Delete:|:Slet
+a:|:Dynamic Active:|:Dynamisk aktiv
+a:|:Dynamic Table:|:Dynamisk tabel
+a:|:Dynamic Translations:|:Dynamisk oversættelser
+a:|:Edit Language:|:Ret sprog
+a:|:Export Language File:|:Eksporter sprogfil
+a:|:Export [var1] Language File:|:Eksporter [var1] sprogfil
+a:|:Export to [var1] not successful:|:Eksporter til [var1] mislykkedes
+a:|:Export to [var1] successful:|:Eksporter til [var1] lykkedes
+a:|:Go:|:Fortsæt
+a:|:ID:|:ID
+a:|:Ignore Default Language:|:Ignorer standardsprog
+a:|:Import Language File:|:Importer sprogfil
+a:|:Import Successful:|:Importering gennemført
+a:|:Import/Export:|:Importere/Eksporterer
+a:|:Insert Checked:|:Indsæt valgte
+a:|:Insert Phrase:|:Indsæt sætning
+a:|:Language:|:Sprog
+a:|:Language Active:|:Sprog aktivt
+a:|:Language Administration:|:Sprog administration
+a:|:Language Settings Updated:|:Sprogindstillinger opdateret
+a:|:Language User Menu:|:Bruger sprog menu
+a:|:Lets you administrate the language options for your site.:|:Konfigurerer sprogindstillingerne
+a:|:Lets you pick the language to display the site in.:|:Skifter til det sprog du ønsker at få vist (switch to the language you prefer)
+a:|:Mark Untranslated:|:Marker manglende oversættelser
+a:|:Missed Removals:|:Manglende fjernelse
+a:|:Module:|:Modul
+a:|:No Phrases Found:|:Ingen sætninger fundet
+a:|:No Phrases Found for [var1]:|:Ingen sætning fundet til [var1]
+a:|:No new sections to translate:|:Ingen nye afsnit at oversætte
+a:|:No translations to export:|:Ingen oversættelser at eksportere
+a:|:None Found:|:Ingen fundet
+a:|:Off:|:Fra
+a:|:On:|:Til
+a:|:Original:|:Original
+a:|:Phrase:|:Sætning
+a:|:Phrases:|:Sætninger
+a:|:Pick:|:Vælg
+a:|:Regular Table:|:Fast tabel
+a:|:Remove Language Table:|:Slet sprogtabel
+a:|:Results:|:Resultater
+a:|:Return to the user menu:|:Tilbage til bruger menu
+a:|:Search Result:|:Søge resultat
+a:|:Search Result for [var1]:|:Søge resultat for [var1]
+a:|:Search for Missing Translations:|:Søg efter manglende oversættelser
+a:|:Search for Phrase:|:Søg efter sætning
+a:|:Search for Translation:|:Søg efter oversættelse
+a:|:Set Default Language:|:Sæt standardsprog
+a:|:Set My Default Language:|:Sæt mit standardsprog
+a:|:Set My Language:|:Sprog
+a:|:The [var1] dynamic language table was created:|:[var1] dynamisk sprogtabel oprettet
+a:|:The [var1] regular language table was created:|:[var1] fast sprogtabel oprettet
+a:|:The following phrases are missing from [var1]:|:Følgende sætninger mangler i [var1]
+a:|:Total Duplicates:|:Total antal dubletter
+a:|:Total Entries:|:Total antal forekomster
+a:|:Total Inserts:|:Total antal oprettede
+a:|:Total Removals:|:Total antal slettede
+a:|:Translates To:|:Oversættes til
+a:|:Translation:|:Oversættelse
+a:|:Uncheck this box to confirm the deletion:|:Fjern kryds for at bekræfte sletningen
+a:|:Untranslated:|:Ikke oversat
+a:|:Untranslated Dynamic Sections:|:Ikke oversatte dynamiske afsnit
+a:|:Update:|:Opdater
+a:|:Update Checked:|:Opdater valgte
+a:|:Update Dynamic Translation:|:Opdater dynamisk oversættelse
+a:|:Update Dynamic Translation for [var1]:|:Opdater dynamisk oversættelse for [var1]
+a:|:Update Language Settings:|:Opdater sprog indstillinger
+a:|:Update [var1]:|:Opdater [var1]
+a:|:Updated:|:Opdateret
+a:|:Your Default Language is Saved:|:Standardsprog er gemt
+a:|:A problem occurred while trying to import the language file:|:Der opstod et problem under import af sprogfilen
+a:|:Checking language file for [var1]:|:Kontrollerer sprogfil for [var1]
+a:|:Default Language set to [var1]:|:Standardsprog sat til [var1]
+a:|:Finished uninstalling [var1] from languages:|:Afstallation af [var1] afsluttet
+a:|:Hello World:|:Hej verden
+a:|:Hello [var1] [var2]:|:Hej [var1] [var2]
+a:|:Module Information file missing in:|:Modul informationsfil mangler i
+a:|:No language directory in [var1]:|:Ikke noget sporgbibliotek i [var1]
+a:|:No language file present for [var1]:|:Ikke nogen sprogfil tilgængelig for [var1]
+a:|:Refresh:|:Opdater
+a:|:Removing dynamic phrases from:|:Fjerner dynamisk udtryk fra
+a:|:Removing phrases from:|:Fjerner udtryk fra
+a:|:There was a problem creating a dynamic language table for [var1]:|:Der opstod et problem med at oprette dynamisk sprogtabel for [var1]
+a:|:There was a problem creating a regular language table for [var1]:|:Der opstod et problem med at oprette sprogtabel for [var1]
+a:|:This module does not contain untranslated phrases:|:Dette modul indeholder ingen udtryk der manger at blive oversat
+a:|:This module does not contain updated phrases:|:Dette modul indeholder ingen opdaterede udtryk
+a:|:This module does not have a import file for this language:|:Dette modul har igen importfil for dette sprog
+a:|:Unable in import [var1] language file:|:Det var ikke muligt at importerer [var1] sprogfilen
+a:|:Updated Dynamic Sections:|:Opdateret dynamisk sektion
+a:|:[var1] language file installed:|:[var1] sprogfil installeret
+a:|:Language Administrator:|:Sprog

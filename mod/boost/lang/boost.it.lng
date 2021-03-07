@@ -1,0 +1,92 @@
+it:|:boost
+a:|:All dependancies found:|:Tutte le relazioni sono state trovate
+a:|:Approved:|:Approvato
+a:|:Are you ABSOLUTELY SURE you want completely remove this module:|:Sei VERAMENTE sicuro di eliminare questo modulo
+a:|:Are you sure you want to uninstall this module:|:Sicuro di volere rimuovere questo modulo
+a:|:Assuming files are only requirement for installation:|:I files sono necessari per l'installazione
+a:|:Assuming it is not needed:|:Suppongo non sia necessario
+a:|:Assuming update needed registering only:|:Suppongo l'aggiornamento necessiti solo di registrazione
+a:|:Building extra modules:|:Sto costruendo i moduli extra
+a:|:Building required modules:|:Sto costruendo i moduli base
+a:|:Check:|:Verifica
+a:|:Checking dependancies:|:Verifico le relazioni
+a:|:Checking language file for [var1]:|:Controllo il file di lingua per [var1]
+a:|:Core Modules:|:Moduli Core
+a:|:Core Version:|:Versione Core
+a:|:Core tables successfully installed:|:Tabelle Core create
+a:|:Current Version:|:Versione corrente
+a:|:Download Here:|:Download qui
+a:|:Download the latest version from the following link(s):|:LScarica l'ultima versione da questi link
+a:|:External Page:|:Pagina esterna
+a:|:Finished uninstalling [var1] from languages:|:[var1] rimossa dalla lingua
+a:|:Flat:|:Piana
+a:|:Hidden:|:Nascosto
+a:|:Hits:|:Hits
+a:|:If you uninstall a module from the hub, you will get a prompt:|:Se rimuovi un modulo ti viene chiesta conferma
+a:|:In A Box:|:In una scatola
+a:|:Install Module:|:Installazione Module
+a:|:Install the dependant modules, then try installing again:|:Installa i moduli collegati e riprova
+a:|:Install:|:Installazione
+a:|:Installation file missing for [var1]:|:File di installazione mancante per [var1]
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interfaccia per installare, rimuovere e aggiornare i moduli
+a:|:Internal Page:|:Pagina interna
+a:|:It should be safe to remove all the files in:|:Ora &egrave; possibile rimuovere i files in
+a:|:Layout box created:|:Box di layout creato
+a:|:Layout for [var1] installed successfully:|:Layout per [var1] creato
+a:|:Layout for [var1] uninstalled successfully:|:Layout di [var1] rimosso
+a:|:Make sure to edit to match your theme:|:Verifica che la modifica corrisponda al tema
+a:|:Module Information:|:Informazioni sul modulo
+a:|:Module Installer/Updater:|:Modulo Aggiornamento/Rimozione
+a:|:Module is no longer registered:|:Il modulo non &egrave; pi&ugrave; registrato
+a:|:Nested:|:Annidato
+a:|:New Window:|:Nuova finestra
+a:|:Newest First:|:Prima i nuovi
+a:|:No Update Info:|:Nessuna informazione di aggiornamento
+a:|:No install file for [var1]:|:Nessun file di installazione per [var1]
+a:|:No language directory in [var1]:|:Nessuna directory di lingua per [var1]
+a:|:No language file present for [var1]:|:Nessun file di lingua per [var1]
+a:|:Oldest First:|:Prima i &ugrave; vecchi
+a:|:Other Modules:|:Altri moduli
+a:|:Post Installation Procedures:|:Procedure Post-installazione
+a:|:Registering Default Language:|:Sto registrando la lingua di default
+a:|:Registering Layout:|:Sto registrando il Layout
+a:|:Removing dynamic phrases from:|:Sto rimuovendo le frasi dinamiche da
+a:|:Removing phrases from:|:Sto rimuovendo le frasi da
+a:|:Size:|:Dimensione
+a:|:This module's version appears to be current:|:La versione pare essere quella attuale
+a:|:Threaded:|:Threaded
+a:|:Unable to find Layout Info file for [var1]:|:Impossibile trovare il file di Layout per [var1]
+a:|:Unable to locate update file for [var1]:|:Impossible trovare il file di aggiornamento per [var1]
+a:|:Unable to read update.txt file from [var1]:|:Impossibile leggere il file update.txt per [var1]
+a:|:Uninstall Module:|:Rimuovi modulo
+a:|:Uninstall did not encounter any errors:|:La rimozione non ha dato errori
+a:|:Uninstall:|:Rimuovi
+a:|:Uninstallation file missing for [var1]:|:File di rimozione assente per [var1]
+a:|:Uninstalling Module:|:Sto rimuovend il modulo
+a:|:Up to Date:|:Gi&agrave; aggiornato
+a:|:Update All Modules:|:Aggiorna tutti i moduli
+a:|:Update Boost:|:Aggiorna Aggiornamenti/Rimozione
+a:|:Update Core:|:Aggiorna Core
+a:|:Update Module:|:Aggiorna modulo
+a:|:Update Version:|:Aggiorna versione
+a:|:Update available:|:Aggiornamento disponibile
+a:|:Update not found at:|:Aggiornamento non presente su
+a:|:Update not needed:|:Aggiornamento non necessario
+a:|:Updating:|:Sto aggiornando
+a:|:Version Check:|:Verifica versione
+a:|:Version:|:Versione
+a:|:Write to modules table successful:|:Scrittura nelle tabelle dei moduli avvenuta
+a:|:You must update Boost before updating any other modules.:|:Devi aggiornare Aggiornamenti/Rimozioni prima di ogni altro modulo
+a:|:You will NOT get a prompt uninstalling a branch site module:|:Non ti verr&agrave; richiesta conferma per l'eliminazione del modulo Siti Figli
+a:|:Your Version:|:La tua versione
+a:|:[var1] NOT found:|:[var1] NON trovata
+a:|:[var1] found:|:[var1] trovata
+a:|:[var1] has been unregistered:|:[var1] &egrave; stata rimossa
+a:|:[var1] installation successful:|:[var1] installazione riuscita
+a:|:[var1] language file installed:|:File [var1] installato
+a:|:[var1] post-installation successful:|:[var1] Post-installazione completata
+a:|:[var1] requires the above modules to be installed before it will function:|:[var1] necessita che tutti i precedenti moduli vengano installati prima che funzioni
+a:|:[var1] uninstallation NOT successful:|:[var1] Rimozione fallita
+a:|:[var1] uninstallation successful:|:[var1] rimossa
+a:|:[var1] updated successfully:|:[var1] aggiornata
+a:|:[var1] was successfully installed:|:[var1] installato con successo

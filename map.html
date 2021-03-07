@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;}
+		#golist {display: none;}
+		@media (max-device-width: 2048px){#golist{display: block !important;}}
+	</style>
+<script type="text/javascript" src="http://mxkj.sinaapp.com/slider/js/jssor.core.js"></script>
+<script type="text/javascript" src="http://mxkj.sinaapp.com/slider/js/jssor.utils.js"></script>
+<script type="text/javascript" src="http://mxkj.sinaapp.com/slider/js/jssor.slider.mini.js"></script>
+<link rel="stylesheet" href="http://mxkj.sinaapp.com/weui/weui.css" />
+<link rel="stylesheet" href="http://mxkj.sinaapp.com/weui/example.css"/>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak="></script>
+	<script src="js/jquery.js" type="text/javascript"></script>
+    <title>地图定位</title>
+    
+</head>
+<body>
+	<!-- script type="text/javascript" src="http://api.map.baidu.com/api?type=quick&ak=&v=1.0"></script -->
+<div id="allmap"></div>
+<div id='popframe' style='position:absolute; background: #FFFFFF; top:0px; left:0px; width:100%; height:100%; display:none; z-index:25;overflow-y:scroll;'>
+	<div id='popresult'></div>
+</div>
+<script language="javascript">
+	var map;
+
+	var link = localStorage.getItem('link');
+	var map;
+	var north, south, east, west, type = '', zoom = 16, place = '';
+	var extent = {east: -1, west:1, south:1, north:-1 };
+	var markerextent = {east: -1, west:1, south:1, north:-1 };
+	var markers = Array();
+	var homes = Array();
+	var infowindow = null;
+	var actlog = '';
+	var lat = 39.8622934399999, lng = 116.45764191999997;
+	var photos = Array();
+	var hassearchresult = false;
+	var tries = 1;
+	var urireq = '';
+	var begin = -1, end = -1;
+	var locateMode = false;
+	var deflng = 0, deflat = 0;
+	var defmarker = null;
+	var houseid = 0;
+
+	function coordConv(longitude, latitude, coorType) {
+		var coorType = coorType || "gps"
+		if(coorType == "bd09ll"){
+			return new BMap.Point(longitude,latitude);
+		}
+		else if(coorType == "gps"){
+	        var url = "http://api.map.baidu.com/geoconv/v1/?coords=" + longitude   + "," + latitude + "&from=1&to=5&ak=xifH76TpyIL1cvnTzuEP0bpq&";
+
+			var result = $.ajax({
+				url: url,
+				method: "GET",
+				async: false,
+				global:false,
+				cache:false,
+				data:"{}"
+			}).responseText;
+			var bmapResult = JSON.parse(result);
+			return new BMap.Point(bmapResult.result[0].x,bmapResult.result[0].y);
+		}
+	}
+
+	function setplace() {
+		place = document.getElementById('location').value;
+		document.getElementById('gomap').style.display = 'inline-block';
+		document.getElementById('gosearch').style.display = 'none';
+		search();
+	}
+	function getplace() {
+		document.getElementById('gosearch').style.display = 'inline-block';
+		document.getElementById('gomap').style.display = 'none';
+	}
+
+	function gotoLoc() {
+		var bound = map.getBounds();
+
+		$.ajax({
+			url:'./wxlink.php?link=' + link + '&module=zhusu&MOD_op=goto&east=' + bound._ne.lng + '&west=' + bound._sw.lng + '&south=' + bound._sw.lat + '&north=' + bound._ne.lat, // + '&place=' + document.getElementById('gotoLoc').value.replace(' ', '+'),
+			type:'get',
+			global:false,
+			dataType:'json',
+			success: function(resp) {
+					if(resp['status']==='OK') {
+						if (resp['bound']) {
+							if (resp['bound'].east - resp['bound'].west < 0.02) {
+								resp['bound'].east += 0.01;
+								resp['bound'].west -= 0.01;
+							}
+							if (resp['bound'].north - resp['bound'].south < 0.02) {
+								resp['bound'].north += 0.01;
+								resp['bound'].south -= 0.01;
+							}
+
+//							var bound = new BMap.Bounds({sw:{lat: resp['bound'].south, lng: resp['bound'].west}, ne:{lat: resp['bound'].north, lng:resp['bound'].east}});
+
+							var points = [                          //创建7个点
+									new BMap.Point(resp['bound'].south, resp['bound'].west),
+									new BMap.Point(resp['bound'].south, resp['bound'].east),
+									new BMap.Point(resp['bound'].north, resp['bound'].east),
+									new BMap.Point(resp['bound'].north, resp['bound'].west)
+							];
+							map.setViewport(points);    //调整视野     
+
+//							map.setViewport([{lat: resp['bound'].south, lng: resp['bound'].west}, {lat: resp['bound'].north, lng:resp['bound'].east}]);
+//							map.fitBounds(bound);
+//							if (map.getZoom() > 13) map.setZoom(13);
+							resize(map);
+						}
+						else alert('没有找到该地的房源');
+					}
+					else setTimeout('goto();', 3000);
+				},
+			fail: function() {
+				setTimeout('goto();', 3000);
+			}
+		});
+	}
+
+	function resize(map) {
+		zoom = map.getZoom();
+		if (zoom < 8) {
+			extent = {east: -1, west:1, south:1, north:-1 };
+			homes = new Array();
+			for (var k = 0; k < markers.length; k++) {
+				map.removeOverlay(markers[k]);	// .setVisible(false);
+				markers[k].visible = false;
+			}
+			return;
+		}
+
+		// Adds markers to the map.
+		var mbound = map.getBounds();
+		if (!mbound) {
+			extent = {east: -1, west:1, south:1, north:-1 };
+			homes = new Array();
+			for (var k = 0; k < markers.length; k++) {
+				map.removeOverlay(markers[k]);	// .setVisible(false);
+				markers[k].visible = false;
+			}
+			setTimeout('resize(map);', 1000);
+			return;
+		}
+		bound = {east: mbound.Ee, west : mbound.Je, south: mbound.Ie, north: mbound.De};
+//		bound = {east: mbound._ne.lng, west : mbound._sw.lng, south: mbound._sw.lat, north: mbound._ne.lat};
+
+		if (locateMode) {
+			if (deflat == 0 && deflng == 0) {
+				deflat = lat;
+				deflng = lng;
+			}
+			else if (deflat < bound.south || deflat > bound.north || deflng < bound.west || deflng > bound.east) {
+				deflat = lat;
+				deflng = lng;
+			}
+			var point = new BMap.Point(deflng, deflat); 
+			if (defmarker) defmarker.setPosition(point);
+			return;
+		}
+
+		var d = new Array();
+		if (joint(extent, bound)) {
+			d = expanded(extent, bound);
+			extent = {west: Math.min(extent.west, bound.west), south: Math.min(extent.south, bound.south), north: Math.max(extent.north, bound.north), east: Math.max(extent.east, bound.east)};
+		}
+		else {
+			extent = bound;
+			d = new Array(bound);
+			homes = new Array();
+		}
+
+		var szx = (bound.east - bound.west) / 8;	// {RESOLUTIONX};
+		var szy = (bound.north - bound.south) / 11;	 //{RESOLUTIONY};
+
+		var loaded = false;
+		var term = '';	 // sterm();
+		if (begin != -1 && end != -1) 
+			term = "&begin=" + begin + "&end=" + end;
+
+		for (i = 0; i < homes.length; i++) {
+			var beach = homes[i];
+			if (beach == null || beach[5] == 1) continue;
+			if (beach[8] <= bound.west || beach[7] >= bound.east || beach[10] <= bound.south || beach[9] >= bound.north) continue;
+			if (szx < beach[8] - beach[7] || szy < beach[10] - beach[9]) {
+				$.getJSON('http://mxkj.sinaapp.com/wxlink.php?link=' + link + '&module=zhusu&MOD_op=getHouses&noscript=1&xact=' + searchtype + '&east=' + beach[8] + '&west=' + beach[7] + '&north=' + beach[10] + '&south=' + beach[9] + '&szx=' + szx + '&szy=' + szy + '&bound=' + bound.west + ',' + bound.east + ',' + bound.south + ',' + bound.north + term, processHouses);
+				loaded = true;
+			}
+		}
+
+		for (i = 0; i < d.length; i++) {
+			$.getJSON('http://mxkj.sinaapp.com/wxlink.php?link=' + link + '&module=zhusu&MOD_op=getHouses&noscript=1&xact=' + '&east=' + d[i].east + '&west=' + d[i].west + '&north=' + d[i].north + '&south=' + d[i].south + '&szx=' + szx + '&szy=' + szy + '&bound=' + bound.west + ',' + bound.east + ',' + bound.south + ',' + bound.north + term, processHouses);
+			loaded = true;
+		}
+		if (!loaded) setMarkers(map);
+
+//		var bmPoint = BMap.Point((bound.east + bound.west) / 2, (bound.south + bound.north) / 2);
+//		map.centerAndZoom(bmPoint, zoom);
+
+		return true;
+	}
+
+	function joint(a, b) {
+		// wether two bounds has joint
+
+		var east = Math.min(a.east, b.east),
+			west = Math.max(a.west, b.west),
+			south = Math.max(a.south, b.south),
+			north = Math.min(a.north, b.north);
+		if (east <= west) return false;
+		if (north <= south) return false;
+		return {east: east, west : west, south: south, north: north};
+	}
+
+	function expanded(a, b) {
+		// parts of b that's outside a. fill gap to make result a rect
+		var c = joint(a, b);
+		var d = new Array();
+		if (b.north > c.north)
+			d.push({west: Math.min(b.west, a.west), east: Math.max(a.east, b.east), south: c.north, north: b.north});
+		if (b.south < c.south)
+			d.push({west: Math.min(b.west, a.west), east: Math.max(a.east, b.east), south: b.south, north: c.south});
+		if (b.west < c.west)
+			d.push({west: b.west, east: c.west, north:a.north, south: a.south});
+		if (b.east > c.east)
+			d.push({west: c.east, east: b.east, north:a.north, south: a.south});
+		return d;
+	}
+
+	function setMarkers(map) {	
+		var bound = map.getBounds();
+		if (!bound) return;
+		bound = {east: bound.Ee, west : bound.Je, south: bound.Ie, north: bound.De};
+
+		var RESOLUTIONX = 8;
+		var RESOLUTIONY = 11;
+
+		var dx = (bound.east -  bound.west) / RESOLUTIONX;
+		var dy = (bound.north -  bound.south) / RESOLUTIONY;
+
+		var grids = Array(RESOLUTIONY + 2);
+		for (var i=0; i < RESOLUTIONY + 2; i++) {
+			grids[i] = Array(RESOLUTIONX + 2);
+			for (var j=0; j < RESOLUTIONX + 2; j++) grids[i][j] = Array();
+		}
+
+		var south = parseInt((bound.south + 90) / dy) * dy - 90;
+		var west = parseInt((bound.west + 180) / dx) * dx - 180;
+		for (i = 0; i < homes.length; i++) {
+			var b = homes[i];
+			if (b == null) continue;
+			if (b[2] < south || b[3] < west) continue;
+			var y = parseInt((b[2] - south) / dy);
+			var x = parseInt((b[3] - west) / dx);
+			if (y >= 0 && y < RESOLUTIONY + 2 && x >=0 && x < RESOLUTIONX + 2) grids[y][x].push(b);
+		}
+		var k = 0;
+
+		var marked = new Array(markers.length);
+		for (k = 0; k < markers.length; k++) marked[k] = false;
+
+		for (i=0; i < RESOLUTIONY + 2; i++) {
+			for (var j=0; j < RESOLUTIONX + 2; j++) {
+				if (grids[i][j].length == 0) continue;
+				var top = new Array();
+				var cnt = 0;	// grids[i][j][0][5];
+				for (var m=0; m < grids[i][j].length; m++) {
+					cnt += grids[i][j][m][5];
+					if (top.length < 3 && grids[i][j][m][4] > 10) top.push(m);
+					var swap;
+					if (top.length == 3) {
+						if (grids[i][j][m][4] > grids[i][j][top[2]][4]) top[2] = m;
+						if (grids[i][j][top[2]][4] > grids[i][j][top[1]][4]) {
+							swap = top[1]; top[1] = top[2]; top[2] = swap;
+						}
+					}
+					if (top.length > 1) {
+						if (grids[i][j][top[1]][4] > grids[i][j][top[0]][4]) {
+							swap = top[0]; top[0] = top[1]; top[1] = swap;
+						}
+					}
+				}
+				if (top.length == 0) top.push(0);
+				var beach = grids[i][j][top[0]];
+				var box = {west: west + j * dx, east: west + (j + 1) * dx, south: south + i * dy, north: south + (i+1) * dy};
+				var m = 4;
+				if (cnt < 10) m = 0;
+				else if (cnt < 100) m =1;
+				else if (cnt < 1000) m = 2;
+				else if (cnt < 10000) m = 3;
+				var binfo = beach[6];
+				if (top.length > 1)
+					binfo += '<br>' + grids[i][j][top[1]][6];
+				if (top.length > 2)
+					binfo += '<br>' + grids[i][j][top[2]][6];
+
+				var found = false;
+				for (var mm = 0; !found && mm < markers.length; mm++)
+					if (markers[mm].hid == beach[0]) {
+						k = mm;
+						found = true;
+					}
+				if (!found) {
+					for (mm = 0; !found && mm < markers.length; mm++)
+						if (markers[mm].visible == false) {	// getVisible()
+							k = mm;
+							found = true;
+						}
+				}
+				if (!found)	{
+					var point = new BMap.Point(beach[3] + 0.0, beach[2] + 0.0); 
+					var marker = new BMap.Marker(point); // 创建点  
+					var opts = { 
+							width: 120,     // 信息窗口宽度  
+							height: 70,     // 信息窗口高度 
+							grid: box,
+							cnt: cnt,
+							hid: beach[0],
+							zIndex: beach[4],
+							info: binfo + '<a onclick=' + "'javascript:showresult(" + '"http://mxkj.sinaapp.com/wxlink.php?link=' + link + '&noscript=1&MOD_op=viewhouse&load=1&house=' + beach[0] + '&noedit=1&box=VIEWBOUND");' + "'><span style='color:blue'>点这里了解详细情况</span></a>",
+							title: cnt.toString() + '条住宿信息' // 信息窗口标题 
+						};
+	
+					marker.title = cnt.toString() + '条住宿信息';
+//					marker.setTitle(cnt.toString() + '条住宿信息');
+					marker.info = binfo;	// "<a href=http://mxkj.sinaapp.com/wxlink.php?link=' + link + '&noscript=1&MOD_op=wxviewhouse&load=1&house=' + beach[0] + '&noedit=1";
+					marker.grid = box;
+					marker.lng = beach[3];
+					marker.lat = beach[2];
+					marker.cnt = cnt;
+					marker.hid = beach[0];
+//					marker.setZIndex(beach[4]);
+//					marker.setIcon(icon[m]);
+//					marker.setVisible(true);
+					marker.zIndex = beach[4];
+					marker.visible = true;
+
+					marked[k] = true;
+
+					marker.addEventListener("click", function () {  
+						var point = new BMap.Point(this.lng, this.lat); 
+						infowindow.setTitle(this.title);
+						if (this.cnt > 1) infowindow.setContent(this.info);
+						else {
+							var msg = this.info;// + '<br><a href=# onclick=\'windowopen("http://mxkj.sinaapp.com/wxlink.php?link=' + link + '&noscript=1&MOD_op=wxviewhouse&load=1&house=' + this.hid + '&noedit=1");\'>点这里了解详细情况</a>';
+							infowindow.setContent(msg);
+						}
+						map.openInfoWindow(infowindow, point); //开启信息窗口 
+					});
+
+	//					infowindow.setTitle(this.title);
+	//					infowindow.setContent(this.title);
+	//					map.openInfoWindow(infowindow, point); //开启信息窗口 
+//					});
+/*
+					var label = new BMap.Label("地址");
+					label.setStyle(
+						{ color : "#fff", 
+							fontSize : "16px", 
+							backgroundColor :"0.05",
+							border :"0", 
+							fontWeight :"bold" 
+					});
+
+					marker.setLabel(label);
+*/
+					map.addOverlay(marker);     
+
+					markers.push(marker);
+					marked.push(true);
+				}
+				else {
+					var marker = markers[k];
+//					marker.setLabel(cnt.toString());
+//					marker.setTitle(cnt.toString() + '条房源信息');
+					marker.title = cnt.toString() + '条住宿信息';
+					marker.setPosition(beach[3], beach[2]);
+					marker.info = binfo;	// + '<a onclick=' + "'javascript:showresult(" + '"http://yezhu.sinaapp.com/wxlink.php?link=' + link + '&noscript=1&MOD_op=wxviewhouse&load=1&house=' + beach[0] + '&noedit=1&box=VIEWBOUND");' + "'><span style='color:blue'>点这里了解详细情况</span></a>";
+					marker.grid = box;
+					marker.cnt = cnt;
+					marker.hid = beach[0];
+//					marker.setZIndex(beach[4]);
+//					marker.setIcon(icon[m]);
+//					marker.setVisible(true);
+					marker.zIndex = beach[4];
+					marker.visible = true;
+					marked[k] = true;
+					map.addOverlay(marker);     
+				}
+			}
+	  }
+	  for (k = 0; k < marked.length; k++)
+		if (!marked[k]) {
+			map.removeOverlay(markers[k]);	// .setVisible(false);
+			markers[k].visible = false;
+//			markers[k].setZIndex(-1);		// markers[k].setVisible(false);
+		}
+  }	
+
+  function showresult(url) {
+	infowindow.close();
+	document.getElementById("loadingToast").style.display = "block";
+	hasmore = true;
+
+	urireq = url + '&listmode=1&xact=' + searchtype + sterm();
+	$.get(urireq, function(responseTxt,statusTxt) {
+		if(statusTxt=='success') {
+			var title = responseTxt.match(/<title>[^<]*<\/title>/);
+			document.getElementById('resultframe').style.display = 'block';
+			hassearchresult = true;
+			document.getElementById('searchresult').innerHTML = responseTxt.replace(title[0], '');
+			document.getElementById('resultcaption').innerHTML = title[0].replace(/title>/g, 'h3>');
+			title = responseTxt.match(/<!-- docPos = ([0-9]+); -->/);
+			if (title[1]) docPos = title[1];
+		}
+		document.getElementById("loadingToast").style.display = "none";
+	});
+  }
+
+  function windowopen(url) {
+	  if (infowindow) infowindow.close();
+//	  document.getElementById('popresult').innerHTML = '<div id="toast" class="weui_loading_toast"><div class="weui_mask_transparent"></div><div class="weui_toast"><div class="weui_loading">        <div class="weui_loading_leaf weui_loading_leaf_0"></div>                <div class="weui_loading_leaf weui_loading_leaf_1"></div>                <div class="weui_loading_leaf weui_loading_leaf_2"></div>                <div class="weui_loading_leaf weui_loading_leaf_3"></div>                <div class="weui_loading_leaf weui_loading_leaf_4"></div>                <div class="weui_loading_leaf weui_loading_leaf_5"></div>                <div class="weui_loading_leaf weui_loading_leaf_6"></div>                <div class="weui_loading_leaf weui_loading_leaf_7"></div>                <div class="weui_loading_leaf weui_loading_leaf_8"></div>                <div class="weui_loading_leaf weui_loading_leaf_9"></div>                <div class="weui_loading_leaf weui_loading_leaf_10"></div>                <div class="weui_loading_leaf weui_loading_leaf_11"></div>            </div>            <p class="weui_toast_content">数据加载中</p>        </div>    </div>';
+	  document.getElementById('popframe').style.display = 'block';
+
+	  $.get(url, function(responseTxt,statusTxt) {
+		if(statusTxt=='success') {
+			document.getElementById('popresult').innerHTML = responseTxt;
+			document.getElementById('popframe').style.display = 'block';
+			if (hassearchresult) {
+				document.getElementById('searchresult').style.display = 'none';
+			}
+				
+			var sl = document.getElementById("slider1_container");
+			sl.style.width = document.body.clientWidth + 'px';	// min(screen.width, 320);
+			sl.style.height = document.body.clientHeight * 3 / 10 + 'px';	// min(screen.height * 4 / 10, 227);
+			sl = document.getElementById("slides");
+			sl.style.width = document.body.clientWidth + 'px';	// min(screen.width, 320);
+			sl.style.height = document.body.clientHeight * 3 / 10 + 'px';	// min(screen.height * 4 / 10, 227);
+
+			jQuery(document).ready(function ($) {
+			    var options = {
+				$FillMode: 1,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actuall size, default value is 0
+				$DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+				$AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+				$AutoPlayInterval: 1500,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+				$SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+				    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+				    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+				    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+				    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+				}
+			    };
+
+				var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+			});
+		}
+	  });
+  }
+
+  function closeresult() {
+		document.getElementById('resultframe').style.display = 'none';
+		hassearchresult = false;
+  }
+
+  function closepopresult(dest, begin, end) {
+	if (dest == '预订') {
+		var rooms = document.getElementsByName('rooms[]');
+		var rms = [];
+		for (var i = 0; i < rooms.length; i++)
+			if (rooms[i].checked) rms.push(rooms[i].value);
+		if (rms.length == 0) return;
+		var param = {op:'booking', rooms:rms, begin:begin, end:end};
+		window.parent.postMessage(param, "*");
+	}
+
+	document.getElementById('popframe').style.display = 'none';
+	if (hassearchresult || !document.getElementById('resultframe')) {
+		document.getElementById('searchresult').style.display = 'block';
+	}
+  }
+
+  var processHouses = function(data) {
+			if (!data) {
+				setMarkers(map);
+				return;
+			}
+
+			for (var i = 0; i < data.length; i++) {
+				var s = data[i];
+				if (s.length == 1) {
+					var matched = false;
+					for (var j = 0; !matched && j < homes.length; j++) {
+						if (homes[j] != null && homes[j][0] == s[0]) {
+							matched = true;
+							homes[j] = null;
+						}
+					}
+					continue;
+				}
+
+				if (s.length == 7) s.push(s[3], s[3], s[2], s[2]);
+
+				var matched = false;
+				var hole = null;
+				for (var j = 0; !matched && j < homes.length; j++)
+					if (homes[j] === null) hole = j;
+					else if (homes[j][0] == s[0]) {
+						matched = true;
+						homes[j] = s;
+					}
+
+				if (!matched)
+					if (hole !== null) {
+						homes[hole] = s;
+					}
+					else {
+						homes.push(s);
+					}
+			}
+			setMarkers(map);
+	}
+
+	function delphoto(pid) {
+		  $.ajax({
+				url:'http://yezhu.sinaapp.com/wxlink.php?link=' + link + '&MOD_op=delphoto&image=' + pid,
+				global:false
+		  });
+		  if (photos.length == 0) {
+			document.getElementById('td' + pid).innerHTML='';
+			return;
+		  }
+		  for (var i = 0; i < photos.length; i++)
+			  if (photos[i].length == 2 && photos[i][1] == pid) photos[i] = new Array();
+		  showphotos();
+	}
+
+	function showphotos() {
+		var html = '<table>';
+		var j = 0;
+		for (var i = 0; i < photos.length; i++) {
+			if (photos[i].length == 0) continue;
+			if (j % 3 == 0) html += '<tr>';
+			j++;
+			html += '<td width=32% height=25%>' + photos[i][0] + '</td>';
+			if (j % 3 == 0) html += '</tr><tr><td height=3px colspan=5> </td></tr>';
+			else html += '<td width=1px></td>';
+		}
+		if (j % 3 != 0) html += '</tr>';
+		html += '</table>';
+		document.getElementById('pics').innerHTML = html;
+	}
+
+    function getConfirmation(url){
+        var retVal = confirm('确认删除房源？');
+         if( retVal == true ){
+              window.location.href = url;
+              return true;
+         }
+         else return false;
+    }
+
+	function closepreview() {
+		document.getElementById("preview").style.display = "none";
+		document.getElementById("slider_frame").style.display = "block";
+		document.getElementById("normal").style.display = "block";
+	}
+
+	function previewImage(url) {
+		var prevw = document.getElementById("preview");
+		prevw.innerHTML = "<a href=# onclick='javascript:closepreview();'><img src=" + url + " width=100%></a>";
+		prevw.style.display = "block";
+		document.getElementById("normal").style.display = "none";
+		document.getElementById("slider_frame").style.display = "none";
+	}
+
+  function getFormJson(frm) {
+	var o = {};
+	var a = $(frm).serializeArray();
+	$.each(a, function () {
+		if (o[this.name] !== undefined) {
+			if (!o[this.name].push) {
+				o[this.name] = [o[this.name]];
+			}
+			o[this.name].push(this.value || '');
+		} else {
+			o[this.name] = this.value || '';
+		}
+	});
+			
+	return o;
+  }
+
+  function getHouseDirection(hid, mlat, mlng) {
+	  tries++;
+	  wx.getLocation({
+		type: 'wgs84', // 默认为wgs84的gps坐标
+		success: function (res) {
+			lat = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+			lng = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+			if (lat ==0 && lng == 0) {
+				if (tries > 3) {
+					if (mlat == 0 && mlng == 0) {
+						alert('无法获取您当前位置，请确定您已经打开GPS定位功能。');
+						tries = 1;
+						return;
+					}
+					else {
+						lat = mlat;
+						lng = mlng;
+					}
+				}
+				else {
+					setTimeout('getHouseDirection()', 5000); 
+					return;
+				}
+			}
+			window.location.href = './wxlink.php?link=' + link + '&MOD_op=getDirection&house=' + hid + '&lat=' + lat + '&lng=' +lng;
+		},
+		fail: function() {
+			if (tries > 3) {
+				if (mlat == 0 && mlng == 0) {
+					alert('无法获取您当前位置，请确定您已经打开GPS定位功能。');
+					tries = 1;
+				}
+				else window.location.href = './wxlink.php?link=' + link + '&MOD_op=getDirection&house=' + hid + '&lat=' + mlat + '&lng=' + mlng;
+			}
+			else setTimeout('getHouseDirection()', 5000); 
+		}
+	});
+}
+
+function getLocation() {
+	wx.getLocation({
+		type: "wgs84", // 默认为wgs84的gps坐标
+		success: function (res) {
+			lat = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+			lng = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+			document.nhform.lat.value = lat;
+			document.nhform.lng.value = lng;
+			getaddress();
+		},
+		fail: function() {
+			setTimeout("getLocation();", 3000);
+		}
+	});
+}
+
+function addrdone() {
+	document.getElementById('map').style.display = 'none';
+	document.getElementById('addrcombo').style.display = 'inline-block';
+	document.getElementById('adrstatus').style.display = 'none';
+	$.ajax({
+		url:'http://yezhu.sinaapp.com/wxlink.php?link=' + link + '&MOD_op=nearbyxiaoqu&lim=10&lat=' + lat + '&lng=' + lng + '&province=' + document.nhform.province.value + '&city=' + document.nhform.city.value,
+		type:'get',
+		global:false,
+		dataType:'json',
+		success: function(resp) {
+			if(resp.status === 'OK') {
+				var adc = resp.results;
+				var sel=document.getElementById('address_sel');
+				for (var i = 0; i < adc.length; i++) {
+					var option = new Option(adc[i].name, adc[i].name);
+					sel.add(option);
+				}
+				sel.selectedIndex = 0;
+				document.getElementById('address').value = adc[0].name;
+				adc = resp.neighbor;
+				sel=document.getElementById('neighbor_sel');
+				for (i = 0; i < adc.length; i++) {
+					var option = new Option(adc[i], adc[i]);
+					sel.add(option);
+				}
+				sel.selectedIndex = 0;
+				if (adc.length) document.getElementById('neighbor').value = adc[0];
+				formatdeftitle();
+			}
+		},
+	});
+}
+
+function selPaymethod(obj) {
+	if (obj.value == 3) {
+		// RMB payment
+		document.body.scrollTop = 0;
+		document.getElementById('rmbpayment').style.display = 'block';
+	}
+}
+
+
+//	alert('allmap');
+		var router = null;
+
+
+	    $(window).on('message',function(message){
+	    	var data = message.originalEvent.data;
+//	alert('message = ' + JSON.stringify(data));
+//			try{/*这里是为了兼容IE9*/
+//				data = JSON.parse(data);
+//			}catch(e){}
+//	alert('parsed = ' + JSON.stringify(data));
+			var address;
+			if (data.begin && data.end) {
+				begin = data.begin;
+				end = data.end;
+			}
+			else begin = end = -1;
+
+			locateMode = false;
+
+			if (data.op == 'locate') {
+				var g = '';
+				if (data.province) {
+					address = data.province;
+					g = ',';
+				}
+				if (data.city) {
+					address += g + data.city;
+					g = ',';
+				}
+				if (data.district) {
+					address = g + data.district;
+					g = ',';
+				}
+				if (data.address) address = g + data.address;
+				data.address = address;
+				locateMode = true;
+				deflng = deflat = 0;
+				houseid = data.hid;
+				if (data.longtitude && data.latitude) {
+					deflng = data.longtitude;
+					deflat = data.latitude;
+					var param = {op:'locate', lat:deflat, lng:deflng, house:houseid};
+					window.parent.postMessage(param, "*");
+				}
+			}
+			if (data.op == 'route') locateMode = 'route';
+
+			if (data.address) {
+				var myGeo = new BMap.Geocoder();
+				address = data.address;
+				myGeo.getPoint(address, geores);
+				function geores(point){
+					if (point){
+						 lng = point.lng;
+						 lat = point.lat;
+						 if (locateMode === true) {
+							if (data.longtitude && data.latitude & LantitudeLongitudeDist(deflng, deflat, data.longtitude, data.latitude) < 0.5) {
+								lng = data.longtitude;
+								lat = data.latitude;
+							}
+							deflng = lng;
+							deflat = lat;
+							var param = {op:'locate', lat:deflat, lng:deflng, house:houseid};
+							window.parent.postMessage(param, "*");
+						 }
+						showMap(data);
+					}else{
+						var seg = address.split(","), g = '';
+						address = '';
+						for (var i = 0; i < seg.length-1; i++) {
+							address += g + seg[i]; g = ', ';
+						}
+						if (address == '') {
+							if (data.longtitude && data.latitude) {
+								lng = data.longtitude;
+								lat = data.latitude;
+							}
+//							alert('没有找到对应的经纬度，请检测地址是否正确！');
+							showMap(data);
+						}
+						else myGeo.getPoint(address, geores);
+					}
+				}
+			}
+			else if (data.longtitude && data.latitude) {
+				lng = data.longtitude;
+				lat = data.latitude;
+				showMap(data);
+			}
+			else {
+//				alert('没有收到位置信息');
+				showMap(data);
+			}
+
+			if (data.op == 'route') {
+				map.enableDragging();
+				var point;
+
+				if (data.src) point = new BMap.Point(data.src.longtitude, data.src.latitude);
+				else point = new BMap.Point(lng, lat);
+
+				var bicon = new BMap.Icon('http://api.map.baidu.com/img/markers.png', new BMap.Size(23, 25), {  
+                        offset: new BMap.Size(10, 25), // 指定定位位置  
+                        imageOffset: new BMap.Size(0, 0 - 10 * 25) // 设置图片偏移  
+                    });
+
+				defmarker = new BMap.Marker(point, {enableDragging:true, icon: bicon}); // 创建点
+
+				defmarker.addEventListener("dragend", function (e) {
+					deflng = e.point.lng;
+					deflat = e.point.lat;
+					route(deflng, deflat);
+				});
+				map.addOverlay(defmarker);
+
+				if (data.src) route(data.src.longtitude, data.src.latitude);
+				locateMode = 'route';
+				
+				router = new BMap.DrivingRoute(map, {map:map, renderOptions: {map:map, autoViewport:true, selectFirstResult: true, highlightMode: BMAP_HIGHLIGHT_ROUTE | BMAP_HIGHLIGHT_STEP}});
+				router.setSearchCompleteCallback(
+					function (e) {
+						var plan = e.getPlan(0);
+						var rt = plan.getRoute(0);
+						var n = rt.getNumSteps();
+						var s = '';
+						for (var i = 0; i < n; i++) {
+							var st = rt.getStep(i);
+							s += st.getDescription(true);	// + st.getDistance();
+						}
+						window.parent.postMessage({op: 'direction', 'msg':s}, "*");
+					});
+			}
+
+			function	showMap(data) {
+				// 百度地图API功能
+				if (!map) map = new BMap.Map("allmap");
+				
+				map.clearOverlays();
+
+				var originPoint = new BMap.Point(lng, lat);
+//				map.addControl(new BMap.ZoomControl());
+				map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放 
+
+//				map.showUserLocation(false);		// close GPS
+
+				var opts = {
+					width : 20,    // 信息窗口宽度
+					height: 80,     // 信息窗口高度
+					title : ""  // 信息窗口标题
+				}
+				infowindow = new BMap.InfoWindow(address, opts);  // 创建信息窗口对象
+				map.centerAndZoom(originPoint, zoom);
+
+	/*
+					$.ajax({
+						method: "GET",
+						url:"/baas/bmap/api/convertLocation",
+						cache:false,
+						data:{
+							longitude:longitude,
+							latitude:latitude
+						}
+					}).done(function(result) {
+						var bmapResult = JSON.parse(result);
+						var opts = {
+							width : 20,    // 信息窗口宽度
+							height: 20,     // 信息窗口高度
+							title : ""  // 信息窗口标题
+						}
+						var bmPoint = new BMap.Point(bmapResult.result[0].x,bmapResult.result[0].y);
+						var infowindow = new BMap.InfoWindow(address, opts);  // 创建信息窗口对象
+	//					map.openInfoWindow(infowindow,bmPoint); //开启信息窗口
+						map.centerAndZoom(bmPoint, 20);
+					});
+				  }
+	*/
+				  if (locateMode) {
+					map.enableDragging();
+					var point = new BMap.Point(lng, lat);
+
+					if (locateMode === true) {
+						defmarker = new BMap.Marker(point, {enableDragging:true}); // 创建点
+						defmarker.addEventListener("dragend", function (e) {
+							deflng = e.point.lng;
+							deflat = e.point.lat;
+							var param = {op:'locate', lat:deflat, lng:deflng, house:houseid};
+							window.parent.postMessage(param, "*");
+						});
+						map.addOverlay(defmarker);
+					}
+					else {
+						var dfm = new BMap.Marker(point); // 创建点
+						map.addOverlay(dfm);
+					}
+				  }
+				  else if (data.marks) {
+						for (var i = 0; i < data.marks.length; i++) {
+							var point = new BMap.Point(data.marks[i].Longitude, data.marks[i].Latitude);
+							var dfm = new BMap.Marker(point); // 创建点
+							map.addOverlay(dfm);
+						}
+				  }
+
+				  resize(map);
+
+				  map.addEventListener('zoomend', function(e){
+						resize(map);
+				  });
+			}
+		});
+/*
+    	$(function(){
+			if (!map) {
+				var premap = new BMap.Map("allmap");
+				var preOriginPoint = new BMap.Point("116.45764191999997","39.8622934399999");
+				premap.addControl(new BMap.ZoomControl());
+				premap.centerAndZoom(preOriginPoint, 20);
+			}
+    	});
+*/
+	function route(slng, slat) {
+		var end  = new BMap.Point(lng, lat);
+		var start = new BMap.Point(slng, slat);
+		router.search(start, end);
+	}
+
+	var _SlideshowTransitions = [ {$Duration: 1400, $Opacity: 2, $Brother: { $Duration: 2000, $Opacity: 2} } ];
+
+	function showSlide() {
+			var sl = document.getElementById("slider1_container");
+			var winWidth;
+			if (window.innerWidth) winWidth = window.innerWidth;
+			else if ((document.body) && (document.body.clientWidth)) winWidth = document.body.clientWidth;
+
+			sl.style.width = winWidth + 'px';	// min(screen.width, 320);
+			sl.style.height = document.body.clientHeight * 3 / 10 + 'px';	// min(screen.height * 4 / 10, 227);
+			sl = document.getElementById("slides");
+			sl.style.width = winWidth + 'px';	// min(screen.width, 320);
+			sl.style.height = document.body.clientHeight * 3 / 10 + 'px';	// min(screen.height * 4 / 10, 227);
+
+			jQuery(document).ready(function ($) {
+			    var options = {
+				$FillMode: 1,                                       //[Optional] The way to fill image in slide, 0 stretch, 1 contain (keep aspect ratio and put all inside slide), 2 cover (keep aspect ratio and cover whole slide), 4 actuall size, default value is 0
+				$DragOrientation: 3,                                //[Optional] Orientation to drag slide, 0 no drag, 1 horizental, 2 vertical, 3 either, default value is 1 (Note that the $DragOrientation should be the same as $PlayOrientation when $DisplayPieces is greater than 1, or parking position is not 0)
+				$AutoPlay: true,                                    //[Optional] Whether to auto play, to enable slideshow, this option must be set to true, default value is false
+				$AutoPlayInterval: 1500,                            //[Optional] Interval (in milliseconds) to go for next slide since the previous stopped if the slider is auto playing, default value is 3000
+				$SlideshowOptions: {                                //[Optional] Options to specify and enable slideshow or not
+				    $Class: $JssorSlideshowRunner$,                 //[Required] Class to create instance of slideshow
+				    $Transitions: _SlideshowTransitions,            //[Required] An array of slideshow transitions to play slideshow
+				    $TransitionsOrder: 1,                           //[Optional] The way to choose transition to play slide, 1 Sequence, 0 Random
+				    $ShowLink: true                                    //[Optional] Whether to bring slide link on top of the slider when slideshow is running, default value is false
+				}
+			    };
+
+				var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+		});
+	}
+
+  var EARTH_RADIUS = 6378137;//赤道半径(单位m)  
+      
+  function rad(d)  {  
+       return d * Math.PI / 180.0;  
+  }  
+      
+    /** 
+     * 基于余弦定理求两经纬度距离 
+     * @param lon1 第一点的精度 
+     * @param lat1 第一点的纬度 
+     * @param lon2 第二点的精度 
+     * @param lat3 第二点的纬度 
+     * @return 返回的距离，单位km 
+     * */  
+    function LantitudeLongitudeDist(lon1, lat1, lon2,  lat2) {  
+        var radLat1 = rad(lat1);  
+        var radLat2 = rad(lat2);  
+  
+        var radLon1 = rad(lon1);  
+        var radLon2 = rad(lon2);  
+  
+        if (radLat1 < 0)  
+            radLat1 = Math.PI / 2 + Math.abs(radLat1);// south  
+        if (radLat1 > 0)  
+            radLat1 = Math.PI / 2 - Math.abs(radLat1);// north  
+        if (radLon1 < 0)  
+            radLon1 = Math.PI * 2 - Math.abs(radLon1);// west  
+        if (radLat2 < 0)  
+            radLat2 = Math.PI / 2 + Math.abs(radLat2);// south  
+        if (radLat2 > 0)  
+            radLat2 = Math.PI / 2 - Math.abs(radLat2);// north  
+        if (radLon2 < 0)  
+            radLon2 = Math.PI * 2 - Math.abs(radLon2);// west  
+        var x1 = EARTH_RADIUS * Math.cos(radLon1) * Math.sin(radLat1);  
+        var y1 = EARTH_RADIUS * Math.sin(radLon1) * Math.sin(radLat1);  
+        var z1 = EARTH_RADIUS * Math.cos(radLat1);  
+  
+        var x2 = EARTH_RADIUS * Math.cos(radLon2) * Math.sin(radLat2);  
+        var y2 = EARTH_RADIUS * Math.sin(radLon2) * Math.sin(radLat2);  
+        var z2 = EARTH_RADIUS * Math.cos(radLat2);  
+  
+        var d = Math.sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2)+ (z1 - z2) * (z1 - z2));  
+        //余弦定理求夹角  
+        var theta = Math.acos((EARTH_RADIUS * EARTH_RADIUS + EARTH_RADIUS * EARTH_RADIUS - d * d) / (2 * EARTH_RADIUS * EARTH_RADIUS));  
+        return theta * EARTH_RADIUS;  
+    }
+
+    </script>
+</body>
+</html>

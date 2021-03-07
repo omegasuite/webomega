@@ -1,0 +1,63 @@
+da:|:fatcat
+a:|:Admin Menu:|:Administationsmenu
+a:|:Are you sure you want to delete this category and all the categories beneath it:|:Er du sikker på, at du vil slette denne kategori og alle katagorier under den?
+a:|:Categorizes all of the information on your site.:|:Opretter og vedligeholder kategorier, som de øvrige moduler kan anvende til indeksering
+a:|:Category Information:|:Kategori information
+a:|:Category Updated:|:Kategori opdateret
+a:|:Category created:|:Kategori oprettet
+a:|:Confirm Deletion of Category:|:Godkend sletning af kategori
+a:|:Create Category:|:Opret kategori
+a:|:Create Icon from Image:|:Lav ikon fra billede
+a:|:Default Icon:|:Standard ikon
+a:|:Default icon set:|:Standard ikon gemt
+a:|:Delete Category:|:Slet kategori
+a:|:Disable What's Related:|:Fravælg relaterede
+a:|:Edit Category:|:Ret kategori
+a:|:Enable What's Related:|:Vælg relaterede
+a:|:FatCat Administration Menu:|:Kategori administration
+a:|:Go Back:|:Tilbage
+a:|:Icon:|:Ikon
+a:|:Image:|:Billede
+a:|:Limit Set:|:Begrænsning sat
+a:|:Missing Title:|:Manglende titel
+a:|:No description available:|:Beskrivelse ikke tilgængelig
+a:|:Parent:|:Overniveau
+a:|:Remove Icon:|:Fjern ikon
+a:|:Remove Image:|:Fjern billede
+a:|:Set Default Icon:|:Vælg standard ikon
+a:|:Set Limit:|:Sæt begrænsning
+a:|:Sticky:|:Fastlåst
+a:|:Submitted image was too wide:|:Registrerede billede var for bredt
+a:|:Template:|:Skabelon
+a:|:Title:|:Titel
+a:|:Top Level:|:Top niveau
+a:|:Top Level Category:|:Top niveau kategori
+a:|:Update Category:|:Opdater kategori
+a:|:Upload:|:Upload
+a:|:Use Current:|:Brug nuværende
+a:|:Use the selected templates only:|:Brug kun de valgte skabeloner
+a:|:What's Related:|:Relaterede
+a:|:What's Related Limit:|:Relaterede artikler begrænsning
+a:|:You cannot thumbnail gif files:|:Du kan ikke vise miniaturebilleder på gif filer
+a:|:You may only submit jpg, png, or gif image files:|:Du kan kun registrer jpg, png, eller gif billedfiler
+a:|:Cannot create icons from gif files:|:Kan ikke lave ikoner fra gif filer
+a:|:Category Created:|:Kategori oprettet
+a:|:Category updated:|:Kategori opdateret
+a:|:Description:|:Beskrivelse
+a:|:Icon not saved:|:Ikon er ikke gemt
+a:|:Image not saved:|:Billede er ikke gemt
+a:|:No:|:Nej
+a:|:No Categories Available:|:Ingen tilgængelige kategorier
+a:|:No templates found:|:Ingen skabeloner fundet
+a:|:None:|:Ingen
+a:|:Set Name:|:Navngiv
+a:|:There are currently no items to display.:|:Der er i øjeblikket ingen elementer at vise.
+a:|:Unable to copy [var1] to [var2]:|:Det var ikke muligt at kopiere [var1] til [var2]
+a:|:Uncategorized Label:|:Ukategoriseret mærke
+a:|:Uncategorized name set:|:Ukategoriseret navn
+a:|:Yes:|:Ja
+a:|:You may only submit [var1] files:|:Du kan kun sende [var1] filer
+a:|:[var1] does not exist:|:[var1] findes ikke
+a:|:Children:|:Underniveau
+a:|:Fatcat Categorizer:|:Kategorier
+a:|:These might interest you as well:|:Relaterede emner

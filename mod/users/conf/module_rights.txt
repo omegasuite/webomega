@@ -1,0 +1,4 @@
+permissions::Set Permissions
+deleteUsers::Delete Users
+deleteGroups::Delete Groups
+settings::Administrative Settings

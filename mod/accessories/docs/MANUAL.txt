@@ -1,0 +1,85 @@
+Users Administration
+by Matthew McNaney
+
+Introduction
+The 0.9.x series of phpWebSite took a large leap forward in regards to user administration. If you recall, in the 0.8.x software, you had only had one level of administration. If you were an admin, you had total access to the system.
+Besides admins, there were users. They didn't have any authorization. So you either had complete power or none at all.
+
+PhpWebSite 0.9.x supports “granulated administration.” This means that the administrator can assign permissions on a per user basis. For example, the admin could assign a user the ability to create announcements, but not allow them the ability to delete them.
+
+There isn't a separation of users and admins anymore. There are only users with varying degrees of permissions. For the sake of simplicity, I will refer to users who have the ability to use the User module as "admins."
+
+In the 0.9.x series, there is a designation of total power that a user can obtain: deity status. A deity can do anything in phpWebSite. You do not have to set any other permissions for the deity. They also have access to some modules that mere mortal admins do not.
+
+Another change is the inclusion of groups. These allow you to bundle users together. These users will then inherit the permissions of the group without losing their personal permissions.
+
+Getting Started
+Users is an Administration module. Go under that tab in the Control Panel and click Users Administration link. You will see a panel of commands at the top of the screen and a welcome message. We will get started by adding an user.
+
+Adding Users
+Usually the best way to add a new user is to let them do it themselves. That way they can enter their own information. However, if you have a closed site or just prefer to do it yourself, you may enter them manually.
+Under the user administration screen, click Add User. You will be taken to a form.
+
+Administrator: This must be checked if you want the user to use the administrative functions in the system.  If it is unchecked, they will not be able to use any of the administrative modules. (Note: this will change in version 0.9.3. The check box will be replaced with a switch that will forbid users to log in).
+
+Username: The log in name for the user. It must contain letters, numbers, and/or underscores only. The username also must not already be in use.
+
+Password: The password must be over five characters in length. You may also get a warning if the password is too easy (e.g. using "password", "passpass", etc.). Type the same password in the "match" field.
+
+Email: The email address of the user. Not required when you create the user but it would be best to enter now or remind them to enter it later. If the system can't find a way to contact them, the user might have problems down the road.
+
+If you entered the information correctly, clicking the Create User button will add the user to the database. (Note: If you want to learn about groups and permissions now, skip down to those sections).
+
+Managing Users
+Using the Manage Users link on the user panel will allow you to access the users in your system. If you don't have many users, you may see them on the list. As your site grows, you might get more users than can be listed on one screen alone. To find that user, there are a couple of options available to you.
+
+Search: If you know the name of the user (or a portion of it), you can use search. Just type the name in and click Go. The user module will return a list of possible matches.
+
+Alphabet: At the top of the Manage Users screen is a listing of letters A through Z. If you click on one of these letters, a list of users whose usernames starting with that letter will appear. Clicking on "ALL" will return the complete list again.
+
+Pages and Limits
+Sometimes the amount of users surpasses what you can view on the screen, even after a search. These users will be split up into pages. You can navigate through these pages one-by-one by clicking the left and right arrows or skip directly to a page by clicking on that number.
+If you want to control how many users are shown per page, click that number under Limits.
+
+Other Options
+The Manage Users page allows you to perform a few quick actions on users.
+You can change a user's administrative status by clicking "Yes" or "No" under the Admin column. (Note: as mentioned earlier, this will change to a option to disable user accounts).
+If you want to make changes to an user's account, click the "Edit" link. You will come to the same screen used in creating an user. Make your changes and click the "Update User" button.
+You can also delete a user by click on the Delete link. You will receive a warning before the final deletion.
+Finally, if you are a Deity, you can make a user one as well. Only a Deity can make another user a Deity. Do not make this decision lightly. That user will have full control of the site and, unlike other users, will have the ability to change or delete your account.
+
+Permissions
+All modules with administrative functionality have permissions. You can assign one or more of these permissions to users.
+Go into a user account and you should see a list of modules. Some of the modules have sub-permissions. If you want the user have permission to use the module, just click the check box to the left of the module name. If you want them to have sub-permissions, click the check box to the left of it.
+Let's take a look at an example. Let's say we have a new user named Larry. First I would make sure the Administrator check box is checked. He won't be able to administrate any of these modules otherwise. We want him to be able to create and edit users. It so happens that this is a basic functionality for this module. So I check the box next to User Manager.
+There are some sub-permissions for the User Manager. If I check Set Permissions, then I am pretty much giving him full access to the system (he will be able to edit his own permissions). So I leave that unchecked. I have decided Larry can delete users if he needs to so I will check that box. I do not want him to be able to Delete Groups so I will leave that unchecked. Finally, there is no reason he should be able to change any of the Administrative Settings so I will leave that blank as well.
+That's all there is to it. I would then go through all the other modules and decide if Larry needs access to them. When I was satisfied, I would click the Create User button (or Update User if he was already in the system) and Larry would be ready to go. The next time he logged in, he would be able to access the modules I set for him.
+(Note: 0.9.2 does not support permissions per element. For example I can't assign permission for only one person to edit a specific PageMaster page. This functionality will be available in version 0.9.3.)
+
+Groups
+A group of users all share the same permissions. This makes assigning permissions to users much faster as I only have to set them in one place.
+To create a group, click on the Add Group link on the user panel. Next enter the title of the group and a description if you like.
+Below that you will see two columns. The column on the left contains the users that are in this group. The column on the right is a list of users not in the group. Select the users you want in the group in the right box and click the Add Member button. Alternately, select the users you want to remove from a group and click the Drop Member button.
+Finally, select the permissions for that group just as you did for users. Click the Create Group button when you are satisfied with the results.
+
+Inheritance
+Users will inherit the permissions from the groups they are in. These permissions will NOT overwrite the permissions from another group nor will they cancel out the permissions set for that user. So if you have a group that is just for those who can enter announcements and you have another group  who can create new calendar entries only, both those rights will be inherited by the user. Just because one group doesn't allow something the other group allows, doesn't mean they will cancel each other out.
+If you go to the Manage Users screen and Edit a user you previously put into a group, you should now see that fact listed. You can remove the user or add their membership to a group from this page.
+You may also notice another column added to the permissions portion of the user form. It indicates whether the user is receiving permissions from their groups. The Inherits column will print "Yes" if they do or "No" if they do not.
+
+Manage Groups
+The Manage Groups page lists the groups currently in your system. You may click on the Edit link next to the group name to alter the members, permissions, title or description. You can also click the Delete link to remove a group permanently from the system. Removing a group will not delete the users in that group.
+
+Settings
+The final section you need to be aware of is the Setting page. You can access it by click on the Settings link in your user panel.
+
+Contact Information: If you allow users to sign up for an account, you will need to fill in this information. The "User Email Contact" is the "From:" address the users will see when they get their notice. The "Subject Line" appears as the subject of the email. Finally  the "Greeting" will form the body of the message. Make sure you identify who you are, why they are receiving this email, how to contact you, and a web address to get to the site. The Contact Information is also used for the "Forgot Password" functionality.
+
+Allow New User Setup: Determines if you want users to have the ability to open an account. If set to "None" they will not be able to. "All users can apply" lets them sign up and immediately receive their confirmation email. Finally, "Only approved users can apply" allows them to sign up but requires someone to approve their account via the Approval module. After approved, they will receive their confirmation.
+
+Authentication Method: Normally, you should just keep this set to "Local Database". If you are using an alternate authentication method, type in the name of the file you are using to do so.
+
+Show Login Box: If this is unchecked, the log in box will not appear until after the user has signed in. To get signed in, users would need to go to the "admin" directory in your web site. (e.g. http://www.myphpwebsite.org/admin/). This page has a log in section.
+
+Conclusion
+That should get you started with the users module. If you have any questions, please visit the Sourceforge forums. Any comments or questions about this document should be directed to me at matt@NOSPAMtux.appstate.edu (remove the NOSPAM).

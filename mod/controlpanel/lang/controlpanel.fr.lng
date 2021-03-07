@@ -1,0 +1,48 @@
+fr:|:controlpanel
+a:|:A bulletin board module.:|:Pour gérer les forums du panneau d'affichage
+a:|:Allow you to manage Quizes:|:Vous permet de gérer les Quiz
+a:|:Allows you to approve elements from different modules in one convenient place.:|:Pour votre confort, un seul espace regroupe l'ensemble des validations issues des différents modules.
+a:|:Allows you to change your email address and password.:|:Pour changer votre adresse email ou votre mot de passe.
+a:|:Allows you to set your contact information.:|:Pour définir vos informations personnelles (fiches de contact).
+a:|:Assists developers in the creation and editing of module settings.:|:Pour aider les développeurs dans la création et la modification des réglages de modules.
+a:|:Categorizes all of the information on your site.:|:Pour classer toutes les informations de votre site.
+a:|:Contacts provides extended user information.:|:Pour gérer vos listes de contacts.
+a:|:Creates branch sites off your hub code.:|:Créer des sites branche sur votre arbre.
+a:|:Desc Off:|:Sans description
+a:|:Desc On:|:Avec description
+a:|:Document Manager allows you to manage documents which can have mutiple files associated with it.:|:Pour gérer les pages qui ont plusieurs fichiers associés.
+a:|:Event calendar for phpWebSite.:|:Pour gérer les événements du calendrier.
+a:|:Go here to create and edit your site&#39;s polls.:|:Pour créer et modifier les votes sur votre site.
+a:|:Go here to create and edit your site&#39;s web pages.:|:Pour créer et modifier les pages de votre site.
+a:|:Go here to create and edit your site's polls.:|:Pour créer et modifier les votes de ce site.
+a:|:Go here to create and edit your site's web pages.:|:Pour créer et modifier les pages de votre site.
+a:|:Go here to create online forms that can be viewed and filled out by your site visitors. Reports can be made on the data submitted.:|:Pour créer des formulaires en ligne qui pourront être lus et remplis par vos visiteurs. Vous pouvez obtenir des comptes-rendus sur les données soumises.
+a:|:Go here to post articles, information & web pages.:|:Pour créer vos articles et autres pages de votre site
+a:|:Go here to post files and documents that your site visitors might be interested in.:|:Pour publier les fichiers et documents que vous souhaitez mettre à disposition de vos visiteurs.
+a:|:Go here to send notes to other users on this site.:|:Pour envoyer des notes aux autres utilisateurs de ce site.
+a:|:Image Off:|:Sans icone
+a:|:Image On:|:Avec icone
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface d'installation, désinstallation et de mise à jour des modules.
+a:|:Language Administrator:|:Gestion des langues
+a:|:Layout Admin:|:Gestion de la mise en page
+a:|:LeagueSite is a PHPWebSite module that adds roster, statistic, and schedule information onto the PHPWS base.:|:LeagueSite est un module phpWebSite qui vous permet de gérer le site d'une équipe sportive (composition équipe, résultats...).
+a:|:Lets you administrate the language options for your site.:|:Pour gérer les options de langue de votre site.
+a:|:Lets you control the look and layout of your site.:|:Pour contrôler l'aspect et la mise en page de votre site.
+a:|:Lets you create and edit users and groups.:|:Pour créer et modifier les utilisateurs et les groupes.
+a:|:Lets you create and manage Mailing Lists.  Send the mass mailings here!:|:Pour créer et gérer des listes de diffusion, ce module envoie tous vos mailings.
+a:|:Lets you pick a different theme to view the site.:|:Pour choisir le thème avec lequel s'affiche ce site.
+a:|:Lets you pick the language to display the site in.:|:Pour choisir la langue dans laquelle vous voulez voir ce site.
+a:|:Lets you subscribe and unsubscribe from website mailing lists.:|:Pour vous inscrire ét vous désinscrire des listes de diffusion de ce site web.
+a:|:Link to and display RSS news feeds from other sites.:|:Pour gérer les liens de syndication RSS.
+a:|:Maintain a list of available positions for an organization.:|:Pour maintenir une liste des postes à pourvoir (offres d'emploi).
+a:|:Maintain a list of staffmembers for an organization.:|:Pour gérer le personnel d'une structure.
+a:|:Manage your phpBB forum.:|:Gestion du forum phpBB.
+a:|:PhpWebsite Debugger is a developer tool used for viewing session and request information.:|:PhpWebsite Debugger est une boite à outils utilisée pour analyser les sessions et les requêtes.
+a:|:Provides an interface to manage a list of frequently asked questions.:|:Pour gérer les listes de questions le plus fréquement posées aussi appelées Foire Aux Questions (FAQs)
+a:|:Search settings allow you to turn on and off the search block for specific modules and change the title for those blocks.:|:Les réglages de la recherche vous permettent d'activer cette fonctionalité ainsi que son titre pour chaque module.
+a:|:The Block Maker allows you to add basic blocks of content to your site.:|:Le gestionnaire de blocs vous permet d'ajouter de blocs simples de contenu à votre site.
+a:|:The Help module allows you to manage help information shown in key areas on your site.:|:Le module d'aide vous permet de gérer toutes les informations affichées à partir des clés d'aide de votre site.
+a:|:The Link Manager allows you to add web links to specific categories for you site.:|:Le gestionnaire de liens vous permet de créer des liens vers les différentes catégories de votre site.
+a:|:The Menu Manager allows you to add and create dynamic menus. Menus are used to link to stuff from your site and other sites.:|:Le gestionnaire de menus vous permet de créer des menus dynamiques.
+a:|:The Photo Album allows you to manage sets of image galleries.:|:Pour gérer des galleries d'album photos.
+a:|:This module is a skeleton module for use by developers when creating a new module.:|:Ce module est un modèle destiné à être utilisé par les développeurs lorsqu'ils créent un nouveau module.

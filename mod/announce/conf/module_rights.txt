@@ -1,0 +1,4 @@
+edit_announcement::发布、编辑公告通知
+delete_announcement::删除公告通知
+activate_announcement::显示、隐藏公告通知
+modify_settings::设置

@@ -1,0 +1,36 @@
+	.onoffdate {
+	    position: relative; width: 40px;
+		display: block;
+		text-align:center;
+	    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+	}
+
+	.onoffdate-checkbox {
+	    display: none;
+	}
+
+	.onoffdate-label {
+	    display: block; overflow: hidden; cursor: pointer;
+	    border: 0px solid #999999; border-radius: 20px;
+	}
+
+	.onoffdate-inner {
+	    width: 80px; height: 40px; padding: 0; line-height: 40px;
+	    background-color: #EEEEEE; color: #EEEEEE;
+	}
+
+	.onoffdate-switch {
+	    width: 40px; margin: 0px;
+	    background: #FFFFFF;
+	    border: 0px solid #999999; border-radius: 20px;
+	    position: absolute; top: 0; bottom: 0; right: 0px;
+	}
+
+	.onoffdate-checkbox + .onoffdate-label .onoffdate-switch {
+	    margin-right: 0px;
+	    right: 0px;
+	}
+
+	.onoffdate-checkbox:checked + .onoffdate-label .onoffdate-inner {
+	    background-color: #34A7C1; color: #34A7C1;
+	}

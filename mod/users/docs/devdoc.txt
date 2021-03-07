@@ -1,0 +1,291 @@
+Development Documentation for Users
+by Matthew McNaney
+
+History
+-------------
+Version 1.0
+First write up.
+
+Version 1.1
+Added Module Settings information
+
+Version 1.2
+Updated Module Settings for new code.
+
+
+Introduction
+-------------
+The user module for phpWebSite covers the user authorization for the entire system.
+The following document includes information for utilizing the user module in your personal module.
+
+Notes
+--------------------
+Square brackets in a function's parameter mean that the variable or variables are not required.
+
+
+Authorization
+-------------
+
+The command for checking if a user has proper authorization is:
+$_SESSION["OBJ_user"]->allow_access("module_name");
+
+When you install your module, its title is automatically used as a permission point. However
+you must call the allow_access function to make it work.
+
+Example:
+
+if ($_SESSION["OBJ_user"]->allow_access("widget_module"))
+  allow_to_continue();
+else
+  user_not_allowed();
+
+The allow_access function considers the user's group permissions as well.
+
+
+Granulated Administration
+-------------------------
+The Users module allows you to enter sub-rights in your module that only certain admin may access. For
+example, in the User module itself, I may want to give Tom the ability to edit and add
+users, but I do not want him to be able to delete them. If you want to "granulate" the
+administration of your module, you need to indicate this in your installation.
+
+To do so, create a file named "module_rights.txt" and save it in your module's conf directory.
+It will look something like this:
+
+add_user::Add Users
+manage_users::Manage Users
+delete_users::Delete Users
+add_group::Add Groups
+manage_groups::Manage Groups
+delete_groups::Delete Groups
+user_settings::Administrative Settings
+
+The text before the double colons is the shorthand for the subright. It should consist of
+alphanumeric characters and/or underlines only.
+
+The second part of the line after the double colons in the proper name. This is what appears
+when the adminstrator is deciding the user's rights. Keep it short but descriptive.
+
+Once you are done save it in the forementioned directory and it will be used. You do not
+need this file. It is only needed if you want subeights in your module.
+
+Admin and Deity Status
+----------------------
+
+There are three conditions which would allow the user to pass the allow_access test.
+1) The user has been assigned rights to this module and their admin switch is on.
+2) The user is in a group that has rights to this module and their admin switch is on.
+3) The user is a deity.
+
+An admin is someone who has their admin switch turned on. Without it, no matter rights they
+have, they cannot get in. Once it is on, then they get permissions to all their modules.
+
+When you first install phpWebSite, you are given Deity status. A deity can do many things
+a mere moral user cannot. As stated above, they instantly get access to all module. Also, some
+modules are installed as deity only modules. Most users do not even see those.
+
+Finally, only deities can create or remove other deities in the user modules. In some cases,
+regular users won't even see the deity. This is great for when you install a web site for someone
+else and you don't want them to remove your user.
+
+So, a deity is a powerful entity. How many should you have? One. Only one person needs to
+truly administer the site. Other admins can control users and other functions. If you must
+create another deity, do so, but do it sparingly.
+
+
+Cookies
+-------------
+There are two types of cookies sent from your web site. The first one is the user administration
+cookie. It will allow you log back in without entering your password, but only for a short time.
+There is an option for the admin to set the cookie timeout to higher than ten minutes, but it really
+should not be set higher. If someone has the power of an admin, they should have to log in every time
+they get online.
+
+The site hash matches your site only so (hopefully) another site can't hijack that cookie. The
+value of the hash is a random hash. This is saved in the database. When you reconnect, this value
+is matched to the database and it returns your user identification number. If your time is up,
+the cookie is killed, the database entry cleaned, and you have to log back in.
+
+The other cookie is for general user information. You should NEVER put personal information in
+this cookie. It is for convenience only (for example, your language settings are kept in the
+general cookie). Because browsers will only accept a limited amount of cookies from your server,
+and since we have already used one of them, all modules will use this one cookie.
+
+Here is how it works. Say you want to send something to be stored in the cookie. You would send:
+$_SESSION["OBJ_user"]->cookie_write("module_name", "variable_name", "value");
+
+So if I wanted to store someones age:
+$_SESSION["OBJ_user"]->cookie_write("birthday_reminder", "age", 34);
+
+Now if I want to get that age of that user, all I need to do is call:
+$_SESSION["OBJ_user"]->cookie_read("module_name", "variable_name");
+
+Like so:
+$user_age = $_SESSION["OBJ_user"]->cookie_read("birthday_reminder", "age");
+echo $user_age; // Prints 34
+
+If you wanted to eliminate that setting from the user cookie call:
+$_SESSION["OBJ_user"]->cookie_unset("module_name", "variable_name");
+
+Like so:
+$_SESSION["OBJ_user"]->cookie_unset("birthday_reminder", "age");
+
+Now the "age" variable would no longer be in the user cookie.
+
+
+User Module Settings
+---------------------------------
+There is another way to set variables to a user for your module. It works much like the cookie
+functions but the information is stored in the database, not client side. You can set variables
+for both users and for groups.
+
+$OBJ_user->setUserVar($variable_name, $variable_value[, $user_id, $module_title])
+
+variable_name is the name of the variable. So if I had a setting for my user in my module
+named "number_of_requests" I would set:
+
+$variable_name = "number_of_requests";
+
+variable_value is the value you wish to apply to the variable name. So if the user had 10
+requests.
+
+$variable_value = 10;
+
+Bby default, the function will pull the id number of the user currently logged in. So if I wanted
+to get information on the current user passed to my module, I would not need to include it.
+However, there may come a time when you need to get a variable outside of the current user (say the
+user who is logged in is making changes to a different user). In that case, send the
+user_id you need to update.
+
+The User Module will usually pick up the module_title of the mod that is calling it. Should it
+fail to do so, you can call it in your function call.
+
+
+Group Module Settings
+-----------------------------------
+
+For groups call
+$OBJ_user->setGroupVar($variable_name, $variable_value[, $group_id, $module_title])
+
+or
+
+PHPWS_User_Groups::setGroupVar($variable_name, $variable_value[, $group_id, $module_title])
+
+Unlike the previous function, it is very likely you will need to send the group_id in your function
+call. Users can be members of several groups, so you will need to specify.
+
+The other parameters are identical in operation to the setUserVar function.
+
+
+Retrieving User's Module Settings
+---------------------------------
+When the user logs in, all his module settings are loaded with him. To retrieve your previously
+set module value call:
+
+$OBJ_user->getUserVar($variable_name[, $user_id, $module_title]);
+
+To match the example above:
+
+$requests = $OBJ_user->getUserVar($variable_name);
+// would set $requests to 10.
+
+Like the above functions, you don't need to send the user_id unless acting outside of the
+currently logged in and module_title is pulled automatically.
+
+
+Retrieving Group's Module Settings
+---------------------------------
+Unlike the above, you probably will need to send the group id. Otherwise, the group function
+is nearly identical.
+
+$OBJ_user->getGroupVar($variable_name [, $group_id, $module_title])
+
+or
+
+PHPWS_User_Groups::getGroupVar($variable_name [, $group_id, $module_title])
+
+See Useful Function to get more information getting group information on a user.
+
+
+Dropping a Module Variable
+----------------------------------
+To remove a module variable from the users settings, call:
+
+$OBJ_user->dropUserVar($variable_name[, $user_id, $module_title]);
+
+Again, send user_id only if acting on a different user object.
+
+For groups:
+$OBJ_user->dropGroupVar($variable_name[, $group_id, $module_title]);
+
+
+
+Cleaning up Module Settings
+----------------------------------
+Should some unthankful slob want to uninstall your glorious module, make sure to run:
+
+$OBJ_user->dropUserModule("your_module_name"[, $user_id, $module_title]);
+and 
+$OBJ_user->dropGroupModule("your_module_name"[ ,$group_id, $module_title]);
+
+You could also use this without the parameter within your module if you just wanted to refresh
+the user settings:
+
+$OBJ_user->dropUserModule();
+and
+$OBJ_user->dropGroupModule();
+
+It should know where it is getting called from.
+
+
+
+Some Useful Functions
+----------------------------------
+
+Here is a listing of some other function you may want to take advantage of. You can use the
+OBJ_user session or create your own object.
+
+
+PHPWS_User($user_id)  : creates a user object with that user's data.
+
+PHPWS_User_Groups($group_id) : Group object constructor
+
+isDeity([$user_id]) : Returns TRUE if the user is a Deity. Without the user_id, the current
+logged user will be used.
+
+checkPassword($pass1, $pass2) : performs error checking on two passwords. Returns an
+array of error messages or NULL if the passwords will work.
+
+getUserId($username) : returns the user_id of a particular username
+
+getUserName ($user_id) : returns the username of a particular user_id
+
+isUser : returns TRUE if the current user has an account.
+
+
+getGroupname($group_id) : returns group name of group_id
+
+userInGroup($group_id[, $user_id]) : returns TRUE if the user is in the group designated
+by the group_id
+
+listUserGroups([$user_id]) : returns an array of groups that the user is a member of. It is
+indexed by the group id and the value is the name of the group.
+
+listMembers($group_id) : returns an array of users in a particular group. The array is indexed
+by the user_id. The values of the array are the usernames.
+
+listAllGroups() : returns an array of groups indexed by group_id.
+
+listUserGroupVars($user_id, $module_title) : returns an array of group variables for a user.
+The array is indexed by the group id and contains an array of the variables and their values.
+
+
+Conclusion
+---------------------
+That is the basics you need to use user authorization.
+
+If you need more information, believe some other functionality needs inclusion, or just
+wish to chit chat, please email: matt@NOSPAM.tux.appstate.edu (remove NOSPAM.)
+
+Best regards,
+Matthew McNaney

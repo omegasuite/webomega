@@ -1,0 +1,199 @@
+de:|:users
+a:|:* Successfully updated user settings.:|:* User Einstellungen erfolgreich geändert.
+a:|:A Problem Occurred:|:Es ist ein Problem aufgetreten
+a:|:A secure cookie will only be sent over a secure connection (HTTPS):|:Ein sicheres Cookie wird nur &uuml;ber eine sichere Verbindung (HTTPS) &uuml;bertragen
+a:|:ALL:|:ALLE
+a:|:Access:|:Zugriff
+a:|:Account Signup:|: Als Benutzer registrieren
+a:|:Add Group:|:Gruppe hinzuf&uuml;gen
+a:|:Add Member:|:Mitglied hinzuf&uuml;gen
+a:|:Add User:|:Benutzer hinzuf&uuml;gen
+a:|:Add Users:|:Ben&uuml;tzer hinzuf&uuml;gen
+a:|:Add to [var1]:|:Zu [var1] hinzuf&uuml;gen
+a:|:Administer your Account:|:Kontoeinstellungen
+a:|:Administrate your Account:|:Verwalten Sie Ihr Benutzerkonto
+a:|:Administrator Modules:|: Administrator-Module
+a:|:Administrator:|:Administrator
+a:|:Admins Only:|:Nur Admins
+a:|:All users can apply:|:Ja, allen Benutzern
+a:|:Allow Cookies:|:Cookies erlauben
+a:|:Allow New User Signup:|:Neuen Ben&uuml;tzern die Anmeldung erlauben
+a:|:Allow:|:Erlauben
+a:|:Allows you to change your email address and password.:|:Erlaubt Ihnen, Mailadresse und Passwort zu &auml;ndern.
+a:|:Another deity will need to change your password:|:Nur eine 'Gottheit' kann das Passwort &auml;ndern
+a:|:Apply for Account:|:Einen Konto beantragen
+a:|:Are you sure you want to delete this user:|:Sind Sie sicher, dass Sie diesen Benutzer l&ouml;schen m&ouml;chten
+a:|:Authentication Method:|:Authentifizierungsart
+a:|:Available Groups:|:Verf&uuml;gbare Gruppen
+a:|:Available Users:|:Verf&uuml;gbare Benutzer
+a:|:Change Cookie Permissions:|:&Auml;ndere Cookie-Berechtigung
+a:|:Change Successful:|:&Auml;nderung erfolgreich
+a:|:Change User Defaults:|:&Auml;ndere Benutzervoreinstellung
+a:|:Change Your Password:|:Eigenes Passwort &auml;ndern
+a:|:Change my Menu:|:Eigenes Men&uuml; &auml;ndern
+a:|:Choose an option from the panel above:|:W&auml;hlen Sie eine der oben angezeigten Optionen
+a:|:Commands:|:Befehle
+a:|:Contact Information:|:Kontaktinformationen
+a:|:Control Panel:|:Kontroll-Panel
+a:|:Cookie Refreshed:|:Cookie aktualisiert
+a:|:Create Group:|:Gruppe erstellen
+a:|:Create User:|:Benutzer erstellen
+a:|:Create a group by clicking on Add Group above:|:Klicken Sie oben auf 'Gruppe hinzuf&uuml;gen', um eine neue Gruppe zu erstellen
+a:|:Default Menu Edit:|:Men&uuml;voreinstellung &auml;ndern
+a:|:Default to Control Panel:|:Standard des Kontrollpanels
+a:|:Deity users are not permitted to use this form:|:'Gottheiten' haben keine Erlaubnis dieses Formular zu benutzen
+a:|:Deity:|:'Gottheit'
+a:|:Directory:|:Verzeichnis
+a:|:Do you wish to remove their status:|:M&ouml;chten Sie deren Status &auml;ndern
+a:|:Domain:|:Domain
+a:|:Done:|:Erledigt
+a:|:Drop Group:|:Gruppe l&ouml;schen
+a:|:Drop Member:|:Mitglied l&ouml;schen
+a:|:Edit Menu Off:|:Men&uuml; ausschalten
+a:|:Edit Menu On:|:Men&uuml; einschalten
+a:|:Edit:|:Bearbeiten
+a:|:Email Address:|:Emailadresse
+a:|:Email:|:Email
+a:|:Enter Again:|:Nochmals eintragen
+a:|:External Authorization is set on site, but authorization file doesn't exist. Please notify system administrator.:|:Externe Authorisation ist aktiviert, aber die Authorisationsdatei existiert nicht. Bitte benachrichtiten Sie den Systemadministrator
+a:|:External Filename:|:Externer Dateiname
+a:|:External PHP function:|:Externe PHP-Funktion
+a:|:Forgot Password:|:Passwort vergessen
+a:|:Forgot Your Password?:|:Passwort vergessen
+a:|:Go to signup page:|:Gehe zur Registrierseite
+a:|:Greeting:|:Gr&uuml;sse
+a:|:Group Name:|:Gruppenname
+a:|:Group created:|:Gruppe erstellt
+a:|:Group updated:|:Gruppe aktualisiert
+a:|:Grüsse:|:Mitteilung
+a:|:Hello [var1]:|:Hallo [var1]
+a:|:Home:|:Home
+a:|:If you think you might already have an account, try the lost password option:|:Wenn Sie sicher sind, dass Sie hier ein Benutzerkonto haben, dann versuchen Sie die Passwort-Vergessen Option
+a:|:In Group:|:In Gruppe
+a:|:In Groups:|:In Gruppen
+a:|:In most cases, this can be left off:|:In den meisten F&auml;llen kann es abgeschaltet bleiben
+a:|:Inherits:|:Vererbungen
+a:|:Insert:|:Einf&uuml;gen
+a:|:Keep in mind that these options only cover user cookies:|:Beachten Sie, das sich diese Funktion nur auf Benutzer-Cookies bezieht
+a:|:Lets you create and edit users and groups.:|:L&auml;sst Sie Benutzer und Gruppen erstellen und bearbeiten.
+a:|:Limit:|:Limite
+a:|:Load:|:Laden
+a:|:Local Database:|:Lokale Datenbank
+a:|:Log In:|:Anmelden
+a:|:Log Out:|:Ausloggen
+a:|:Logout:|:Abgemeldet
+a:|:Make [var1] a Deity:|:Mache [var1] zur 'Gottheit'?
+a:|:Malformed email address:|:Falsch formatierte Email-Adresse
+a:|:Manage Groups:|:Gruppe verwalten
+a:|:Manage Users:|:Benutzer verwalten
+a:|:Manage:|:Verwalten
+a:|:Members:|:Mitglieder
+a:|:Missing Settings:|:Fehlenden Einstellungen
+a:|:Missing adminMenu templates:|:adminMenu-Vorlage fehlt
+a:|:Missing password:|:Passwort fehlt
+a:|:Missing username:|:Benutzername fehlt
+a:|:Module Name:|:Modul-Name
+a:|:Module Rights:|:Modul-Rechte
+a:|:Modules:|:Module
+a:|:Mortal:|:'Sterblich'
+a:|:Name:|:Name
+a:|:Neuen Benützern die Anmeldung erlauben:|:Neuen Benutzern die Anmeldung erlauben
+a:|:New Account Signup:|:Als neuer Benutzer registrieren
+a:|:New users can not be accepted until the admin establishes a contact email:|:Solange der Admin keine Kontakt-Mailadresse angegeben hat, k&ouml;nnen keine neue Benutzer akzeptiert werden
+a:|:No groups available:|:Keine Gruppen verf&uuml;gbar
+a:|:No groups found:|:Keine Gruppen gefunden
+a:|:No users found:|:Keine Benutzer gefunden
+a:|:No, do leave them mortal:|:Nein, 'Sterblich' lassen
+a:|:No, let them remain a deity:|:Nein, 'Gottheit' lassen
+a:|:None:|:Nein
+a:|:Only approved users can apply:|:Nur von berechtigten Benutzern
+a:|:Other Information:|:Weitere Information
+a:|:Password must be five characters or more in length:|:Passwort muss mindesten 5 Zeichen lang sein
+a:|:Password too familiar:|:Passwort zu unsicher
+a:|:Password:|:Passwort
+a:|:Passwords did not match:|:Passw&ouml;rter sind nicht gleich
+a:|:Please apply for a new password change form:|:F&uuml;r eine neue Passwort&auml;nderung bitte aufrufen
+a:|:Please check your email for the change of password form:|:Das ge&auml;nderte Passwort wurden Ihnen per Email zugestellt.
+a:|:Please contact the systems administrator:|:Bitte setzen Sie sich mit dem Systemadministrator in Verbindung
+a:|:Please go under Settings in the admin User Manager and enter an user contact email address:|:Bitte geben Sie bei den Einstellungen eine Kontakt-Emailadresse an.
+a:|:Please load new modules into a menu:|:Bitte laden Sie neue Module in ein Men&uuml;
+a:|:Please try again later:|:Versuchen sie es sp&auml;ter nochmal
+a:|:Please try another:|:Bitte versuchen Sie ein Anderes
+a:|:Refresh My Cookie:|:Mein Cookie aktualisieren
+a:|:Refresh:|:Aktualisieren
+a:|:Remember Me:|:Automatisch einloggen
+a:|:Remove Member:|:L&ouml;sche Mitglied
+a:|:Remove:|:L&ouml;schen
+a:|:Request Successful:|:Anfrage erfolgreich
+a:|:Search:|:Suchen
+a:|:Secure Cookie:|:Sicheres Cookie
+a:|:Send Information:|:Information senden
+a:|:Set Cookie Preferences:|:Cookie-Einstellungen setzen
+a:|:Settings:|:Einstellungen
+a:|:Setup Default Menu:|:Standard-Men&uuml; einrichten
+a:|:Setup My Menu:|:Pers&ouml;nliches Men&uuml; einrichten
+a:|:Shall we deify them:|:Sollen wir sie 'g&ouml;ttlich' machen
+a:|:Show 'Remember Me' Option:|:Zeige 'Mich erinnern' Option
+a:|:Show Login Box:|:Anmeldebox zeigen
+a:|:Sign In:|:Anmelden
+a:|:Simple vs. Domain/Directory:|:Einfach oder Domain/Verzeichnis
+a:|:Simple:|:Einfach
+a:|:Sorry but there is a problem with our email:|:Entschuldigung, aber es gibt ein Problem mit Ihrer Emailadresse
+a:|:Sorry:|:Entschuldigung
+a:|:Subject Line:|:Betreffzeile
+a:|:Success:|:Erfolgreich
+a:|:Thank you for applying for an account:|:Danke das Sie sich als Benutzer registriert haben
+a:|:The Domain/Directory option also includes your web address for greater security:|:Die Domain/Verzeichnis-Option beinhaltet ausserdem Ihre Webadresse f&uuml;r eine h&ouml;here Sicherheit
+a:|:The number of minutes you want to phpWebSite to allow the cookie to remain active:|:Die Zeit in Minuten, die phpWebsite einem Cookie erlaubt aktive zu bleiben.
+a:|:The simple cookie only contains the information and a time limit:|:Das einfache Cookie enth&auml;lt nur Infos und ein Zeitlimit
+a:|:The username you have entered in invalid:|:Der eingebenen Benutzername ist ung&uuml;ltig
+a:|:The username you have entered is not permitted to change their password:|:Der eingegebene Benutzernamen ist es nicht berechtigt das Passwort zu &auml;ndern
+a:|:This MUST be set:|:Muss festgelegt werden
+a:|:This allows for easier interaction and administration between sites using the same hub:|:Dies erlaubt ein einfacher Interaktion und Adminstration zwischen den Websites die den gleichen Hub verwenden
+a:|:This is a mortal:|:Das ist ein 'Sterblicher'
+a:|:This user is currently a deity:|:Dieser Benutzer ist derzeit eine 'Gottheit'
+a:|:This value must be greater than 10 minutes:|:Der Zeitraum muss gr&ouml;sser sein als 10 Minuten
+a:|:Time Limit:|:Zeitbegrenzung
+a:|:Try again:|:Nochmals versuchen
+a:|:Unable to email change form:|:Kann &Auml;nderungsformular nicht versenden
+a:|:Unable to locate saved cookie:|:Kann gespeichertes Cookie nicht finden
+a:|:Unable to send email from a new user sign-up request:|:Es konnte kein Email f&uuml;r die Registrieranfrage versendet werden
+a:|:Update Cookie Settings:|:Aktualisiere Cookie-Einstellungen
+a:|:Update Group:|:Aktualisiere Gruppe
+a:|:Update My Information:|:Aktualisiere eigene Informationen
+a:|:Update Permissions:|:Aktualisiere Benutzerrechte
+a:|:Update User:|:Aktualisiere Benutzer
+a:|:User Admin:|:Benutzer-Admin
+a:|:User Defaults:|:Benutzer Voreinstellungen
+a:|:User Email Contact:|:Benutzer Emailkontakt
+a:|:User created:|:Benutzer erstellt
+a:|:User deleted:|:Benutzer gel&ouml;scht
+a:|:User information changed successfully:|:Benutzerinformationen wurden erfolgreich ge&auml;ndert
+a:|:User is a deity:|:Benutzer ist eine 'Gottheit'
+a:|:User updated:|:Benutzer aktualisiert
+a:|:Username already in use:|:Benutzername wird schon verwendet
+a:|:Username may not contain spaces or non-alphanumeric characters:|:Benutzername darf keine Sonder- oder Leerzeichen enthalten
+a:|:Username:|:Benutzername
+a:|:WARNING:|:WARNUNG
+a:|:Welcome:|:Willkommen
+a:|:When you receive it, log in using your new username and password:|:Melden Sie sich bitte mit Ihrem neuen Benutzernamen und Passwort an, nachdem Sie es erhalten haben
+a:|:Yes, make them a deity:|:Ja, mach sie zur 'Gottheit'
+a:|:Yes, make them mortal:|:Ja, mach sie 'sterblich'
+a:|:You have not requested a password change:|:Sie haben keine Anfrage zu einem Passwortwechsel gestellt
+a:|:You have run out of time to update your password:|:Ihre Frist das Passwort zu &auml;ndern ist abgelaufen.
+a:|:You have the option to allow your site to use cookies to assist in user authorization:|:Sie haben die M&ouml;glichkeit, Ihrer Website die Verwendung von Cookies zu erlauben, um eine automatische Benutzeranmeldung zu erm&ouml;glichen
+a:|:You may need to log out for changes to take effect:|:Sie m&uuml;ssen sich abmelden, damit &Auml;nderungen in Kraft treten
+a:|:You may now login with your new password:|:Sie k&ouml;nnen sich jetzt mit Ihrem neuen Passwort anmelden
+a:|:You must give your group a name:|:Sie m&uuml;ssen Ihrer Gruppe einen Namen geben
+a:|:You should shortly receive an email with account verification information:|:Sie sollten in Kürze eine Mail mit den Anmelde-Infos erhalten
+a:|:Your Modules:|:Ihre Module
+a:|:Your account verification is sent:|:Ihre Anmeldebest&auml;tigung wurde versendet
+a:|:Your password will be sent to your email address:|:Ihr Passwort wird an Ihre Emailadresse versendet
+a:|:Your request is being reviewed:|:Ihre Anfrage wird &uuml;berpr&uuml;ft
+a:|:Your session timed out. Please log back in.:|:Ihre Session ist abgelaufen, bitte melden Sie sich neu an.
+a:|:Your username and email combination was refused:|:Ihre Kombination aus Benutzername und Emailadress ist ung&uuml;ltig
+a:|:match:|:Vergleich
+a:|:nobody:|:Gast
+a:|:of:|:von
+a:|:Users Administration:|: Mitglieder Administration
+a:|:Change My Password:|:Ändere mein Passwort

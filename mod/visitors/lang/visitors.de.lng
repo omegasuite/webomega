@@ -1,0 +1,119 @@
+de:|:visitors
+a:|:Visitors:|:Besucher
+a:|:You are on your own.:|:Sie sind alleine.
+a:|:Currently [var1] anonymous souls are browsing this site.:|:Zur Zeit sehen sich [var1] anonyme Besucher diese Seite an.
+a:|:There are no guests here, only [var1] members. Why are you seeing this?:|:Es sind keine G&auml;ste hier, aber [var1] Mitglied(er). Warum sehen Sie das?
+a:|:Currently, out of [var1] users, there is only one registered.:|:Zur Zeit ist von den [var1] Besuchern nur ein registriertes Mitglied dabei.
+a:|:[var1] users, [var2] of them registered.:|:[var1] Besucher, [var2] davon registriert.
+a:|:no guest:|:kein Gast
+a:|:1 guest:|:1 Gast
+a:|:[var1] guests:|:[var1] G&auml;ste
+a:|:[var1], all alone.:|:[var1], einsam.
+a:|:[var1] and [var2]:|:[var1] und [var2]
+a:|:Guest:|:Gast
+a:|:using [var1] (var2):|:benuzt [var1] (var2)
+a:|:Details of IP [var1]:|:Details zur IP [var1]
+a:|:cannot resolve this IP.:|:Kann diese IP nicht aufl&ouml;sen.
+a:|:this IP resolves to [var1]:|:Diese IP hat den DNS-Eintrag [var1]
+a:|:CLIENT_IP is unknown.:|:CLIENT_IP ist unbekannt.
+a:|:CLIENT_IP equals the IP I got:|:CLIENT_IP ist gleich der gespeicherten IP
+a:|:CLIENT_IP is [var1]:|:CLIENT_IP ist [var1]
+a:|:REMOTE_ADDR is unknown.:|:REMOTE_ADDR ist unbekannt.
+a:|:REMOTE_ADDR equals the IP I got.:|:REMOTE_ADDR ist gleich der gespeicherten IP
+a:|:REMOTE_ADDR is [var1]:|:REMOTE_ADDR ist [var1]
+a:|:Does not resolve:|:Kann nicht aufgel&ouml;st werden
+a:|:User Details:|:Benutzerdetails
+a:|:could not determine user agent.:|:Kann Browser nicht bestimmen.
+a:|:user is using [var1]:|:Dieser Benutzer surft mit [var1]
+a:|:Details for user:|:Details f&uuml;r Benutzer
+a:|:user is not logged in, couldn't find one that matches IP.:|:Benutzer ist nicht angemeldet, kann die dazugeh&ouml;rige IP nicht finden.
+a:|:user is not logged in but could be [var1]:|:Benutzer ist nicht angemeldet, k&ouml;nnte aber [var1] sein
+a:|:user is logged in as [var1], uid [var2].:|:Benutzer ist angemeldet als [var1], Benutzer-ID [var2].
+a:|:What's happening?:|:Was passiert?
+a:|:current URI: [var1]:|:derzeitiger URI: [var1]
+a:|:Clickpath:|:Clickpath
+a:|:please log in as deity to do that.:|:bitte melden Sie sich als Gottheit an um das zu tun.
+a:|:no session-id specified!:|:keine Session-ID angegeben!
+a:|:could not retrieve data for Session_ID [var1]:|:kann Daten f&uuml;r Session_ID [var1] nicht finden
+a:|:first referrer:|:erster Referrer
+a:|:Users on [var1]:|:Benutzer auf [var1]
+a:|:Referrer hosts on [var1]:|:Referrer hosts on [var1]
+a:|:Hits on [var1]:|:Hits auf [var1]
+a:|:User Statistics:|:Benutzerstatistik
+a:|:Referrer Hosts:|:Referrer Hosts
+a:|:Hit Statistics:|:Hit Statistics
+a:|:Visits of User [var1]:|:Besuche von Benutzer [var1]
+a:|:This list shows you where your visitors come from. Only the hostnames are counted here, not the full URLs!:|:Diese Liste zeigt wo Ihre Benutzer herkommen. Es werden nur die Rechnernamen gez&auml;hlt, nicht die kompletten URLs!
+a:|:Note:|:Hinweis
+a:|:[var1] There is no direct link to the referer on purpose: to hinder referrer-spam. Please try to use the archive.org or google url instead. You can of course always enter the url directly in your address-bar, if you insist to.:|:[var1] Es gibt mit Absicht keinen direkten Link zum Referrer: dies soll referrer-Spamming verhindern. Bitte versuchen Sie archive.org oder Google stattdessen zu benutzen. Nat&uuml;rlich k&ouml;nnen Sie, wenn Sie es unbedingt wollen, die URL auch direkt in Ihrer Adresseleiste eingeben.
+a:|:User Visits:|:Besuche dieses Benutzers
+a:|:Here you can see, how often a certain user has visited your site.:|:Hier k&ouml;nnen Sie sehen wie oft ein Benutzer Ihre Website besucht hat.
+a:|:statistics:|:Statistiken
+a:|:by users:|:nach Benutzern
+a:|:by hits:|:nach Hits
+a:|:by referrer hosts:|:nach Referrern
+a:|:year:|:Jahr
+a:|:month:|:Monat
+a:|:day:|:Tag
+a:|:hour:|:Stunde
+a:|:hits:|:Hits
+a:|:users:|:Benutzer
+a:|:usernames:|:Benutzernamen
+a:|:hosts:|:Hosts
+a:|:referrer hosts:|:Referrer Hosts
+a:|:Anonymous ([var1]):|:Anonym ([var1])
+a:|:first visit: [var1], latest: [var2], [var3] visits per day:|:erster Besuch: [var1], letzter: [var2], [var3] Besuche pro Tag
+a:|:clickpath for session [var1]:|:Klickpfad f&uuml;r die Sitzung [var1]
+a:|:not set ([var1]):|:nicht gesetzt ([var1])
+a:|:not set:|:nicht gesetzt
+a:|:no data:|:keine Daten
+a:|:TOTAL:|:SUMME
+a:|:AVG:|:DURCHSCHNITT
+a:|:on the mainpage.:|:auf der Hauptseite.
+a:|:browsing through list of new articles.:|:durchsucht die Liste der neuen Artikel.
+a:|:browsing through the archives.:|:durchsucht die Archive.
+a:|:don't know what to do with that article.:|:kann diesen Artikel nicht auswerten.
+a:|:browsing the calendar for day [var1]:|:durchsucht den Kalender am Tag [var1]
+a:|:browsing the calendar for week [var1] in [var2]:|:durchsucht den Kalender in der Woche [var1] in [var2]
+a:|:browsing the calendar for month [var1]:|:durchsucht den Kalender im Monat [var1]
+a:|:don't know what to do with calendar-view [var1]:|:kann Kalender-Anzeige [var1] nicht auswerten
+a:|:entering controlpanel.:|:betritt das Kontrollzentrum.
+a:|:don't have document operation in [var1]:|:kein spezieller Befehl in [var1]
+a:|:don't know about document operation [var1] yet:|:kann den Dokument-Befehl [var1] noch nicht auswerten
+a:|:don't have a document id!:|:keine Dokument-ID!
+a:|:viewing document [var1] ([var2]):|:schaut sich Dokument [var1] ([var2]) an
+a:|:don't know what to do with that fatcat.:|:kann diese FatCat nicht auswerten.
+a:|:browsing category [var1] ([var2]):|:durchsucht Kategorie [var1] ([var2])
+a:|:viewing IDLA-LVA [var1] ([var2]):|:sieht sich IDLA-LVA [var1] ([var2]) an
+a:|:don't know how to handle idla-feature [var1]:|:kann dieses idla-feature [var1] nicht auswerten
+a:|:no linkman operation in [var1]!:|:kein Linkman-Kommando [var1]!
+a:|:don't know what to do with linkman op [var1]:|:kann den Linkman-Befehl [var1] nicht auswerten
+a:|:no category set!:|:keine Kategorie angegeben!
+a:|:viewing linkman category [var1] ([var2]):|:sieht sich die Linkman-Kategorie [var1] ([var2]) an
+a:|:no pagemaster operation!:|:kein Pagemaster-Befehl!
+a:|:don't know what to do with pagemaster op [var1]:|:kann den Pagemaster-Befehl [var1] nicht auswerten
+a:|:viewing pagemaster page [var1] ([var2]):|:schaut sich die Pagemaster-Seite [var1] ([var2]) an
+a:|:no photoalbum operation!:|:ist kein Photoalbum-Befehl!
+a:|:don't know what to do with photoalbum op [var1]:|:kann den Fotoalbum-Befehl [var1] nicht auswerten
+a:|:viewing photo [var1] ([var2]):|:schaut sich Foto [var1] ([var2]) an
+a:|:listing all forums.:|:listet alle Foren auf.
+a:|:browsing forum [var1] ([var2]):|:durchsucht Forum [var1] ([var2])
+a:|:editing post [var1] ([var2]):|:bearbeitet Beitrag [var1] ([var2])
+a:|:viewing:|:anschauen
+a:|:replying to:|:antwortet
+a:|:don't know what to do with phpwsbb op [var1]:|:kann den Foren-Befehl [var1] nicht auswerten
+a:|:[var1] phpwsbb thread [var2] ([var3]):|:[var1] phpwsbb Thread [var2] ([var3])
+a:|:don't know what to do with that visitor.:|:kann diesen Besucher nicht auswerten.
+a:|:user is viewing session [var1] ([var2]):|:Benutzer schaut sich Sitzung [var1] ([var2]) an
+a:|:don't know about module [var1]:|:kenne das Modul [var1] nicht
+a:|:What do your visitors actually do on your site at the moment?:|:Was machen Ihre Besucher gerade auf Ihrer Site?
+a:|:by ext. search queries:|:durch externe Suchabfragen
+a:|:External search queries on [var1]:|:Suchanfragen am [var1]
+a:|:External search queries:|:externe Suchanfragen
+a:|:#origins:|:Anz. Quellen
+a:|:origin:|:Ursprung
+a:|:#terms:|:Anz. Abfragen
+a:|:term:|:Abfragen
+a:|:#words:|:Anz. Wörter
+a:|:word:|:Wort
+

@@ -1,0 +1,120 @@
+en:|:visitors
+a:|:Visitors:|:Visitors
+a:|:You are on your own.:|:You are on your own.
+a:|:Currently [var1] anonymous souls are browsing this site.:|:Currently [var1] anonymous souls are browsing this site.:
+a:|:There are no guests here, only [var1] members. Why are you seeing this?:|:There are no guests here, only [var1] members. Why are you seeing this?
+a:|:Currently, out of [var1] users, there is only one registered.:|:Currently, out of [var1] users, there is only one registered.
+a:|:[var1] users, [var2] of them registered.:|:[var1] users, [var2] of them registered.
+a:|:no guest:|:no guest
+a:|:1 guest:|:1 guest
+a:|:[var1] guests:|:[var1] guests
+a:|:[var1], all alone.:|:[var1], all alone.
+a:|:[var1] and [var2]:|:[var1] and [var2]
+a:|:Guest:|:Guest
+a:|:using [var1] (var2):|:using [var1] (var2)
+a:|:Details of IP [var1]:|:Details of IP [var1]
+a:|:cannot resolve this IP.:|:cannot resolve this IP.
+a:|:this IP resolves to [var1]:|:this IP resolves to [var1]
+a:|:CLIENT_IP is unknown.:|:CLIENT_IP is unknown.
+a:|:CLIENT_IP equals the IP I got:|:CLIENT_IP equals the IP I got
+a:|:CLIENT_IP is [var1]:|:CLIENT_IP is [var1]
+a:|:REMOTE_ADDR is unknown.:|:REMOTE_ADDR is unknown.
+a:|:REMOTE_ADDR equals the IP I got.:|:REMOTE_ADDR equals the IP I got
+a:|:REMOTE_ADDR is [var1]:|:REMOTE_ADDR is [var1]
+a:|:Does not resolve:|:Does not resolve
+a:|:User Details:|:User Details
+a:|:could not determine user agent.:|:could not determine user agent.
+a:|:user is using [var1]:|:user is using [var1]
+a:|:Details for user:|:Details for user
+a:|:user is not logged in, couldn't find one that matches IP.:|:user is not logged in, couldn't find one that matches IP.
+a:|:user is not logged in but could be [var1]:|:user is not logged in but could be [var1]
+a:|:user is logged in as [var1], uid [var2].:|:user is logged in as [var1], uid [var2].
+a:|:What's happening?:|:What's happening?
+a:|:current URI: [var1]:|:current URI: [var1]
+a:|:Clickpath:|:Clickpath
+a:|:please log in as deity to do that.:|:please log in as deity to do that.
+a:|:no session-id specified!:|:no session-id specified!
+a:|:could not retrieve data for Session_ID [var1]:|:could not retrieve data for Session_ID [var1]
+a:|:first referrer:|:first referrer
+a:|:Users on [var1]:|:Users on [var1]
+a:|:Referrer hosts on [var1]:|:Referrer hosts on [var1]
+a:|:Hits on [var1]:|:Hits on [var1]
+a:|:User Statistics:|:User Statistics
+a:|:Referrer Hosts:|:Referrer Hosts
+a:|:Hit Statistics:|:Hit Statistics
+a:|:Visits of User [var1]:|:Visits of User [var1]
+a:|:This list shows you where your visitors come from. Only the hostnames are counted here, not the full URLs!:|:This list shows you where your visitors come from. Only the hostnames are counted here, not the full URLs!
+a:|:Note:|:Note
+a:|:[var1] There is no direct link to the referer on purpose: to hinder referrer-spam. Please try to use the archive.org or google url instead. You can of course always enter the url directly in your address-bar, if you insist to.:|:[var1] There is no direct link to the referer on purpose: to hinder referrer-spam. Please try to use the archive.org or google url instead. You can of course always enter the url directly in your address-bar, if you insist to.
+a:|:User Visits:|:User Visits
+a:|:Here you can see, how often a certain user has visited your site.:|:Here you can see, how often a certain user has visited your site.
+a:|:statistics:|:statistics
+a:|:by users:|:by users
+a:|:by hits:|:by hits
+a:|:by referrer hosts:|:by referrer hosts
+a:|:year:|:year
+a:|:month:|:month
+a:|:day:|:day
+a:|:hour:|:hour
+a:|:hits:|:hits
+a:|:users:|:users
+a:|:usernames:|:usernames
+a:|:hosts:|:hosts
+a:|:referrer hosts:|:referrer hosts
+a:|:Anonymous ([var1]):|:Anonymous ([var1])
+a:|:first visit: [var1], latest: [var2], [var3] visits per day:|:first visit: [var1], latest: [var2], [var3] visits per day
+a:|:clickpath for session [var1]:|:clickpath for session [var1]
+a:|:not set ([var1]):|:not set ([var1])
+a:|:not set:|:not set
+a:|:no data:|:no data
+a:|:TOTAL:|:TOTAL
+a:|:AVG:|:AVG
+a:|:on the mainpage.:|:on the mainpage.
+a:|:browsing through list of new articles.:|:browsing through list of new articles.
+a:|:browsing through the archives.:|:browsing through the archives.
+a:|:don't know what to do with that article.:|:don't know what to do with that article.
+a:|:browsing the calendar for day [var1]:|:browsing the calendar for day [var1]
+a:|:browsing the calendar for week [var1] in [var2]:|:browsing the calendar for week [var1] in [var2]
+a:|:browsing the calendar for month [var1]:|:browsing the calendar for month [var1]
+a:|:don't know what to do with calendar-view [var1]:|:don't know what to do with calendar-view [var1]
+a:|:entering controlpanel.:|:entering controlpanel.
+a:|:don't have document operation in [var1]:|:don't have document operation in [var1]
+a:|:don't know about document operation [var1] yet:|:don't know about document operation [var1] yet
+a:|:don't have a document id!:|:don't have a document id!
+a:|:viewing document [var1] ([var2]):|:viewing document [var1] ([var2])
+a:|:don't know what to do with that fatcat.:|:don't know what to do with that fatcat.
+a:|:browsing category [var1] ([var2]):|:browsing category [var1] ([var2])
+a:|:viewing IDLA-LVA [var1] ([var2]):|:viewing IDLA-LVA [var1] ([var2])
+a:|:don't know how to handle idla-feature [var1]:|:don't know how to handle idla-feature [var1]
+a:|:no linkman operation in [var1]!:|:no linkman operation in [var1]!
+a:|:don't know what to do with linkman op [var1]:|:don't know what to do with linkman op [var1]
+a:|:no category set!:|:no category set!
+a:|:viewing linkman category [var1] ([var2]):|:viewing linkman category [var1] ([var2])
+a:|:no pagemaster operation!:|:no pagemaster operation!
+a:|:don't know what to do with pagemaster op [var1]:|:don't know what to do with pagemaster op [var1]
+a:|:viewing pagemaster page [var1] ([var2]):|:viewing pagemaster page [var1] ([var2])
+a:|:no photoalbum operation!:|:no photoalbum operation!
+a:|:don't know what to do with photoalbum op [var1]:|:don't know what to do with photoalbum op [var1]
+a:|:viewing photo [var1] ([var2]):|:viewing photo [var1] ([var2])
+a:|:listing all forums.:|:listing all forums.
+a:|:browsing forum [var1] ([var2]):|:browsing forum [var1] ([var2])
+a:|:editing post [var1] ([var2]):|:editing post [var1] ([var2])
+a:|:viewing:|:viewing
+a:|:replying to:|:replying to
+a:|:don't know what to do with phpwsbb op [var1]:|:don't know what to do with phpwsbb op [var1]
+a:|:[var1] phpwsbb thread [var2] ([var3]):|:[var1] phpwsbb thread [var2] ([var3])
+a:|:don't know what to do with that visitor.:|:don't know what to do with that visitor.
+a:|:user is viewing session [var1] ([var2]):|:user is viewing session [var1] ([var2])
+a:|:don't know about module [var1]:|:don't know about module [var1]
+a:|:What do your visitors actually do on your site at the moment?:|:What do your visitors actually do on your site at the moment?
+a:|:by ext. search queries:|:by ext. search queries
+a:|:External search queries on [var1]:|:External search queries on [var1]
+a:|:External search queries:|:External search queries
+a:|:#origins:|:#origins
+a:|:origin:|:origin
+a:|:#terms:|:#terms
+a:|:term:|:term
+a:|:#words:|:#words
+a:|:word:|:word
+
+

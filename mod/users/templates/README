@@ -1,0 +1,10 @@
+fullpage.tpl
+
+ALL_USER_MODS - All user module links are dropped here
+ALL_ADMIN_MODS - All admin module links are dropped here
+
+
+mod_icon.tpl
+ICON_OR_NAME - Shows icon if exists, mod name otherwise
+ICON - Shows icon if exists
+MODULE_NAME - Shows module name

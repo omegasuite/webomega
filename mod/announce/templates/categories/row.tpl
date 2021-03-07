@@ -1,0 +1,11 @@
+<tr{ROW_CLASS}>
+<td>
+{SUBJECT}
+</td>
+<td align="center">
+{DATECREATED}
+</td>
+<td align="center">
+{USERCREATED}
+</td>
+</tr>

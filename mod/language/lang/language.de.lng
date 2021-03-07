@@ -1,0 +1,96 @@
+de:|:language
+a:|:Add:|:Hinzuf&uuml;gen
+a:|:Admin:|:Admin
+a:|:Administrate:|:Administrieren
+a:|:Are you sure you want to remove these language tables and ALL the translations associated with them:|:Sind Sie sicher, dass Sie diese Sprachtabellen und ALLE &Uuml;bersetzungen entfernen m&ouml;chten
+a:|:Auto Update:|:Auto-Aktualisierung
+a:|:Back to Admin:|:Zur&uuml;ck zur Administration
+a:|:Back to List:|:Zur&uuml;ck zur Liste
+a:|:Both:|:Beide
+a:|:Check Updated:|:Aktualisierung markieren
+a:|:Check this box to confirm the deletion:|:W&auml;hlen Sie diese Box aus um die Entfernung zu best&auml;tigen
+a:|:Choose:|:W&auml;hlen
+a:|:Column Name:|:Zeilenname
+a:|:Column(s):|:Zeile(n)
+a:|:Column:|:Zeile
+a:|:Compare [var1] to [var2]:|:Vergleiche [var1] mit [var2]
+a:|:Compare to [var1]:|:Vergleiche mit [var1]
+a:|:Create Dynamic Table:|:Erstelle dynamische Tabelle
+a:|:Create Language Table:|:Erstelle Sprachtabelle
+a:|:Create New Entry:|:Neuen Eintrag erstellen
+a:|:Create Table:|:Tabelle erstellen
+a:|:Created:|:Erstellt
+a:|:Default Language set to [var1]:|:Eingestellte Standard-Sprache: [var1]
+a:|:Delete:|:L&ouml;schen
+a:|:Dynamic Active:|:Dynamik aktiv
+a:|:Dynamic Table:|:Dynamische Tabelle
+a:|:Dynamic Translations:|:Dynamische &Uuml;bersetzung
+a:|:Edit Language:|:Sprache bearbeiten
+a:|:Export Language File:|:Exportiere Sprachdatei
+a:|:Export [var1] Language File:|:Exportiere [var1] Sprachdatei
+a:|:Export to [var1] not successful:|:Export in [var1] nicht erfolgreich
+a:|:Export to [var1] successful:|:Export in [var1] erfolgreich
+a:|:Go:|:Los
+a:|:ID:|:ID
+a:|:Ignore Default Language:|:Standardsprache ignorieren
+a:|:Import Language File:|:Importiere Sprachdatei
+a:|:Import Successful:|:Import erfolgreich
+a:|:Import/Export:|:Import/Export
+a:|:Insert Checked:|:Markierte Einf&uuml;gen
+a:|:Insert Phrase:|:Phrase einf&uuml;gen
+a:|:Language Active:|:Sprache aktiv
+a:|:Language Administration:|:Sprachadministration
+a:|:Language Settings Updated:|:Spracheinstellungen aktualisiert
+a:|:Language User Menu:|:Sprachen-Men&uuml;
+a:|:Language:|:Sprache
+a:|:Lets you administrate the language options for your site.:|:Hier administrieren Sie die Sprach-Optionen f&uuml;r Ihre Homepage.
+a:|:Lets you pick the language to display the site in.:|:W&auml;hlen Sie die Sprache um die Homepage anzuzeigen.
+a:|:Mark Untranslated:|:Nicht &Uuml;bersetztes markieren
+a:|:Missed Removals:|:&Uuml;bergangene Entfernungen
+a:|:Module:|:Modul
+a:|:No Phrases Found for [var1]:|:Keine Phrasen f&uuml;r [var1] gefunden
+a:|:No Phrases Found:|:Keine Phrasen gefunden
+a:|:No new sections to translate:|:Keine neuen zu &uuml;bersetzenden Sektionen
+a:|:No translations to export:|:Keine &Uuml;berstzungen zum exportieren
+a:|:None Found:|:Keine gefunden
+a:|:Off:|:Aus
+a:|:On:|:Ein
+a:|:Original:|:Original
+a:|:Phrase <i>[var1]</i> already in use:|:Phrase <i>[var1]</i> bereits in Verwendung
+a:|:Phrase:|:Phrase
+a:|:Phrases:|:Phrasen
+a:|:Pick:|:W&auml;hlen
+a:|:Refresh:|:Aktualisieren
+a:|:Regular Table:|:Normale Tabelle
+a:|:Remove Language Table:|:Sprachtabelle entfernen
+a:|:Results:|:Ergebnisse
+a:|:Return to the user menu:|:Zur&uuml;ck zum Benutzermen&uuml;
+a:|:Search Result for [var1]:|:Suche Ergebnisse f&uuml;r [var1]
+a:|:Search Result:|:Suchergebnisse
+a:|:Search for Missing Translations:|:Suche fehlende &Uuml;bersetzungen
+a:|:Search for Phrase:|:Suche nach Phrase
+a:|:Search for Translation:|:Suche nach &Uuml;bersetzung
+a:|:Set Default Language:|:Standardsprache setzen
+a:|:Set My Default Language:|:Meine Sprache setzten
+a:|:The [var1] dynamic language table was created:|:Die dynamische Sprachtabelle '[var1]' wurde erstellt
+a:|:The [var1] regular language table was created:|:Die normale Sprachtabelle '[var1]' wurde erstellt
+a:|:The following phrases are missing from [var1]:|:Die folgenden Phrasen fehlen f&uuml;r [var1]
+a:|:Total Duplicates:|:Gesamte Duplikate
+a:|:Total Entries:|:Gesamte Eintr&auml;ge
+a:|:Total Inserts:|:Gesamte Einf&uuml;gungen
+a:|:Total Removals:|:Gesamte Entfernungen
+a:|:Translates To:|:&Uuml;bersetzt zu
+a:|:Translation:|:&Uuml;bersetzung
+a:|:Uncheck this box to confirm the deletion:|:W&auml;hlen Sie diese Box ab um die Entfernung zu best&auml;tigen
+a:|:Untranslated Dynamic Sections:|:Nicht &uuml;bersetzte dynamische Sektionen
+a:|:Untranslated:|:Nicht &uuml;bersetzt
+a:|:Update Checked:|:Markierte aktualisieren
+a:|:Update Dynamic Translation for [var1]:|:Aktualisierte dynamische &Uuml;bersetzung f&uuml;r [var1]
+a:|:Update Dynamic Translation:|:Aktualisiere dynamische &Uuml;bersetzung
+a:|:Update Language Settings:|:Spracheinstellungen aktualisieren
+a:|:Update [var1]:|:Aktualisiere [var1]
+a:|:Update:|:Aktualisierung
+a:|:Updated:|:Aktualisiert
+a:|:Your Default Language is Saved:|:Ihre Standardsprache wurde gespeichert
+a:|:Language Administrator:|: Sprachen Administration
+a:|:Set My Language:|:Einstellen meiner Sprache

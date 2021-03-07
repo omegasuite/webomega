@@ -1,0 +1,84 @@
+fr:|:announce
+a:|:Action:|:Action
+a:|:Allow Comments?:|:Autoriser les commentaires ?
+a:|:Announce:|:Annonces
+a:|:Announcement Deleted!:|:Annonce supprimée !
+a:|:Announcement List:|:Liste des annonces
+a:|:Announcement Saved:|:Annonces sauvegardée
+a:|:Announcement Sent:|:Annonce envoyée
+a:|:Announcement Settings:|:Réglages des annonces
+a:|:Announcement Submitted:|:Annonce soumise
+a:|:Announcement Updated:|:Annonce mise à jour
+a:|:Announcements Menu:|:Menu des annonces
+a:|:Announcements:|:dernières annonces
+a:|:Anonymous Posts?:|:Envois anonymes ?
+a:|:Anonymous:|:Anonyme
+a:|:Are you sure you wish to delete the announcement with subject:|:Etes-vous certain de vouloir supprimer l'annonce ayant pour sujet : 
+a:|:Are you sure you wish to delete this announcement with subject:|:Etes-vous sur de vouloir supprimer l'annonce ayant pour sujet
+a:|:Assuming it is not needed:|:Ce n'est pas obligatoire
+a:|:Body:|:Corps
+a:|:Building extra modules:|:Construction des modules supplémentaires
+a:|:Building required modules:|:Construction des modules requis
+a:|:Category:|:Catégorie
+a:|:Checking language file for [var1]:|:Vérification du fichier de langue pour [var1]
+a:|:Core tables successfully installed:|:Installation des tables du noyau réussie
+a:|:Current Announcements:|:Annonces en cours
+a:|:Current announcements:|:Annonces en cours
+a:|:Date Posted:|:Date d'envoi
+a:|:Delete Announcement?:|:Supprimer l'annonce ?
+a:|:Download:|:Télécharger
+a:|:ERROR!:|:Erreur !
+a:|:Edit Announcement:|:Modifier l'annonce
+a:|:Expiration:|:Fin
+a:|:Faq:|:Questions/Réponses
+a:|:Filename:|:Nom fichier
+a:|:Flat:|:Plat
+a:|:Go here to post announcements to your home page about upcoming events or other helpful information.:|:Pour envoyer sur votre page d'accueil des annonces concernant un événement à venir ou d'autres informations utiles.
+a:|:Hide:|:Cacher
+a:|:Image:|:Image
+a:|:Installation file missing for [var1]:|:Le fichier d'installation de [var1] est manquant
+a:|:Layout for [var1] installed successfully:|:Installation de la mise en page de [var1] réussie
+a:|:Limit:|:Limite
+a:|:List Announcements:|:Liste des annonces
+a:|:Modified:|:Modifié
+a:|:Nested:|:Niché
+a:|:New Announcement:|:Nouvelle annonce
+a:|:Newest First:|:Les plus récents d'abord
+a:|:No Categories Available:|:Aucune catégorie disponible
+a:|:No announcements found!:|:Aucune annonce trouvée
+a:|:None:|:Aucune
+a:|:Number of announcements shown on home page:|:Nombre d'annonces à montrer sur la page d'accueil
+a:|:Number of past announcements shown:|:Nombre d'annonces échues à montrer sur la page d'accueil
+a:|:Oldest First:|:Les plus anciens d'abord
+a:|:Past:|:Les
+a:|:Phatform:|:les formulaires de ce site
+a:|:Post Installation Procedures:|:Procédures post installation
+a:|:Post On:|:Envoi actif
+a:|:Post on Date:|:Envoyée le
+a:|:Posted by:|:Envoyée par
+a:|:Read More:|:En savoir plus...
+a:|:Registering Default Language:|:Enregistrement de la langue par défaut
+a:|:Registering Layout:|:Enregistrement de la mise en page
+a:|:Save Settings:|:Sauvegarder les réglages
+a:|:Save:|:Sauvegarder
+a:|:Settings Saved!:|:Réglages sauvegardés !
+a:|:Settings:|:Réglages
+a:|:Short Description:|:Description courte
+a:|:Show Announcements:|:Montrer les annonces
+a:|:Show Past Announcements:|:Montrer les annonces échues
+a:|:Show:|:Montrer
+a:|:Sticky:|:Collant
+a:|:Subject:|:Sujet
+a:|:Submit News:|:Soumettre l'annonce
+a:|:Summary:|:Résumé
+a:|:The announcement was successfully <b>deleted</b>.:|:L'annonce a bien été <b>supprimée</b>.
+a:|:Type:|:Type
+a:|:You did not provide a subject for your announcement.:|:Vous devez préciser le sujet de votre annonce.
+a:|:You did not provide a summary for your announcement.:|:Vous devez fournir le résumé de votre annonce.
+a:|:Your announcement was submitted for approval.:|:Votre annonce a été soumise pour validation.
+a:|:Your announcement was successfully saved.:|:Sauvegarde de votre annonce réussie.
+a:|:Your announcement was successfully updated.:|:La mise à jour de votre annonce réussie.
+a:|:Your settings have successfully been saved!:|:Sauvegarde de vos réglages réussie.
+a:|:[var1] installation successful:|:L'installation de [var1] réussie
+a:|:[var1] language file installed:|:Le fichier de langue de [var1] est installé
+a:|:[var1] post-installation successful:|:Post-installation de [var1] réussie

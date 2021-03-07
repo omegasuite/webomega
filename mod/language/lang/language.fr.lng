@@ -1,0 +1,66 @@
+fr:|:language
+a:|:Administrate:|:Administrer
+a:|:Auto Update:|:Mise à jour automatique
+a:|:Back to Admin:|:Retour à l'administration
+a:|:Back to List:|:Retour à la liste
+a:|:Column Name:|:Nom de la colonne
+a:|:Column:|:Colonne
+a:|:Create Dynamic Table:|:Créer la table dynamique
+a:|:Create Language Table:|:Créer la table des langues
+a:|:Create New Entry:|:Créer une nouvelle entrée
+a:|:Delete:|:Supprimer
+a:|:Dynamic Active:|:Activer le mode dynamique
+a:|:Dynamic Translations:|:Traductions dynamiques
+a:|:Edit Language:|:Modifier le contenu dans cette langue
+a:|:Export Language File:|:Exporter le fichier de la langue
+a:|:Export [var1] Language File:|:Export du fichier de langue [var1]
+a:|:Export to [var1] not successful:|:L'export des données vers [var1] n'a pas réussi
+a:|:Export to [var1] successful:|:Export des données vers [var1] réussi
+a:|:Ignore Default Language:|:Ignorer la langue par défaut
+a:|:Import Language File:|:Importer un fichier de langue
+a:|:Import Successful:|:Import réussi
+a:|:Import/Export:|:Import/Export
+a:|:Insert Phrase:|:Inserer une phrase
+a:|:Language Active:|:Langue active
+a:|:Language Administration:|:Administration des langues
+a:|:Language Settings Updated:|:Réglages de langue mis à jour
+a:|:Language User Menu:|:Menu utilisateur des langues
+a:|:Language:|:Langue
+a:|:Mark Untranslated:|:Marque (?) à traduire
+a:|:Missed Removals:|:Suppressions avortés
+a:|:Module:|:Module
+a:|:No Phrases Found for [var1]:|:Aucune phrase trouvée avec [var1]
+a:|:No translations to export:|:Aucune traduction à exporter
+a:|:Off:|:Inactif
+a:|:On:|:Actif
+a:|:Phrase <i>[var1]</i> already in use:|:La phrase <i>[var1]</i> est déjà utilisée
+a:|:Phrase:|:Phrase
+a:|:Phrases:|:Phrases
+a:|:Pick:|:Choisissez
+a:|:Refresh:|:Rafraîchir
+a:|:Remove Language Table:|:Supprimer la table des langues
+a:|:Results:|:Resultats
+a:|:Return to the user menu:|:Revenir au menu utilisateur des langues
+a:|:Search Result for [var1]:|:Résultat de la recherche avec [var1]
+a:|:Search for Missing Translations:|:Chercher les textes à traduire
+a:|:Search for Phrase:|:Chercher une phrase
+a:|:Search for Translation:|:Chercher une traduction
+a:|:Set Default Language:|:Définir la langue par défaut
+a:|:Set My Default Language:|:Définir la langue dans laquelle s'affiche le site
+a:|:This module does not have a import file for this language:|:Ce module n'a pas de fichier d'import pour cette langue.
+a:|:Total Duplicates:|:Total des doublons
+a:|:Total Entries:|:Total des entrées
+a:|:Total Inserts:|:Total des insertions
+a:|:Total Removals:|:Total des suppressions
+a:|:Translates To:|:Traduire vers
+a:|:Translation:|:Traduction
+a:|:Untranslated Dynamic Sections:|:Sections dynamiques restant à traduire
+a:|:Untranslated:|:A traduire
+a:|:Update Checked:|:Mettre à jour les lignes cochées
+a:|:Update Dynamic Translation for [var1]:|:Modifier la traduction dynamique de [var1]
+a:|:Update Language Settings:|:Modifier les réglages de langue
+a:|:Update [var1]:|:Modifier [var1]
+a:|:Update:|:Modifier
+a:|:Updated Dynamic Sections:|:Sections mises à jour dynamiquement
+a:|:Updated:|:Modifié
+a:|:Your Default Language is Saved:|:Enregistrement de votre langue d'affichage du site réussie

@@ -1,0 +1,38 @@
+da:|:controlpanel
+a:|:Assists developers in the creation and editing of module settings.:|:Hjælper udviklere med at oprette og vedligeholde modul indstillinger.
+a:|:Creates branch sites off your hub code.:|:Installere og vedligeholder underhjemmesider
+a:|:Desc Off:|:Beskrivelse fra
+a:|:Desc On:|:Beskrivelse til
+a:|:Go here to create and edit your site's polls.:|:Klik her for at oprette afstemninger (Polls)
+a:|:Go here to create and edit your site's web pages.:|:Opretter og vedligeholder websider
+a:|:Image Off:|:Billede fra
+a:|:Image On:|:Billede til
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface til at installere, opdatere og afinstallere moduler.
+a:|:Description must be a string.:|:Beskrivelsen skal være en tekststreng
+a:|:Image array was malformed.:|:Billedoplysningerne var ikke valide.
+a:|:Label and Title are not set:|:Mærke og overskrift er ikke sat
+a:|:Tab <b>$label</b> does not exist:|:Faneblad <b>$label</b> eksistere ikke
+a:|:The image file does not exist.:|:Billedefilen eksistere ikke.
+a:|:The image passed in must be an array.:|:Billedoplysningerne skal være komplette
+a:|:The module for this link is not set.:|:Modulet til dette link er ikke sat.
+a:|:The module or url was not set for the link.:|:Modulet eller URL'en til dette link er ikke sat.
+a:|:The module provided does not exist.:|:Det givne modul eksisterer ikke.
+a:|:The name for this link is not set.:|:Navnet til dette link er ikke sat.
+a:|:The requested module does not exist.:|:Det søgte modul eksisterer ikke.
+a:|:The size <b>$size</b> was not a number:|:Størrelsen <b>$size</b> var ikke numerisk
+a:|:The url for this link is not set.:|:URL'en til dette link er ikke sat.
+a:|:You must pass a boolean value to this function.:|:Du skal sende en boolean værdi til denne funktion.
+a:|:My Settings:|:Mine indstilling
+a:|:Site Content:|:Indhold
+a:|:Administration:|:Administration
+a:|:Developer:|:Udvikling
+a:|:My Modules:|:Mine moduler
+a:|:Boost:|:Installation
+a:|:Branch Creator:|:Underhjemmesider
+a:|:Poll Manager:|:Afstemninger
+a:|:RSS News Feeds:|:RSS
+a:|:Link to and display RSS news feeds from other sites.:|:Abonnerer på nyhedsresumeer som overholder RSS formatet
+a:|:Web Pages:|:Websider
+a:|:Module Maker:|:Konfigurerer modulindstillinger
+a:|:Skeleton Module:|:Skabelon
+a:|:This module is a skeleton module for use by developers when creating a new module.:|:Demonstrerer et simpelt skabelonmodul

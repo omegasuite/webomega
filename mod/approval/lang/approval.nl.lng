@@ -1,0 +1,16 @@
+nl:|:approval
+a:|:Approval List:|:Lijst ter Goedkeuring
+a:|:Approval View:|:Goedkeuring Overzicht
+a:|:Building extra modules:|:Samenstellen extra modules
+a:|:Building required modules:|:Samenstellen vereiste modules
+a:|:Checking language file for [var1]:|:Controle taal bestand voor [var1]
+a:|:Core tables successfully installed:|:Core tabellen met goed gevolg geinstalleerd
+a:|:Jobs processed:|:Taken uitgevoerd
+a:|:Layout for [var1] installed successfully:|:Layout voor [var1] met goed gevolg geinstalleerd
+a:|:Missing language directory:|:Ontbrekende taal opzoeklijst
+a:|:No entries to approve:|:Geen inzendingen ter goedkeuring
+a:|:Post Installation Procedures:|:Post Installatie Procedures
+a:|:Registering Default Language:|:Registreer Standaard Taal
+a:|:Registering Layout:|:Registreer Layout
+a:|:[var1] installation successful:|:[var1] installatie gelukt
+a:|:[var1] post-installation successful:|:[var1] post-installatie gelukt

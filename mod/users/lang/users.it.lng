@@ -1,0 +1,105 @@
+it:|:users
+a:|:ALL:|:TUTTI
+a:|:Account Signup:|:Iscrizione account
+a:|:Add Group:|:Aggiungi gruppo
+a:|:Add Member:|:Aggiungi membro
+a:|:Add User:|:Aggiungi utente
+a:|:Admin:|:Amministratore
+a:|:Administer your Account:|:Amministra il tuo profilo
+a:|:Administrate your Account:|:Amministra il tuo profilo
+a:|:Administrator:|:Amministratore
+a:|:All users can apply:|:Permesso a tutti gli utenti
+a:|:Allow New User Signup:|:Permetti iscrizione nuovi utenti
+a:|:Allow:|:Permetti
+a:|:Are you sure you want to delete this user:|:Sicuro di eliminare l'utente
+a:|:Authentication Method:|:Metodo di autenticazione
+a:|:Available Groups:|:Gruppi disponibili
+a:|:Available Users:|:Utenti disponibili
+a:|:Change Successful:|:Modifica eseguita
+a:|:Change Your Password:|:Cambia la tua password
+a:|:Choose an option from the panel above:|:Scegli un'opzione dal pannello
+a:|:Commands:|:Comandi
+a:|:Contact Information:|:Informazioniper il contatto
+a:|:Control Panel:|:Pannello di controllo
+a:|:Create Group:|:Crea gruppo
+a:|:Create User:|:Crea utente
+a:|:Default to Control Panel:|:Pannello di controll predefinito
+a:|:Deity:|:Divinit&agrave;
+a:|:Drop Group:|:Cancella gruppo
+a:|:Drop Member:|:Cancella membro
+a:|:Email Address:|:Indirizzo email
+a:|:Email address already in use:|:Indirizzo email in uso
+a:|:Email:|:Email
+a:|:Enter Again:|:Reinserisci
+a:|:Error:|:Errore
+a:|:External Filename:|:Nome file esterno
+a:|:External PHP function:|:Funzione PHP esterna
+a:|:Forgot Password:|:Password dimenticata
+a:|:Forgot Your Password?:|:Password dimenticata?
+a:|:Go:|:Vai
+a:|:Greeting:|:Benvenuto
+a:|:Group Name:|:Nome gruppo
+a:|:Group created:|:Gruppo creato
+a:|:Group updated:|:Gruppo aggiornato
+a:|:Hello [var1]:|:Ciao [var1]
+a:|:Home:|:Home
+a:|:If you think you might already have an account, try the lost password option:|:Se pensi di essere gi&agrave; registrato, scegli l'opzione password dimenticata
+a:|:Improperly formatted username:|:Username non consentito
+a:|:In Group:|:Nel gruppo
+a:|:In Groups:|:Nei gruppi
+a:|:Inherits:|:Eredita
+a:|:Limit:|:Limite
+a:|:Local Database:|:Database locale
+a:|:Log In:|:Log In
+a:|:Log Out:|:Log Out
+a:|:Make [var1] a Deity:|:Trasforma [var1] in divinit&agrave;
+a:|:Manage Groups:|:Gestisci gruppi
+a:|:Manage Users:|:Gestisci utenti
+a:|:Members:|:Membri
+a:|:Missing Settings:|:Impostazioni mancanti
+a:|:Module Name:|:Nome modulo
+a:|:Module Rights:|:Diritti modulo
+a:|:Mortal:|:Mortale
+a:|:Name:|:Nome
+a:|:New Account Signup:|:Iscrizione nuovo account
+a:|:No groups available:|:Nessun gruppo disponibile
+a:|:No users found:|:Nessun utente trovato
+a:|:No, do leave them mortal:|:No, lasciali Mortali
+a:|:Only approved users can apply:|:Solo per utenti approvati
+a:|:Password:|:Password
+a:|:Passwords did not match:|:Le password non coincidono
+a:|:Please check your email for the change of password form:|:Controlla la tua posta per il cambiamento della password
+a:|:Please try another:|:Prova ancora
+a:|:Refresh My Cookie:|:Aggiorna i cookies
+a:|:Request Successful:|:Richiesta inviata con successo
+a:|:Send Information:|:Invia informazioni
+a:|:Shall we deify them:|:Dobbiamo renderli divinit&agrave;
+a:|:Show Login Box:|:Mostra Box di Login
+a:|:Subject Line:|:Linea dell'oggetto
+a:|:Success:|:Completato
+a:|:Thank you for applying for an account:|:Grazie per aver richiesto un account
+a:|:The username you have entered in invalid:|:Il nome utente inserito non &egrave; corretto
+a:|:The username you have entered is not permitted to change their password:|:A questo utente non &egrave; consentito cambiare password
+a:|:This is a mortal:|:Questo &egrave; un mortale
+a:|:Try again:|:Prova ancora
+a:|:Unable to locate saved cookie:|:Impossibile trovare il cookie
+a:|:Update Group:|:Aggiorna gruppi
+a:|:Update My Information:|:Aggiorna le mie informazioni
+a:|:Update User:|:Aggiorna utente
+a:|:User Defaults:|:Impostazioni predefinite utenti
+a:|:User Email Contact:|:Email contatti utenti
+a:|:User created:|:Utente creato
+a:|:User deleted:|:Utente eliminato
+a:|:User information changed successfully:|:Informazioni modificate
+a:|:User is a deity:|:Utente divinit&agrave;
+a:|:User updated:|:Utente aggiornato
+a:|:Username already in use:|:Nome utente in uso
+a:|:Username:|:Username
+a:|:We've logged you in and activated your new password:|:Sei entrato, e la tua nuova password &egrave; attiva
+a:|:Welcome:|:Benvenuto/a
+a:|:When you receive it, log in using your new username and password:|:Quando la ricevi, accedi usando i tuoi nuovi username e password
+a:|:Yes, make them a deity:|:Si, trasformali in Divinit&agrave;
+a:|:You should shortly receive an email with account verification information:|:A breve ricverai una email per la verifica dei tuoi dati
+a:|:Your password will be sent to your email address:|:Ti invieremo la password in email
+a:|:Your username and email combination was refused:|:La combinazione utente-password non &grave; stata accettata
+a:|:match:|:corrispondono

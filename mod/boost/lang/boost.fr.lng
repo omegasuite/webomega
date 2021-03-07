@@ -1,0 +1,106 @@
+fr:|:boost
+a:|:Abbreviation:|:Abbréviation
+a:|:Add Position Listing:|:Ajouter la liste des offres d'emploi
+a:|:Add Staff Listing:|:Ajouter la liste du personnel
+a:|:All dependancies found:|:Toutes les dépendances ont été trouvées
+a:|:Are you ABSOLUTELY SURE you want completely remove this module:|:Etes-vous ABSOLUMENT CERTAIN de vouloir supprimer ce module
+a:|:Are you sure you want to uninstall this module:|:Etes-vous certain de vouloir désinstaller ce module
+a:|:Assuming files are only requirement for installation:|:Ces fichiers ne sont nécessaires que lors de l'installation
+a:|:Assuming it is not needed:|:Ce n'est pas obligatoire
+a:|:Assuming update needed registering only:|:N'a besoin que d'être enregistré
+a:|:Building extra modules:|:Construction des modules supplémentaires
+a:|:Building required modules:|:Construction des modules requis
+a:|:Check:|:Vérifier
+a:|:Checking dependancies:|:Vérification des dépendances
+a:|:Checking language file for [var1]:|:Vérification du fichier de langue pour [var1]
+a:|:Contact:|:Contact
+a:|:Core Modules:|:Modules du noyau
+a:|:Core Version:|:Version du noyau
+a:|:Core tables successfully installed:|:Installation des tables du noyeau réussie
+a:|:Create Menu Link:|:Créer un lien sur cette page dans le menu
+a:|:Current Version:|:Version en cours
+a:|:Date Available:|:Date disponibilité
+a:|:Download Here:|:Télécharger ici
+a:|:Download the latest version from the following link(s):|:Télécharger à partir des liens suivants
+a:|:External Page:|:Page externe
+a:|:Finished uninstalling [var1] from languages:|:Désinstallation de [var1] des langues
+a:|:First Name:|:Prénom
+a:|:Flat:|:Plat
+a:|:Hours:|:Heures
+a:|:If you uninstall a module from the hub, you will get a prompt:|:Vous allez avoir une demande de confirmation si vous désinstallez un module du tronc
+a:|:In A Box:|:Dans une boîte
+a:|:Install Module:|:Installer le module
+a:|:Install the dependant modules, then try installing again:|:Installez d'abord les modules dont il dépend, puis essayez à nouveau
+a:|:Install:|:Installer
+a:|:Installation file missing for [var1]:|:Le fichier d'installation de [var1] est manquant
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface pour installer, désinstaller et mettre à jour les modules.
+a:|:Internal Page:|:Page interne
+a:|:It should be safe to remove all the files in:|:Il serait plus sûr de supprimer tous les fichiers dans
+a:|:Last Name:|:Nom
+a:|:Layout box created:|:Boîte de mise en page crée
+a:|:Layout for [var1] installed successfully:|:Installation de la mise en page de [var1] réussie
+a:|:Layout for [var1] uninstalled successfully:|:Désinstallation de la mise en page de [var1] réussie
+a:|:Make sure to edit to match your theme:|:Veillez à modifier pour correspondre à votre thème
+a:|:Module Information file missing in:|:Il manque le fichier des informations du module
+a:|:Module Information:|:Informations sur le module
+a:|:Module Installer/Updater:|:Gestionnaire de modules
+a:|:Module Name:|:Nom du module
+a:|:Module is no longer registered:|:Ce module n'est plus enregistré
+a:|:Nested:|:Niché
+a:|:New Window:|:Nouvelle fenêtre
+a:|:Newest First:|:Les plus récents d'abord
+a:|:No Update Info:|:Pas d'informations de mise à jour
+a:|:No install file for [var1]:|:Pas de fichier d'installation pour [var1]
+a:|:No language directory in [var1]:|:Pas de répertoire de langue dans [var1]
+a:|:No language file present for [var1]:|:Pas de fichier de langue pour [var1]
+a:|:Oldest First:|:Les plus anciens d'abord
+a:|:Other Modules:|:Autres modules
+a:|:Photo:|:Photo
+a:|:Position:|:Position
+a:|:Post Installation Procedures:|:Procédures post installation
+a:|:Qualifications:|:Qualifications
+a:|:Registering Default Language:|:Enregistrement de la langue par défaut
+a:|:Registering Layout:|:Enregistrement de la mise en page
+a:|:Removing phrases from:|:Suppression des phrases de
+a:|:Team:|:Equipe
+a:|:The image file does not exist.:|:Le fichier de l'image n'existe pas.
+a:|:This module's version appears to be current:|:Cette version semble être celle en cours
+a:|:Threaded:|:Par fil de discussion
+a:|:Unable to find Layout Info file for [var1]:|:Impossible de trouver le fichier d'information de mise en page pour [var1]
+a:|:Unable to locate update file for [var1]:|:Impossible de trouver un fichier de mise à jour pour [var1]
+a:|:Unable to read update.txt file from [var1]:|:Impossible de lire le fichier update.txt de [var1]
+a:|:Uninstall Module:|:Désinstaller le module
+a:|:Uninstall did not encounter any errors:|:Aucune erreur rencontrée pendant la désinstallation
+a:|:Uninstall:|:Désinstaller
+a:|:Uninstallation file missing for [var1]:|:Fichier de désinstallation manquant pour [var1]
+a:|:Uninstalling Module:|:Désinstallation du module
+a:|:Up to Date:|:A jour
+a:|:Update All Modules:|:Mettre à jour tous les modules
+a:|:Update Boost:|:Mettre à jour Boost
+a:|:Update Core:|:Mettre à jour le noyau
+a:|:Update Module:|:Mettre à jour le module
+a:|:Update Version:|:Mettre à jour la version
+a:|:Update available:|:Mise à jour disponible
+a:|:Update not found at:|:Mise à jour non trouvée sur
+a:|:Update not needed:|:Mise à jour inutile
+a:|:Updating:|:Mise à jour
+a:|:Version Check:|:Vérification de la version
+a:|:Version:|:Version
+a:|:View All:|:Tout voir
+a:|:Visibility:|:Visibilité
+a:|:Visitor:|:Visiteur
+a:|:Write to modules table successful:|:L'ecriture dans les tables des modules a réussi
+a:|:You must update Boost before updating any other modules.:|:Vous devez d'abord mettre à jour Boost avant de mettre à jour les autres modules
+a:|:You will NOT get a prompt uninstalling a branch site module:|:Vous N'ALLEZ PAS recevoir de demande de validation lors de la suppression d'un module branche du site
+a:|:Your Version:|:Votre version
+a:|:[var1] NOT found:|:[var1] PAS trouvée
+a:|:[var1] found:|:[var1] trouvé
+a:|:[var1] has been unregistered:|:[var1] a été désinscrit
+a:|:[var1] installation successful:|:L'installation de [var1] réussie
+a:|:[var1] language file installed:|:Fichier de langue de [var1] installé
+a:|:[var1] post-installation successful:|:Post installation de [var1] réussie
+a:|:[var1] requires the above modules to be installed before it will function:|:Les modules suivants doivent être préalablement installé pour pouvoir faire fonctionner [var1]
+a:|:[var1] uninstallation NOT successful:|:Désinstallation de [var1] avortée
+a:|:[var1] uninstallation successful:|:Désinstallation de [var1] réussie
+a:|:[var1] updated successfully:|:Mise à jour de [var1] réussie
+a:|:[var1] was successfully installed:|:Installation de [var1] réussie

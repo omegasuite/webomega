@@ -1,0 +1,4 @@
+{CATNAME}
+<ul>
+{LINKS}
+</ul>

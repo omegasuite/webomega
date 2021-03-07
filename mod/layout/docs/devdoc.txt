@@ -1,0 +1,174 @@
+Development Documentation for Layout Module
+by Matthew McNaney
+
+Version History
+------------------------
+1.0 First print
+
+
+Introduction
+------------------------
+Welcome and thank you for taking time to learn about writing modules for phpWebSite!
+I designed the layout module to reduce the responsibilities of module presentation. We hope you
+find your results as easy.
+
+
+Content Variables
+-------------------------------------
+There are two types of variables that control the output of your module. Although you
+will only use one of them for programming, it is important you understand them both:
+starting with the content variable.
+
+A Content Variable holds the content (text, images, etc.) for your module. Usually these are
+named with a capital "CNT_" followed by a module defining name. For example, say I had the
+module "Widget" and it printed two different boxes. I could name them:
+CNT_wgt_small
+CNT_wgt_main
+
+or something to that effect. What I want to establish in the naming of the content variable
+is 1) what module it is with and 2) where it is located or its general size. If I only had one
+box, I would probably just use CNT_wgt_main. I would not want to use CNT_main alone however,
+because some other module developer may have carelessly used that variable name as well. Two
+content variables of the same name can overwrite one another.
+
+When I call these content variables within my code, I will use the $GLOBALS variable like
+so:
+$name = "Chuck";
+
+$GLOBALS["CNT_wgt_main"]["title"] = "Hi";
+$GLOBALS["CNT_wgt_main"]["content"] = "$name. We're here for your daughter!";
+$GLOBALS["CNT_wgt_main"]["footer"] = "I'm a footer!";
+
+
+$GLOBALS allows this variable to flow to the layout module, which will interpret it. As long
+as your function gets the information in the globalized content variable, you are fine. So you
+could write your function as such:
+
+function badExample($name_of_archie_character) {
+$whatever = $htis->checkWhatever();
+
+$title = my_title_function();
+$title .= $name_of_archie_character;
+
+$content = $this->moduleFormMaker;
+if ($whatever)
+   $content .= "All done!";
+
+$GLOBALS["CNT_wgt_main"]["title"] = $title;
+$GLOBALS["CNT_wgt_main"]["content"] = $content
+}
+
+Putting the content variables at the end of the function could save you some typing and keep
+the code cleaner. Just make sure you global the array or it will not make it out.
+
+Notice that this variable is an associative array (an array using a string index). Most
+boxes have two to three areas. They are the "title", the "content", and the lesser used "footer."
+It is your responsibility to tell phpWebSite where the text should appear. Name the index
+with the location of where the text should appear just like the example above.
+
+Rule of thumb: title and footer are short. Keep the main portion of your module's information
+in the "content" portion.
+
+If you open one of the theme's boxstyles, you will see {TITLE}, {CONTENT}, and maybe {FOOTER}.
+That is where your data will be plugged in. DO NOT capitalize your array's index however. That
+is taken care of by the layout module.
+
+You can have as many content variables as your module needs. Some modules (BlockMaker for
+example) even create their content variables on-the-fly. In most cases however, you will just
+need one or two.
+
+
+Theme Variables
+----------------
+Theme Variables are the names of the variables that receive your data. Say we have a nice
+big content variable with its title and content portions filled up. Layout will copy this
+information into a boxstyle and then place it in a theme variable. This variable is then
+placed into the theme based on its name. See the theme creation documentation for more
+information.
+
+Since the theme variable is taken care of by layout, you don't really need to worry about it.
+Still, it is good to know how it operates. Just feel good that you don't have to worry about
+WHERE your module appears. The site admin will decide that through the layout admin menu.
+
+Note: you might see the variable "transfer_var" in the layout module code. It is synonymous
+with Theme Variable.
+
+
+Installing your Content Variable
+--------------------------------
+The layout.php file in the conf directory of your module contains the information needed to
+register itself to phpWebSite.
+
+The entry will look like so:
+
+$layout_info[] = array ("content_var"=>"CNT_wgt_main", 
+			"transfer_var"=>"body", 
+			"home_only"=>0
+			);
+
+$layout_info[] = array ("content_var"=>"CNT_wgt_small", 
+			"transfer_var"=>"left_col_top", 
+			"home_only"=>0
+			);
+
+
+Only the "content_var" is absolutely required. It just tells layout what content variable
+or variables you are using.
+
+The transfer variable is for suggestion only. Hopefully the admin will be using a theme
+with the default theme variable names. If they are not, they can still set it with the
+Layout administrator. Unless your module just runs in a small window in the side bar,
+it is a good bet that the main functionality of your module is going to take place in
+"body". This is the main area of the web page and takes up the most page real estate. The
+left and right columns, top, and bottom are really for smaller boxes of information.
+
+The home_only variable indicates if the module should only be seen on the home page. For
+example, when a user hits the home page, you might have a weather module that does not
+need display on each and every page. In that case, I would set home_only = 1.
+
+For more information on module installation, see the module creation documentation.
+
+Testing your Module
+---------------------
+Say you are starting your module and have decided on a content variable name. You will need
+to create your first layout box. First install your module using ModMaker (see the ModMaker
+module documentation for more details). When you are done, activate the module (again,
+using ModMaker).
+
+Now go into the layout module. You will see a "Setup Boxes" button with the name of a module
+in a drop down box. Scroll down to your module's title and click the button. You should get
+a messsage saying the module has not yet been set up. Fill in your module's content variable
+along with the theme variable, and home only (if applicable). Fill in the box file and popbox
+file also if you wish.
+
+If you need to create another content variable, just click on the Add Template button. You
+will be returned to the content variable setup page.
+
+That should be it. Start entering test text in your module and make sure it appears.
+
+Popbox
+-------------------
+While coding, you may decide you want a boxstyle WITHIN the boxstyle you are working in. For
+example, you may want smaller boxes within your main body box to separate different sections
+of information. To force a box, you can call the popbox function like so:
+$_SESSION["OBJ_layout"]->popbox("My Title", "My Content", "My Footer");
+
+A string of the now completed boxstyle will be returned. You can display that box by assigning
+it to your content variable's "content" section.
+
+You may also do this automatically by inserting the name of your content variable at the 
+end of the function call, like so:
+$_SESSION["OBJ_layout"]->popbox("My Title", "My Content", NULL, "CNT_my_content_variable");
+
+Notice that you do not have to fill in all the sections. You could send a NULL value to the footer
+parameter if you were not using one.
+
+
+Conclusion
+------------------
+That should be all you need to start displaying your module's content. If you have any questions
+or comments about this document or the module itself, please drop me an email at:
+matt@NOSPAM.tux.appstate.edu (drop the NOSPAM.)
+
+Good luck,
+Matthew McNaney

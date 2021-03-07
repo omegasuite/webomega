@@ -1,0 +1,88 @@
+nl:|:language
+a:|:Add:|:Toevoegen
+a:|:Admin:|:Admin
+a:|:Administrate:|:Beheer
+a:|:Are you sure you want to remove these language tables and ALL the translations associated with them:|:Weet u zeker dat u deze taal tabellen en ALLE geassocieerde vertalingen wilt verwijderen
+a:|:Auto Update:|:Automatisch Bijwerken
+a:|:Back to Admin:|:Terug naar Admin
+a:|:Back to List:|:Terug naar Lijst
+a:|:Both:|:Beide
+a:|:Check Updated:|:Check Bijgewerkt
+a:|:Check this box to confirm the deletion:|:Vink dit veld aan om de verwijdering te bevestigen
+a:|:Choose:|:Kies
+a:|:Column Name:|:Kolom Naam
+a:|:Column(s):|:Kolom(men)
+a:|:Column:|:Kolom
+a:|:Compare [var1] to [var2]:|:Vergelijk [var1] met [var2]
+a:|:Compare to [var1]:|:Vergelijk met [var1]
+a:|:Create Dynamic Table:|:Maak Dynamische Tabel
+a:|:Create Language Table:|:Maak Taal Tabel
+a:|:Create New Entry:|:Maak Nieuwe Regel
+a:|:Create Table:|:Maak Tabel
+a:|:Created:|:Gemaakt
+a:|:Delete:|:Verwijder
+a:|:Dynamic Active:|:Dynamisch Actief
+a:|:Dynamic Table:|:Dynamische Tabel
+a:|:Dynamic Translations:|:Dynamische Vertalingen
+a:|:Edit Language:|:Taal Aanpassen
+a:|:Export Language File:|:Exporteer Taal Bestand
+a:|:Export [var1] Language File:|:Exporteer [var1] Taal Bestand
+a:|:Export to [var1] not successful:|:Exporteer naar [var1] niet gelukt
+a:|:Export to [var1] successful:|:Exporteer naar [var1] gelukt
+a:|:Go:|:Gaan
+a:|:ID:|:ID
+a:|:Ignore Default Language:|:Negeer Default Taal
+a:|:Import Language File:|:Importeer Taal Bestand
+a:|:Import Successful:|:Importeren Gelukt
+a:|:Import/Export:|:Importeer/Exporteer
+a:|:Insert Checked:|:Invoegen Aangevinkte
+a:|:Insert Phrase:|:Invoegen Frase
+a:|:Language Active:|:Taal Actief
+a:|:Language Administration:|:Taal Beheer
+a:|:Language Settings Updated:|:Taal Instellingen Aangepast
+a:|:Language User Menu:|:Gebruiker Taal Menu
+a:|:Language:|:Taal
+a:|:Mark Untranslated:|:Markeer Niet Vertaald
+a:|:Missed Removals:|:Gemiste Verwijderingen
+a:|:Module:|:Module
+a:|:No Phrases Found for [var1]:|:Geen Frases gevonden voor [var1]
+a:|:No Phrases Found:|:Geen Frases Gevonden
+a:|:No new sections to translate:|:Geen nieuwe secties te vertalen
+a:|:None Found:|:Geen gevonden
+a:|:Off:|:UIT
+a:|:On:|:AAN
+a:|:Original:|:Origineel
+a:|:Phrase:|:Frase
+a:|:Phrases:|:Frasen
+a:|:Pick:|:Kies
+a:|:Regular Table:|:Normale Tabel
+a:|:Remove Language Table:|:Verwijder Taal Tabel
+a:|:Results:|:Resultaten
+a:|:Return to the user menu:|:Terug naar gebruiker menu
+a:|:Search Result for [var1]:|:Zoek Resultaat voor [var1]
+a:|:Search Result:|:Zoek Resultaat
+a:|:Search for Missing Translations:|:Zoek naar missende vertalingen
+a:|:Search for Phrase:|:Zoek naar Frase
+a:|:Search for Translation:|:Zoek naar Vertaling
+a:|:Set Default Language:|:Zet Default Taal
+a:|:Set My Default Language:|:Zet Mijn Default Taal
+a:|:The [var1] dynamic language table was created:|:De [var1] dynamische taal tabel is aangemaakt
+a:|:The [var1] regular language table was created:|:De [var1] normale taal tabel is aangemaakt
+a:|:The following phrases are missing from [var1]:|:De volgende frasen missen uit [var1]
+a:|:Total Duplicates:|:Totaal aantal Dubbelen
+a:|:Total Entries:|:Totaal aantal Regels
+a:|:Total Inserts:|:Totaal aantal Nieuwe regels
+a:|:Total Removals:|:Totaal aantal Verwijderde regels
+a:|:Translates To:|:Vertaalt naar
+a:|:Translation:|:Vertaling
+a:|:Uncheck this box to confirm the deletion:|:Zet deze box uit om de verwijdering te bevestigen
+a:|:Untranslated Dynamic Sections:|:Niet vertaalde Dynamische Secties
+a:|:Untranslated:|:Niet Vertaald
+a:|:Update Checked:|:Wijzig aangevinkte
+a:|:Update Dynamic Translation for [var1]:|:Wijzig Dynamische Vertaling voor [var1]
+a:|:Update Dynamic Translation:|:Wijzig Dynamische Vertaling
+a:|:Update Language Settings:|:Aanpassen Taal Instellingen
+a:|:Update [var1]:|:Wijzig [var1]
+a:|:Update:|:Wijzig
+a:|:Updated:|:Gewijzigd
+a:|:Your Default Language is Saved:|:Uw Default Taal is opgeslagen

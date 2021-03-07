@@ -1,0 +1,81 @@
+img { border: none; }
+input, select, textarea, th, td { font-size: 1em; }
+ 
+/* CSS Tree menu styles */
+ol.tree
+{
+ padding: 0 0 0 30px;
+ width: auto;
+}
+ li.treeitem 
+ { 
+ position: relative; 
+ margin-left: -15px;
+ list-style: none;
+ }
+ li.file
+ {
+ margin-left: -1px !important;
+ }
+ li.file a
+ {
+ background: url(images/document.png) 0 0 no-repeat;
+ color: #fff;
+ padding-left: 21px;
+ text-decoration: none;
+ display: block;
+ }
+ li.file a[href *= '.pdf'] { background: url(images/document.png) 0 0 no-repeat; }
+ li.file a[href *= '.html'] { background: url(images/document.png) 0 0 no-repeat; }
+ li.file a[href $= '.css'] { background: url(images/document.png) 0 0 no-repeat; }
+ li.file a[href $= '.js'] { background: url(images/document.png) 0 0 no-repeat; }
+ li.treeitem input
+ {
+	 position: absolute;
+	 left: 0;
+	 margin-left: 0;
+	 opacity: 0;
+	 z-index: 2;
+	 cursor: pointer;
+	 height: 1em;
+	 width: 1em;
+	 top: 0;
+ }
+ li.treeitem input + ol
+ {
+ background: url(images/toggle-small-expand.png) 40px 0 no-repeat;
+ margin: -0.938em 0 0 -44px; /* 15px */
+ height: 1em;
+ }
+ li.treeitem input + ol > li { display: none; margin-left: -14px !important; padding-left: 1px; }
+ li.treeitem label
+ {
+	 background: url(images/folder-horizontal.png) 15px 1px no-repeat;
+	 cursor: pointer;
+	 display: block;
+	 padding-left: 74px;
+ }
+ 
+ label.clbl
+ {
+	 background: url(images/folder-horizontal.png) 15px 1px no-repeat;
+	 cursor: pointer;
+	 display: block;
+	 padding-left: 37px;
+ }
+
+ input.choose {
+	 position: absolute;
+	 opacity: 1;
+	 left: 40px;
+ }
+
+ li.treeitem input:checked + ol
+ {
+ background: url(images/toggle-small.png) 40px 5px no-repeat;
+ margin: -1.25em 0 0 -44px; /* 20px */
+ padding: 1.563em 0 0 80px;
+ height: auto;
+ }
+ li.treeitem input:checked + ol > li.treeitem { display: block; margin: 0 0 0.125em;  /* 2px */}
+ li.treeitem input:checked + ol > li.treeitem:last-child { margin: 0 0 0.063em; /* 1px */ }

@@ -1,0 +1,47 @@
+    .panel-heading {
+        border: none;
+    }
+
+    .form-horizontal.tasi-form .form-group, .s-row {
+        border: none;
+    }
+
+    .nav-inner li a {
+        float: left;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 42px;
+        text-decoration: none;
+    }
+
+    .input-group-btn > .btn {
+        background: #fff;
+    }
+
+    .nav-tabs li {
+        cursor: pointer;
+        font-size: 13px;
+        margin: 0 5px 0 0;
+        padding: 5px;
+        color: #007311;
+    }
+
+    .nav-tabs .active, .nav-tabs li:hover {
+        color: red;
+        border-bottom: red solid 2px;
+    }
+
+    .tree.tree-solid-line:before,
+    .tree:before, .tree .tree-item,
+    .tree .tree-folder,
+    .tree.tree-solid-line .tree-folder:before,
+    .tree.tree-solid-line .tree-item:before,
+    .tree .tree-folder:before,
+    .tree .tree-item:before,
+    .tree.tree-solid-line .tree-folder .tree-folder-content:before,
+    .tree .tree-folder .tree-folder-content:before {
+        border: none !important;
+    }

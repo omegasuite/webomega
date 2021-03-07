@@ -1,0 +1,21 @@
+da:|:help
+a:|:Activate All:|:Aktiver alle
+a:|:Activate/Deactivate:|:Aktiver/Deaktiver
+a:|:Are you sure you want to reload the [var1] item:|:Er du sikker på, at du vil genindlæse [var1]
+a:|:Choose a module:|:Vælg modul
+a:|:Choose a module from the list below to load its help data for editing:|:Vælg et modul fra nedenstående liste, for at indlæse og rette hjælpeinformationer
+a:|:Close this Window:|:Luk dette vindue
+a:|:Deactivate All:|:Deaktiver alle
+a:|:Edit module:|:Ret modul
+a:|:Edit the help data below:|:Ret nedenstående hjælpeinformationer
+a:|:Load Module:|:Indlæs modul
+a:|:Reload:|:Genindlæst
+a:|:Reload Help Item:|:Genindlæs hjælpeinformationer
+a:|:Save Data:|:Gem oplysninger
+a:|:The Help module allows you to manage help information shown in key areas on your site.:|:Indlæser og vedligeholder hjælpetekster for de øvrige moduler
+a:|:Activate/Deactivate the help data below:<br />:|:Aktiver/deaktiver hjælpeinformation under:<br />
+a:|:Module Name:|:Modulnavn
+a:|:No:|:Nej
+a:|:Set Active:|:Set aktiv
+a:|:Yes:|:Ja
+a:|:Absolute Help:|:Hjælp

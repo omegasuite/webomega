@@ -1,0 +1,224 @@
+da:|:users
+a:|:A Problem Occurred:|:Der opstod et problem
+a:|:A secure cookie will only be sent over a secure connection (HTTPS):|:En sikker cookie vil kun blive sat over en sikker forbindelse (HTTPS)
+a:|:ALL:|:ALLE
+a:|:Access:|:Adgang
+a:|:Account Signup:|:Opret en brugerprofil
+a:|:Add Group:|:Tilføj gruppe
+a:|:Add Member:|:Tilføj medlem
+a:|:Add User:|:Tilføj bruger
+a:|:Add Users:|:Tilføj brugere
+a:|:Add to [var1]:|:Tilføj til [var1]
+a:|:Administrate your Account:|:Administrer din konto
+a:|:Administrator:|:Administrator
+a:|:Administrator Modules:|:Administrator moduler
+a:|:Admins Only:|:Kun adgang for administratorer
+a:|:All users can apply:|:Alle brugere kan ansøge
+a:|:All users can apply - password will be emailed:|:Alle brugere kan ansøge - kodeord vil blive sendt via e-mail
+a:|:All users can apply - immediate login:|:Alle brugere kan ansøge - med øjeblikkelig virkning
+a:|:Allow:|:Tillad
+a:|:Allow Cookies:|:Tillad cookies
+a:|:Allow New User Signup:|:Tillad at nye brugere opretter profiler
+a:|:Allows you to change your email address and password.:|:Skifter dit kodeord og din e-mail adresse
+a:|:Another deity will need to change your password:|:En anden guddommelighed behøver at ændre dit kodeord
+a:|:Apply for Account:|:Ansøg efter en konto
+a:|:Are you sure you want to delete this user:|:Er du sikker på at du vil slette denne bruger
+a:|:Authentication Method:|:Godkendelses metode
+a:|:Available Groups:|:Tilgængelige grupper
+a:|:Available Users:|:Tilgængelige brugere
+a:|:Change Cookie Permissions:|:Ændre cookie tilladelser
+a:|:Change Successful:|:Ændring gennemført
+a:|:Change User Defaults:|:Ændre brugers standard
+a:|:Change Your Password:|:Skift kodeord
+a:|:Change my Menu:|:Ændre min menu
+a:|:Change My Password:|:Password
+a:|:Choose an option from the panel above:|:Vælg fra ovenstående panel
+a:|:Commands:|:Kommandoer
+a:|:Contact Information:|:Kontakt information
+a:|:Control Panel:|:Kontrolpanel
+a:|:Cookie Refreshed:|:Cookie genindlæst
+a:|:Create Group:|:Opret gruppe
+a:|:Create User:|:Opret bruger
+a:|:Create a group by clicking on Add Group above:|:Opret en gruppe ved at klikke på Tilføj gruppe.
+a:|:Default Menu Edit:|:Standardmenu editering
+a:|:Default to Control Panel:|:Vis kontrolpanel som standardside
+a:|:Deity:|:Guddommelighed
+a:|:Deity users are not permitted to use this form:|:Guddommelige brugere kan ikke anvende denne funktion
+a:|:Directory:|:Bibliotek
+a:|:Do you wish to remove their status:|:Ønsker du at fjerne deres status
+a:|:Domain:|:Domain
+a:|:Done:|:Færdig
+a:|:Drop Group:|:Slet gruppe
+a:|:Drop Member:|:Slet medlem
+a:|:Edit:|:Ret
+a:|:Edit Menu Off:|:Ret menu fra
+a:|:Edit Menu On:|:Ret menu til
+a:|:Email:|:E-mail
+a:|:Email Address:|:E-mail adresse
+a:|:Enter Again:|:Gentag
+a:|:External Authorization is set on site, but authorization file doesn't exist. Please notify system administrator.:|:Ekstern godkendelse er aktiv, men godkendelsesfilen eksisterer ikke. Kontakt venligst systemadministratoren.
+a:|:External Filename:|:Eksternt filnavn
+a:|:External PHP function:|:Ekstern PHP funktion
+a:|:Forgot Your Password?:|:Glemt kodeord?
+a:|:Go to signup page:|:Gå til oprettelses siden
+a:|:Greeting:|:Hilsen
+a:|:Group Name:|:Gruppe navn
+a:|:Group created:|:Gruppen oprettet
+a:|:Group updated:|:Gruppen opdateret
+a:|:Hello [var1]:|:Goddag [var1]
+a:|:Home:|:Forside
+a:|:If you think you might already have an account, try the lost password option:|:Hvis du mener at du allerede har en profil, kan du prøve *Glemt kodeord* funktionen.
+a:|:In Group:|:I gruppe
+a:|:In Groups:|:I grupper
+a:|:In most cases, this can be left off:|:I de fleste tilfælde, kan dette udelades
+a:|:Inherits:|:Arve
+a:|:Insert:|:Indsæt
+a:|:Keep in mind that these options only cover user cookies:|:Husk venligst, at disse muligheder kun dækker bruger cookies
+a:|:Lets you create and edit users and groups.:|:Opretter brugere og ændre indstillinger for brugerkonti
+a:|:Limit:|:Begræns
+a:|:Load:|:Kør
+a:|:Local Database:|:Lokal database
+a:|:Log In:|:Log ind
+a:|:Log Out:|:Log ud
+a:|:Logout:|:Log ud
+a:|:Make [var1] a Deity:|:Gør [var1] guddommelig
+a:|:Manage:|:Administrer
+a:|:Manage Groups:|:Administrer grupper
+a:|:Manage Users:|:Administrer brugere
+a:|:Members:|:Medlemmer
+a:|:Missing Settings:|:Manglende indstillinger
+a:|:Missing adminMenu templates:|:Manglende adminMenu skabelon
+a:|:Missing password:|:Manglende kodeord
+a:|:Missing username:|:Manglende brugernavn
+a:|:Module Name:|:Modul navn
+a:|:Module Rights:|:Modul rettigheder
+a:|:Modules:|:Moduler
+a:|:Mortal:|:Dødelig
+a:|:Name:|:Navn
+a:|:New Account Signup:|:Opret brugerprofil
+a:|:New users can not be accepted until the admin establishes a contact email:|:Nye brugere kan ikke accepteres, før administratoren får etableret en kontakt e-mail
+a:|:No groups available:|:Ingen tilgængelige grupper
+a:|:No groups found:|:Der blev ikke fundet nogen grupper
+a:|:No users found:|:Ingen brugere fundet
+a:|:No, do leave them mortal:|:Nej, lad dem være dødelige
+a:|:No, let them remain a deity:|:Nej, lad dem forblive guddommelige
+a:|:None:|:Ingen
+a:|:Only approved users can apply:|:Kun godkendte brugere kan ansøge
+a:|:Other Information:|:Anden information
+a:|:Password:|:Kodeord
+a:|:Password must be five characters or more in length:|:Kodeordet skal indeholde 5 eller flere karakterer
+a:|:Password too familiar:|:Kodeordet er for almindeligt
+a:|:Passwords did not match:|:Kodeordene var ikke ens
+a:|:Please apply for a new password change form:|:Bed venligst om et nyt kodeord
+a:|:Please check your email for the change of password form:|:Kontroller din e-mail for dit nye kodeord
+a:|:Please contact the systems administrator:|:Kontakt venligst systemadministratoren
+a:|:Please go under Settings in the admin User Manager and enter an user contact email address:|:Gå venligst i indstillinger under admin bruger manager, og indtast en bruger kontakt e-mail adresse
+a:|:Please load new modules into a menu:|:Indlæs venligst nye moduler i en menu
+a:|:Please try again later:|:Forsøg venligst igen senere
+a:|:Please try another:|:Prøv en anden
+a:|:Refresh:|:Opdater
+a:|:Refresh My Cookie:|:Opdater min cookie
+a:|:Remove:|:Fjern
+a:|:Remove Member:|:Fjern medlem
+a:|:Request Successful:|:Forespørgsel succesfuld
+a:|:Search:|:Søg
+a:|:Secure Cookie:|:Sikker cookie
+a:|:Send Information:|:Send information
+a:|:Set Cookie Preferences:|:Sæt cookie præferencer
+a:|:Settings:|:Indstillinger
+a:|:Setup Default Menu:|:Setup default menu
+a:|:Setup My Menu:|:Setup min menu
+a:|:Shall we deify them:|:Skal vi gøre dem guddommelige
+a:|:Show Login Box:|:Vis login ramme
+a:|:Sign In:|:Log ind
+a:|:Simple:|:Simpel
+a:|:Simple vs. Domain/Directory:|:Simple vs. Domain/Directory
+a:|:Sorry:|:Undskyld
+a:|:Sorry but there is a problem with our email:|:Der er desværre et problem med vores e-mail
+a:|:Subject Line:|:Emne linie
+a:|:Success:|:Succes
+a:|:Thank you for applying for an account:|:Tak for ansøgningen om en profil
+a:|:The Domain/Directory option also includes your web address for greater security:|:Domain/Directory funktionen indeholder også din hjemmeside adresse for større sikkerhed
+a:|:The number of minutes you want to phpWebSite to allow the cookie to remain active:|:Antallet af minutter du tillader phpWebSite at holde cookien aktiv
+a:|:The simple cookie only contains the information and a time limit:|:En simpel cookie indeholder kun information og tidsbegrænsning
+a:|:The username you have entered is invalid:|:Det indtastede brugernavn er ugyldigt
+a:|:The username you have entered is not permitted to change their password:|:Det indtastede brugernavn må IKKE ændre kodeord
+a:|:This MUST be set:|:Dette SKAL angives
+a:|:This allows for easier interaction and administration between sites using the same hub:|:Dette bevirker nemmere inteaktion og administration mellem hjemmesider der anvender samme hub
+a:|:This is a mortal:|:Dette er en dødelig
+a:|:This user is currently a deity:|:Brugeren er i øjeblikket guddommelig
+a:|:This value must be greater than 10 minutes:|:Værdien skal være større end 10 minutter
+a:|:Time Limit:|:Tidsbegrænsning
+a:|:Try again:|:Prøv igen
+a:|:Unable to email change form:|:Det var ikke muligt at sende en e-mail med ændringsforespørgsel
+a:|:Unable to locate saved cookie:|:Det var ikke muligt at finde den gemte cookie
+a:|:Unable to send email from a new user sign-up request:|:Det var ikke muligt at sende en e-mail fra en ny bruger oprettelse
+a:|:Update Cookie Settings:|:Opdater cookie indstillinger
+a:|:Update Group:|:Opdater gruppe
+a:|:Update My Information:|:Opdater min information
+a:|:Update Permissions:|:Opdater tilladelser
+a:|:Update User:|:Opdater bruger
+a:|:User Admin:|:Bruger administration
+a:|:User Defaults:|:Indstillinger
+a:|:User Email Contact:|:Bruger e-mail kontakt
+a:|:User created:|:Bruger oprettet
+a:|:User deleted:|:Bruger slettet
+a:|:User information changed successfully:|:Bruger information er blevet ændret
+a:|:User is a deity:|:Brugeren er guddommelig
+a:|:User updated:|:Bruger opdateret
+a:|:Username:|:Brugernavn
+a:|:Username already in use:|:Det valgte brugernavn er optaget
+a:|:Username may not contain spaces or non-alphanumeric characters:|:Brugernavn må ikke indeholde mellemrum eller ikke alfabetiske karakterer
+a:|:WARNING:|:ADVARSEL
+a:|:Welcome:|:Velkommen
+a:|:When you receive it, log in using your new username and password:|:Når du har modtaget det, kan du logge ind med dit nye brugernavn og kodeord
+a:|:Yes, make them a deity:|:Ja, gør dem guddommelige
+a:|:Yes, make them mortal:|:Ja, lav dem dødelige
+a:|:You have not requested a password change:|:Du har ikke valgt at skifte kodeord
+a:|:You have run out of time to update your password:|:Dit kodeord skal udløbe, før det kan fornyes
+a:|:You have the option to allow your site to use cookies to assist in user authorization:|:Du har mulighed for at tillade at hjemmesiden bruger cookies til at hjælpe med bruger autorisationer
+a:|:You may need to log out for changes to take effect:|:Du skal muligvis logge ud før ændringerne viser sig.
+a:|:You may now login with your new password:|:Du kan nu logge ind med dit nye kodeord
+a:|:You must give your group a name:|:Du skal navngive din gruppe
+a:|:You should shortly receive an email with account verification information:|:Du vil i løbet af kort tid modtage en e-mail med login informationer
+a:|:Your Modules:|:Dine moduler
+a:|:Your password will be sent to your email address:|:Dit kodeord bliver send til din e-mail adresse
+a:|:Your request is being reviewed:|:Din forespørgsel bliver gennemgået
+a:|:Your username and email combination was refused:|:Det valgte brugernavn anvendes allerede
+a:|:match:|:gentag
+a:|:nobody:|:ingen
+a:|:of:|:af
+a:|:* Successfully updated user settings.:|:* Bruger indstillinger er blevet opdateret.
+a:|:A contact email address has not been setup for this website:|:En kontakt e-mail adresse er ikke blevet angivet for denne webside
+a:|:Access was denied. Please log in.:|:Adgang nægtet. Log venligst ind.
+a:|:Admin:|:Admin
+a:|:Administer your Account:|:Administrer din konto
+a:|:Are you sure you want to delete the [var1] group:|:Er du sikker på, at du ønsker at slette gruppen [var1]
+a:|:Confirmation:|:Bekræftelse
+a:|:Delete:|:Slet
+a:|:Description:|:Beskrivelse
+a:|:Email address already in use:|:E-mail adresse er allerede i brug
+a:|:Go:|:Fortsæt
+a:|:Group Removed:|:Gruppen er fjernet
+a:|:If you think you might already have an account, try the 'Forgot Your Password?' option:|:Hvis du tror, at du allerede har en konto, så prøv funktionen 'Glemt kodeord?'
+a:|:Improperly formatted email address:|:Ugyldig e-mail adresse
+a:|:Improperly formatted username:|:Ugyldigt brugernavn
+a:|:Malformed email address:|:Forkert e-mail adresse
+a:|:No:|:Nej
+a:|:Remember Me:|:Husk mig
+a:|:Show 'Remember Me' Option:|:Vis 'Husk mig' funktionen
+a:|:Some characters in your password were refused:|:Nogle karakterer i dit kodeord blev afvist
+a:|:Sorry but there is a problem with email:|:Beklager, men der er et problem med din e-mail
+a:|:The Timelimit must be 10 minutes or more:|:Tidsbegrænsningen skal være 10 minutter eller mere
+a:|:The username you have entered has not been approved by an administrator:|:Det brugernavn du har angivet, er ikke blevet godkendt af administratoren
+a:|:Unable to login using the username and password provided:|:Det var ikke muligt at logge ind med det oplyste brugernavn og kodeord
+a:|:Update:|:Opdater
+a:|:User is a mere mortal:|:Brugeren kun dødelig
+a:|:Username and password must be set before user can be saved:|:Brugernavn og kodeord skal angives, før brugeren kan gemmes
+a:|:Users updated:|:Brugere opdateret
+a:|:We've logged you in and activated your new password:|:Vi har logget dig ind, og aktiveret dit nye kodeord
+a:|:Yes:|:Ja
+a:|:You sure you want to delete your OWN account:|:Er du sikker på, at du vil slette din EGEN konto
+a:|:You won't be able to log in afterwards:|:Du vil ikke være i stand til at logge ind bagefter
+a:|:Your session timed out. Please log back in.:|:Din session er timet ud. Log venligst ind igen.
+a:|:Users Administration:|:Brugere

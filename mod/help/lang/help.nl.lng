@@ -1,0 +1,14 @@
+nl:|:help
+a:|:Activate All:|:Activeer Alle
+a:|:Activate/Deactivate:|:Activeer/Deactiveer
+a:|:Are you sure you want to reload the [var1] item:|:Weet je zeker dat je item [var1] wilt herladen
+a:|:Choose a module from the list below to load its help data for editing:|:Kies een module uit de lijst waarvan je de help data wilt inladen om te wijzigen
+a:|:Choose a module:|:Kies een module
+a:|:Close this Window:|:Sluit dit Window
+a:|:Deactivate All:|:Deactiveer Alle
+a:|:Edit module:|:Wijzig Module
+a:|:Edit the help data below:|:Wijzig de help data hieronder
+a:|:Load Module:|:Laad Module
+a:|:Reload Help Item:|:Herlaad Help Item
+a:|:Reload:|:Herlaad
+a:|:Save Data:|:Data Opslaan

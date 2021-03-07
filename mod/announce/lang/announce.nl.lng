@@ -1,0 +1,65 @@
+nl:|:announce
+a:|:Action:|:Actie
+a:|:Allow Comments?:|:Commentaar Toegestaan?
+a:|:Announcement Deleted!:|:Aankondiging Verwijderd!
+a:|:Announcement List:|:Aankondigingen Lijst
+a:|:Announcement Saved:|:Aankondiging Opgeslagen
+a:|:Announcement Sent:|:Aankondiging Verstuurd
+a:|:Announcement Settings:|:Instellingen Aankondigingen
+a:|:Announcement Submitted:|:Aankondiging Ingestuurd
+a:|:Announcement Updated:|:Aankondiging Aangepast
+a:|:Announcements Menu:|:Aankondiging Menu
+a:|:Announcements:|:Aankondigingen
+a:|:Anonymous Posts?:|:Anonieme Post?
+a:|:Anonymous:|:Anoniem
+a:|:Are you sure you wish to delete this announcement with subject:|:Weet je zeker dat je de aankondiging wilt verwijderen met als onderwerp
+a:|:Assuming it is not needed:|:Aannemend dat het niet nodig is
+a:|:Body:|:Inhoud
+a:|:Building extra modules:|:Bouwt extra modules
+a:|:Building required modules:|:Bouwt vereiste modules
+a:|:Category:|:Categorie
+a:|:Checking language file for [var1]:|:Controleert taal bestand voor [var1]
+a:|:Core tables successfully installed:|:Basis tabellen succesvol geinstalleerd
+a:|:Date Posted:|:Datum Gepost
+a:|:Delete Announcement?:|:Verwijder Aankondiging?
+a:|:Download:|:Download
+a:|:Edit Announcement:|:Wijzig Aankondiging
+a:|:Expiration:|:Verloopt
+a:|:Filename:|:Bestandsnaam
+a:|:Hide:|:Verberg
+a:|:Image:|:Plaatje
+a:|:Installation file missing for [var1]:|:Installatie bestand mist voor [var1]
+a:|:Layout for [var1] installed successfully:|:Layout for [var1] installed successfully
+a:|:List Announcements:|:Aankondigingen Lijst
+a:|:Modified:|:Aangepast
+a:|:New Announcement:|:Nieuwe Aankondiging
+a:|:No announcements found!:|:Geen Aankondigen gevonden!
+a:|:Number of announcements shown on home page:|:Aantal Aankondigingen zoals getoond op de home pagina
+a:|:Number of past announcements shown:|:Aantal getoonde oudere Aankondigingen
+a:|:Past:|:Verleden
+a:|:Post Installation Procedures:|:Post Installatie Procedures
+a:|:Post On:|:Ingezonden Op
+a:|:Post on Date:|:Ingezonden Op Datum
+a:|:Posted by:|:Ingezonden door
+a:|:Registering Default Language:|:Registratie Standaard Taal
+a:|:Registering Layout:|:Registratie Layout
+a:|:Save Settings:|:Instellingen Opslaan
+a:|:Save:|:Opslaan
+a:|:Settings Saved!:|:Instellingen Opgeslagen!
+a:|:Short Description:|:Korte Beschrijving
+a:|:Show Announcements:|:Toon Aankondigingen
+a:|:Show Past Announcements:|:Toon Oudere Aankondigingen
+a:|:Show:|:Toon
+a:|:Sticky:|:Vastgezet
+a:|:Subject:|:Onderwerp
+a:|:Submit News:|:Stuur Nieuw In
+a:|:Summary:|:Samenvatting
+a:|:The announcement was successfully <b>deleted</b>.:|:De Aankondiging is <b>verwijderd</b>.
+a:|:Type:|:Type
+a:|:Your announcement was submitted for approval.:|:Je aankondiging is ingezonden ter goedkeuring.
+a:|:Your announcement was successfully saved.:|:Je aankondiging is opgeslagen.
+a:|:Your announcement was successfully updated.:|:Je aankondiging is gewijzigd.
+a:|:Your settings have successfully been saved!:|:Je Instellingen zijn opgeslagen!
+a:|:[var1] installation successful:|:[var1] installatie gelukt
+a:|:[var1] language file installed:|:[var1] taal bestand geinstalleerd
+a:|:[var1] post-installation successful:|:[var1] post-installatie gelukt

@@ -1,0 +1,92 @@
+it:|:language
+a:|:Add:|:Aggiungi
+a:|:Admin:|:Amministrazione
+a:|:Administrate:|:Amministra
+a:|:Are you sure you want to remove these language tables and ALL the translations associated with them:|:Sicuro di eliminare le traduzioni
+a:|:Auto Update:|:Auto aggiornamento
+a:|:Back to Admin:|:Torna all amministrazione
+a:|:Back to List:|:Torna alla lista
+a:|:Both:|:Entrambe
+a:|:Check Updated:|:Aggiornate quelle selezionate
+a:|:Check this box to confirm the deletion:|:Spunta qui per confermare l'eliminazione
+a:|:Choose:|:Scegli
+a:|:Column Name:|:Nome colonna
+a:|:Column(s):|:Colonna/e
+a:|:Column:|:Colonna
+a:|:Compare [var1] to [var2]:|:Compara [var1] con [var2]
+a:|:Compare to [var1]:|:Compara con [var1]
+a:|:Create Dynamic Table:|:Crea tabella dinamica
+a:|:Create Language Table:|:Crea tabella della lingua
+a:|:Create New Entry:|:Crea nuova voce
+a:|:Create Table:|:Crea tabella
+a:|:Created:|:Creata
+a:|:Default Language set to [var1]:|:Lingua predefinita impostata a [var1]
+a:|:Delete:|:elimina
+a:|:Dynamic Active:|:Attiva dinamiche
+a:|:Dynamic Table:|:Tabella dinamica
+a:|:Dynamic Translations:|:traduzioni dinamiche
+a:|:Edit Language:|:Modifica lingua
+a:|:Export Language File:|:esporta file di lingua
+a:|:Export [var1] Language File:|:Esporta lingua [var1] in un file
+a:|:Export to [var1] not successful:|:[var1] NON esportata
+a:|:Export to [var1] successful:|:Ho esportato [var1]
+a:|:Go:|:Vai
+a:|:ID:|:ID
+a:|:Ignore Default Language:|:Ignora lingua predefinita
+a:|:Import Language File:|:Importa file di lingua
+a:|:Import Successful:|:Importata
+a:|:Import/Export:|:Importa/esporta
+a:|:Insert Checked:|:Inserisci le selezionate
+a:|:Insert Phrase:|:Inserisci frase
+a:|:Language Active:|:Lingua attiva
+a:|:Language Administration:|:Amministra lingue
+a:|:Language Settings Updated:|:Impostazioni lingua aggiornate
+a:|:Language User Menu:|:Menu lingua dell'utente
+a:|:Language:|:Lingua
+a:|:Mark Untranslated:|:Segna le non tradotte
+a:|:Missed Removals:|:Rimozioni non eseguite
+a:|:Module:|:Modulo
+a:|:No Phrases Found for [var1]:|:Nessuna frase trovata per [var1]
+a:|:No Phrases Found:|:Nessuna frase trovata
+a:|:No new sections to translate:|:Nessuna nuova sezione da tradurre
+a:|:No translations to export:|:Nessuna traduzione da esportare
+a:|:None Found:|:Nessuna trovata
+a:|:Off:|:Off
+a:|:On:|:on
+a:|:Original:|:Originale
+a:|:Phrase <i>[var1]</i> already in use:|:La frase <i>[var1]</i> &egrave; in uso
+a:|:Phrase:|:Frase
+a:|:Phrases:|:Frasi
+a:|:Pick:|:seleziona
+a:|:Refresh:|:Aggiorna
+a:|:Regular Table:|:Tabella narmale
+a:|:Remove Language Table:|:Rimuovi tabella lingua
+a:|:Results:|:Risultati
+a:|:Return to the user menu:|:Ritorna al menu utente
+a:|:Search Result for [var1]:|:Cerca risultati per [var1]
+a:|:Search Result:|:Risultati ricerca
+a:|:Search for Missing Translations:|:Cerca traduzioni mancanti
+a:|:Search for Phrase:|:Cerca frase
+a:|:Search for Translation:|:Cerca traduzione
+a:|:Set Default Language:|:Imposta lingua predefinita
+a:|:Set My Default Language:|:Imposta la mia lingua predefinita
+a:|:The [var1] dynamic language table was created:|:La tabella dinamica per  [var1] &egrave; stata creata
+a:|:The [var1] regular language table was created:|:Tabella normale [var1] creata
+a:|:The following phrases are missing from [var1]:|:Mancano queste frasi da [var1]
+a:|:Total Duplicates:|:Totale duplicati
+a:|:Total Entries:|:Totale voci
+a:|:Total Inserts:|:Totale inserimenti
+a:|:Total Removals:|:Totale rimosse
+a:|:Translates To:|:Traduci in
+a:|:Translation:|:Traduzione
+a:|:Uncheck this box to confirm the deletion:|:Deseleziona qui per confermare l'eliminazione
+a:|:Untranslated Dynamic Sections:|:Sezioni dinamiche non tradotte
+a:|:Untranslated:|:Non tradotta
+a:|:Update Checked:|:Aggiorna i selezionati
+a:|:Update Dynamic Translation for [var1]:|:Aggiorna traduzione dinamica per [var1]
+a:|:Update Dynamic Translation:|:Aggiorna traduzioni dinamiche
+a:|:Update Language Settings:|:Aggiorna impostazioni lingua
+a:|:Update [var1]:|:Aggiorna [var1]
+a:|:Update:|:Aggiorna
+a:|:Updated:|:Aggiornato
+a:|:Your Default Language is Saved:|:La tua lingua predefinita &egrave; stata salvata

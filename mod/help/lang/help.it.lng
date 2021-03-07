@@ -1,0 +1,15 @@
+it:|:help
+a:|:Activate All:|:Attiva tutti
+a:|:Activate/Deactivate:|:Attiva/Disattiva
+a:|:Are you sure you want to reload the [var1] item:|:Sicuro di ricaricare [var1]
+a:|:Choose a module from the list below to load its help data for editing:|:Scegli un modulo dalla lista per modificare gli aiuti
+a:|:Choose a module:|:Scegli un modulo
+a:|:Close this Window:|:Chiudi questa finestra
+a:|:Deactivate All:|:Disattiva tutti
+a:|:Edit module:|:Modifica modulo
+a:|:Edit the help data below:|:Modifica l'aiuto
+a:|:Load Module:|:Carica modulo
+a:|:Reload Help Item:|:Ricarica aiuto
+a:|:Reload:|:Aggiorna
+a:|:Save Data:|:Save Data
+a:|:The Help module allows you to manage help information shown in key areas on your site.:|:Il modulo aiuti permette la gestione degli aiuti sul sito

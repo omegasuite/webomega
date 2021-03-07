@@ -1,0 +1,109 @@
+da:|:boost
+a:|:All dependancies found:|:Alle afhængigheder fundet
+a:|:Are you ABSOLUTELY SURE you want completely remove this module:|:Er du HELT sikker på, at du vil fjerne dette modul
+a:|:Are you sure you want to uninstall this module:|:Er du sikker på at du vil afinstallere dette modul
+a:|:Assuming files are only requirement for installation:|:Antager at filer kun er nødvendige for installationen
+a:|:Assuming it is not needed:|:Antager at det ikke skal anvendes
+a:|:Assuming update needed registering only:|:Antager at opdateringen kun kræver registrering
+a:|:Building extra modules:|:Bygger ekstra moduler
+a:|:Building required modules:|:Bygger nødvendige moduler
+a:|:Check:|:Kontroller
+a:|:Checking dependancies:|:Kontroller afhængigheder
+a:|:Checking language file for [var1]:|:Kontrollerer sprogfil for [var1]
+a:|:Core Modules:|:Core moduler
+a:|:Core tables successfully installed:|:Core tabeller installeret
+a:|:Current Version:|:Nuværende version
+a:|:Download Here:|:Download her
+a:|:Download the latest version from the following link(s):|:Download den seneste version fra følgende link(s)
+a:|:External Page:|:Ekstern side
+a:|:Finished uninstalling [var1] from languages:|:Færdig med afinstallering af [var1] fra sprog
+a:|:Flat:|:Normal visning
+a:|:If you uninstall a module from the hub, you will get a prompt:|:Hvis du afinstallerer et modul fra hjemmesiden, vil du få en påmindelse
+a:|:In A Box:|:I en ramme
+a:|:Install:|:Installer
+a:|:Install Module:|:Installer modul
+a:|:Install the dependant modules, then try installing again:|:Installer de afhængige moduler. Prøv så at installere igen
+a:|:Installation file missing for [var1]:|:Installationsfil mangler for [var1]
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface til at installere, opdatere og afinstallere moduler.
+a:|:Internal Page:|:Intern side
+a:|:It should be safe to remove all the files in:|:Det skulle være sikkert at fjerne alle filer i
+a:|:Layout box created:|:Layout ramme oprettet
+a:|:Layout for [var1] installed successfully:|:Layout for [var1] installeret
+a:|:Layout for [var1] uninstalled successfully:|:Layoutet for [var1] er blevet afinstalleret
+a:|:Make sure to edit to match your theme:|:Husk at rette for at matche dit tema
+a:|:Module Information:|:Modul information
+a:|:Module Installer/Updater:|:Modul installation/opdatering
+a:|:Module is no longer registered:|:Modul er ikke længere registreret
+a:|:Nested:|:Indrykket
+a:|:New Window:|:Nyt vindue
+a:|:Newest First:|:Nyeste først
+a:|:No Update Info:|:Ingen opdateringsinformation
+a:|:No install file for [var1]:|:Ingen installationsfil for [var1]
+a:|:No language directory in [var1]:|:Der var ikke noget sprogbibliotek i [var1]
+a:|:No language file present for [var1]:|:Ingen sprogfil til [var1]
+a:|:Oldest First:|:Ældste først
+a:|:Other Modules:|:Andre moduler
+a:|:Post Installation Procedures:|:Efter-installations procedurer
+a:|:Registering Default Language:|:Registrer defaultsprog
+a:|:Registering Layout:|:Registreringslayout
+a:|:Removing phrases from:|:Fjerner sætninger fra
+a:|:This module's version appears to be current:|:Dette moduls version er formentlig opdateret
+a:|:Threaded:|:Oversigt
+a:|:Unable to find Layout Info file for [var1]:|:Det var ikke muligt at finde layoutinfo fil for [var1]
+a:|:Unable to locate update file for [var1]:|:Det var ikke muligt at finde opdateringsfilen for [var1]
+a:|:Unable to read update.txt file from [var1]:|:Det var ikke muligt at læse update.txt filen fra [var1]
+a:|:Uninstall:|:Afinstaller
+a:|:Uninstall Module:|:Afinstaller modul 
+a:|:Uninstall did not encounter any errors:|:Afinstallationen fandt ingen fejl
+a:|:Uninstallation file missing for [var1]:|:Afinstallationsfil mangler for [var1]
+a:|:Uninstalling Module:|:Afinstallerer modul
+a:|:Up to Date:|:Opdateret
+a:|:Update All Modules:|:Opdater alle moduler
+a:|:Update Boost:|:Opdater boost
+a:|:Update Core:|:Opdater core
+a:|:Update Module:|:Opdater modul
+a:|:Update Version:|:Opdater version
+a:|:Update available:|:Opdatering tilgængelig
+a:|:Update not found at:|:Opdatering blev ikke fundet i
+a:|:Update not needed:|:Opdatering er ikke nødvendig
+a:|:Updating:|:Opdatering
+a:|:Version:|:Version
+a:|:Version Check:|:Versionstjek
+a:|:Write to modules table successful:|:Modultabel opdateret
+a:|:You must update Boost before updating any other modules.:|:Du må opdatere boost før du opdaterer andre moduler.
+a:|:You will NOT get a prompt uninstalling a branch site module:|:Du vil ikke modtage en påmindelse ved afinstallation af en underhjemmeside
+a:|:Your Version:|:Din version
+a:|:[var1] NOT found:|:[var1] IKKE fundet
+a:|:[var1] found:|:[var1] fundet
+a:|:[var1] has been unregistered:|:[var1] er blevet afregistreret
+a:|:[var1] installation successful:|:[var1] installeret
+a:|:[var1] language file installed:|:[var1] sprogfil installeret
+a:|:[var1] post-installation successful:|:[var1] efter-installationen gennemført
+a:|:[var1] requires the above modules to be installed before it will function:|:[var1] kræver at ovenstående moduler skal installeres før dette modul vil virke korrekt
+a:|:[var1] uninstallation NOT successful:|:Fejl i afinstallation af [var1]
+a:|:[var1] uninstallation successful:|:[var1] afinstalleret
+a:|:[var1] updated successfully:|:[var1] opdateret
+a:|:[var1] was successfully installed:|:[var1] installeret
+a:|:Check Update for :|:Kontroller opdatering for 
+a:|:Click on a download link to get the most recent version:|:Klik på et download link for at hente den seneste version
+a:|:Core Version:|:Core version
+a:|:Download links were not provided:|:Download link var ikke oplyst
+a:|:Module Information file missing in:|:Modul informationsfil mangler i
+a:|:Module Information link not provided:|:Modul informationslink er ikke oplyst
+a:|:Module Name:|:Modulnavn
+a:|:Module is already registered:|:Modul er allerede registreret
+a:|:No:|:Nej
+a:|:Please go to the Module Information link for more information:|:Gå venligst til modulinformations linket for mere information
+a:|:Some errors occurred while trying to update [var1]:|:Der opstod en fejl under opdatering af [var1]
+a:|:The images and files directories must be webserver writable for upgrades, please fix and then continue.:|:Billede- og fil bibliotekerne må ikke være skrivebeskyttede på webserveren inden opgradering, ret det og fortsæt
+a:|:The upgrade file has a syntax error:|:Opgraderingsfilen har en syntaksfejl
+a:|:There is an upgrade available for this module:|:Der er en opgradering tilgængelig for dette modul
+a:|:This module cannot install until the following modules are installed:|:Dette modul kan ikke installeres, før følgende moduler er installeret
+a:|:Unable to get information on [var1]:|:Det var ikke muligt at få informationer fra [var1]
+a:|:Unable to get module information on [var1]:|:Det var ikke muligt at få modulinformation fra [var1]
+a:|:Update:|:Opdater
+a:|:Warning!:|:Advarsel
+a:|:Yes:|:Ja
+a:|:[var1] installation NOT successful:|:Fejl i installation af [var1]
+a:|:[var1] post-installation NOT successful:|:Fejl i efter-installation af [var1]
+a:|:Boost:|:Installation

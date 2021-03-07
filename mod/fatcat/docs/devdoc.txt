@@ -1,0 +1,184 @@
+Development Documentation for FatCat Module
+by Matthew McNaney
+
+Version History
+--------------------
+1.0 Initial Writeup
+1.1 Added information on getIcon function.
+
+
+Introduction
+--------------------
+Hello, and thank you for your interest in FatCat for phpWebSite 0.9.0.
+FatCat is a categorization module. It allows all modules installed in phpWebSite to
+share a pool of topics. By reading this document, you will learn how to add categories
+to your module, how to display them, and other tricks.
+
+
+Before we get started
+---------------------
+Whenever I use the word "element", I am referring to the generic data of your module.
+A calendar's element would be an event. A web link manager would have several link
+elements.
+
+FatCat uses the OBJ_fatcat object. You will need to use the session of this object
+in your modules using $_SESSION["OBJ_fatcat"]. 
+
+This document is written in straight ASCII. 
+
+
+Putting FatCat in your Form
+---------------------------
+To start, you will need to get the FatCat selection boxes within your form. It is
+pretty simple. Call this function:
+
+$OBJ_fatcat->showSelect($module_id);
+
+The module id is the key to your element. It tells FatCat what to fetch so it can
+set the default selections in your select box. If you are creating this element
+from scratch, then you can just call showSelect without any parameters and you
+will get a selection box without any defaults.
+
+Another trick is sending a NULL value. For example, say I am using the same form for
+both editing and creating an element. If the existence of an ID number determined
+whether the form was updating, then I could just call:
+
+$OBJ_fatcat->showSelect($myID);
+
+If $myID is NULL, then nothing will be selected. Otherwise, if $myID contains the ID
+then FatCat will return the form with categories for that ID highlighted.
+
+The second parameter of showSelect is the form type. This defaults to "multiple" so you
+can choose several categories to put your element into. If you want to however, you can 
+send the parameter "single" instead, and you will get a drop-down single-select box.
+
+Example : $OBJ_fatcat->showSelect($myID, "single"); // One pick
+          $OBJ_fatcat->showSelect($myID, "multiple"); // Multiple picks
+
+The third parameter is useful for the multiple selection box. Normally the selection
+box will be the same size as the number of categories. If expect a huge number of
+of categories and you want to save room, just send the size you want the box.
+
+Example: $OBJ_fatcat->showSelect($myID, "multiple", 6); // Box is only 6 lines high
+
+No matter what, a multiple box will never be smaller than 3 rows.
+
+The fourth and last parameter usually is not required, but just in case you need it
+we will go over it. This parameter would be your module's title (e.g. FatCat's is
+"fatcat", PageMaster is "pagemaster"). Normally FatCat will know what module is using
+it, but if it has trouble, go ahead and send it the correct one.
+
+Catching the Result
+----------------------
+FatCat will send it's POST variable in an array. You don't need to fool with it, until
+you are finally ready to save your results.
+
+Right after you save/insert your element call the saveSelect function.
+
+$OBJ_fatcat->saveSelect($element_title, $element_link, $module_id);
+
+$element_title will be the title that appears when your element is referred to. So if
+I sent "Prospero's Books", that would be what appears under your module's name when
+something from the same category is called.
+
+$element_link is a link to the function that allows someone to view your element. It
+will probably look something like
+
+index.php?module=myMod&operation=viewMyStuff&widget_id=4
+
+FatCat will normally assume this link is local so don't worry about adding http://
+or the core's source directory. Just make sure that this GET statement will open
+the appropriate viewer within your module.
+
+$module_id is the ID of the element. It is the same as what you would have entered 
+for showSelect.
+
+There are three other parameters that are not required.
+Parameter four is the module title. Again, FatCat should know who you are, but in case
+it doesn't, enter it here.
+
+Parameter five is the href. It will be either "home" (which can be sent or you can enter
+NULL) or "away". If "away" is sent, then FatCat will assume this link goes offsite.
+This will become more beneficial when phpWebSite's network components are finished.
+
+The last parameter is the rating. Elements are rated on a scale of 1 to 100. Elements
+rated 100 appear higher in lists. Does this mean you should send 100 every time because
+your module is so kick ass? No, it does not. In most cases you should ignore this and
+let FatCat assign its default (which is 50). But if your module handles content that
+is important (security warnings, etc.) then by all means rate it up. Also, 101 means
+that this element is of the utmost importance. It will beat out all other contenders in 
+a list no matter how they are voted/modded up.
+
+
+What's Related?
+---------------------------
+If you want users to see what is possibly related to your module, then call the
+whatsRelated function.
+
+$OBJ_fatcat->whatsRelated($module_id);
+
+When you send your module's element id, FatCat will see what other elements share
+categories with it. A "What's Related" box will appear on the page along with a listing
+of other modules and their matching elements. These elements will use the link submitted
+with saveSelect.
+
+Your element will not appear on the list (they are already looking at it right?)
+
+Note: The second parameter is module_title. See above for information.
+
+Category Links
+---------------------------
+If you want users to get more information on the categories your module is in, use
+the fatcatLinks function:
+
+$OBJ_fatcat->fatcatLinks($module_id);
+
+A listing of all the categories your element is in will be returned. The listing
+contains links to the FatCat module which gives further information on that category.
+
+
+Category Icons
+---------------------------
+The getIcon function will return one or more category icons to your module. These
+icons are also links to the appropriate category.
+
+The format is:
+
+$OBJ_fatcat->getIcon($module_id, $allIcons, $onlyIcons, $module_title)
+
+The "module_id"is required. It works the same way as the examples above.
+
+The rest of the parameters are not required. "allIcons" is a boolean value. If true, you
+will receive an array of icon links for your element. Otherwise, if FALSE (the default),
+you will receive just one icon back no matter how many categories your element
+is in.
+
+If you receive multiple icons back, it is up to you to remove them from the array. If
+you instead opt to receive just one, it will returned as a string, ready to be 
+displayed.
+
+Sometimes, someone may not attach an icon to a category. If they do not, you will
+get back a link using the title instead. If you only want icons, send TRUE to
+the "onlyIcons" parameter.
+
+Finally, if getIcon cannot figure out what module you are using, send it your
+"module_title".
+
+
+Removing an Element
+---------------------------
+If your module is removing an item from the database, you should remove it from FatCat
+as well.
+
+OBJ_fatcat->purge($id, "myModuleTitle");
+or
+PHPWS_Fatcat::purge($id, "myModuleTitle");
+
+
+Conclusion
+--------------------------
+That should get you started using FatCat.
+
+If you have any question, suggestions, or recipes drop me an email at:
+Matthew McNaney <matt@NOSPAM.tux.appstate.edu>
+Drop the NOSPAM from the address.

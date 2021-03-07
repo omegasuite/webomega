@@ -1,0 +1,115 @@
+de:|:boost
+a:|: successfully created!:|:erfolgreich erstellt!
+a:|:Add RSS Feed:|:Neuer RSS-Feed
+a:|:Add Staff Listing:|:Mitarbeiter-Liste hinzuf&uuml;gen
+a:|:All Guestbook tables successfully written.:|:Alle G&auml;stebuchtabellen erfolgreich geschrieben.
+a:|:All RSS Feeds tables successfully written.:|:Alle RSS-Feeds Tabellen erfolgreich geschrieben.
+a:|:All Ras tables successfully written.:|:Alle RAS-Tabellen erfolgreich geschrieben.
+a:|:All dependancies found:|:Alle Abh&auml;ngigkeiten gefunden
+a:|:Approved:|:Best&auml;tigt
+a:|:Are you ABSOLUTELY SURE you want completely remove this module:|:Sind Sie ABSOLUT SICHER, dass Sie dieses Modul komplett entfernen m&ouml;chten
+a:|:Are you sure you want to uninstall this module:|:Sind Sie sicher, dass Sie dieses Modul deinstallieren m&ouml;chten
+a:|:Assuming files are only requirement for installation:|:Nehme an, Dateien sind die einzige Installations-Voraussetzung
+a:|:Assuming it is not needed:|:Nehme an, es wird nicht ben&ouml;tigt
+a:|:Assuming update needed registering only:|:Nehme an, Update ben&ouml;tigt nur eine Registrierung
+a:|:Building extra modules:|:Erstelle zus&auml;tzliche Module
+a:|:Building required modules:|:Erstelle ben&ouml;tigte Module
+a:|:Channel Title:|:Titel des Kanals
+a:|:Channel URL:|:URL des Kanals
+a:|:Check:|:Suche
+a:|:Checking dependancies:|:&Uuml;berpr&uuml;fe Abh&auml;ngigkeiten
+a:|:Checking language file for [var1]:|:&Uuml;berpr&uuml;fe Sprachdatei f&uuml;r [var1]
+a:|:Choose one or more categories that best fit this position.:|:W&auml;hle eine oder mehrere Kategorien, die am Besten hierzu passen.
+a:|:Contact:|:Kontakt
+a:|:Core Modules:|:Kern-Module
+a:|:Core Version:|:Kern-Version
+a:|:Core tables successfully installed:|:Kern-Tabellen erfolgreich erstellt
+a:|:Create Menu Link:|:Men&uuml;link erstellen
+a:|:Current Version:|:Aktuelle Version
+a:|:Date Available:|:Datum vorhanden
+a:|:Download Here:|:Hier herunterladen
+a:|:Download the latest version from the following link(s):|:Laden Sie die neuste Version von den folgenden Links herunter
+a:|:External Page:|:Externe Seite
+a:|:Finished uninstalling [var1] from languages:|:Deinstallation von [var1] aus den Sprachen abgeschlossen
+a:|:First Name:|:Vorname
+a:|:Flat:|:Flach
+a:|:Full Text:|:Gesamter Text
+a:|:Hidden:|:Versteckt
+a:|:Hits:|:Zugriffe
+a:|:Hours:|:Stunden
+a:|:If you uninstall a module from the hub, you will get a prompt:|:Wenn Sie ein Modul aus Hub deinstallieren, bekommen Sie eine Abfrage
+a:|:In A Box:|:In einer Box
+a:|:Install Module:|:Modul installieren
+a:|:Install the dependant modules, then try installing again:|:Installieren Sie die abh&auml;ngigen Module und versuchen Sie es erneut
+a:|:Install:|:Installation
+a:|:Installation file missing for [var1]:|:Installation fehlende Datei f&uuml;r [var1]
+a:|:Interface for installing, uninstalling, and updating modules.:|:Interface f&uuml;r die Installation, Deinstallation und Aktualisierung von Modulen.
+a:|:Internal Page:|:Interne Seite
+a:|:It should be safe to remove all the files in:|:Es sollte sicher sein, alle Dateien zu entfernen aus
+a:|:Last Name:|:Nachname
+a:|:Layout box created:|:Layout-Box erstellt
+a:|:Layout for [var1] installed successfully:|:Layout f&uuml;r [var1] erfolgreich installiert
+a:|:Layout for [var1] uninstalled successfully:|:Layout f&uuml;r [var1] erfoglreich deinstalliert
+a:|:Make sure to edit to match your theme:|:Stellen Sie sicher, die Einstellung f&uuml;r Ihr Theme zu &auml;ndern
+a:|:Manage Local Feeds:|:Manage lokale Feeds
+a:|:Module Information:|:Modul-Information
+a:|:Module Installer/Updater:|:Modul Installation/Aktualisierung
+a:|:Module is no longer registered:|:Modul ist nicht mehr registriert
+a:|:Nested:|:Eingebettet
+a:|:New Window:|:Neues Fenster
+a:|:Newest First:|:Neueste zuerst
+a:|:News Feed Image:|:News Feed Bild
+a:|:No Update Info:|:Keine Aktualisierungs-Info
+a:|:No install file for [var1]:|:Keine Installationsdatei f&uuml;r [var1]
+a:|:No language directory in [var1]:|:Kein Sprachverzeichnis f&uuml;r [var1]
+a:|:No language file present for [var1]:|:Keine Sprachdatei verf&uuml;gbar f&uuml;r [var1]
+a:|:Oldest First:|:&Auml;lteste zuerst
+a:|:Other Modules:|:Andere Module
+a:|:Photo:|:Foto
+a:|:Position:|:Position
+a:|:Positions Available:|:Vorhandene Stellen
+a:|:Post Installation Procedures:|:Post-Installations Vorg&auml;nge
+a:|:Registering Default Language:|:Registriere Standardsprache
+a:|:Removing dynamic phrases from:|:Dynamische Phrasen entfernen von
+a:|:Removing phrases from:|:Entferne Phrasen aus
+a:|:Size:|:Gr&ouml;&szlig;e
+a:|:This module's version appears to be current:|:Die Modul-Version scheint aktuell zu sein
+a:|:Threaded:|:Threaded
+a:|:Unable in import [var1] language file:|:Unmöglich Sprachfile [var1] zu importieren
+a:|:Unable to find Layout Info file for [var1]:|:Kann Layout-Info  Datei f&uuml;r [var1] nicht finden
+a:|:Unable to locate update file for [var1]:|:Kann Aktualisierungs-Datei f&uuml;r [var1] nicht finden
+a:|:Unable to read update.txt file from [var1]:|:Kann update.txt von [var1] nicht lesen
+a:|:Uninstall Module:|:Module deinstallieren
+a:|:Uninstall did not encounter any errors:|:Bei der Deinstallation traten keine Fehler auf
+a:|:Uninstall:|:Deinstallation
+a:|:Uninstallation file missing for [var1]:|:Deinstallation der fehlenden Datei f&uuml;r [var1]
+a:|:Uninstalling Module:|:Modul deinstallieren
+a:|:Up to Date:|:Aktuell
+a:|:Update All Modules:|:Alle Module aktualisieren
+a:|:Update Boost:|:Boost aktualisieren
+a:|:Update Core:|:Kern aktualisieren
+a:|:Update Module:|:Modul aktualisieren
+a:|:Update Version:|:Version aktualisieren
+a:|:Update available:|:Aktualisierung verf&uuml;gbar
+a:|:Update not found at:|:Aktualisierung nicht gefunden bei
+a:|:Update not needed:|:Keine Aktualisierung notwendig
+a:|:Updating:|:Aktualisiere
+a:|:Version Check:|:Versions-&Uuml;berpr&uuml;fung
+a:|:Version:|:Version
+a:|:View All:|:Alle zeigen
+a:|:Write to modules table successful:|:Schreibzugriff auf Modul-Tabelle erfolgreich
+a:|:You must update Boost before updating any other modules.:|:Sie m&uuml;ssen Boost vor allen anderen Modulen aktualisieren.
+a:|:You will NOT get a prompt uninstalling a branch site module:|:Sie werden KEINE Abfrage bei der Deinstallation eines Zweig-Moduls (Branch) bekommen
+a:|:Your Version:|:Ihre Version
+a:|:[var1] NOT found:|:[var1] NICHT gefunden
+a:|:[var1] found:|:[var1] gefunden
+a:|:[var1] has been unregistered:|:[var1] wurde entfernt
+a:|:[var1] installation NOT successful:|:[var1] NICHT ERFOLGREICH installiert
+a:|:[var1] installation successful:|:[var1] Installation erfolgreich
+a:|:[var1] language file installed:|:[var1] Sprachdatei installiert
+a:|:[var1] post-installation successful:|:[var1] Post-Installation erfolgreich
+a:|:[var1] requires the above modules to be installed before it will function:|:[var1] ben&ouml;tigt die oben angegebenen Module bevor es installiert werden kann
+a:|:[var1] uninstallation NOT successful:|:[var1] Deinstallation NICHT erfolgreich
+a:|:[var1] uninstallation successful:|:[var1] Deinstallation erfolgreich
+a:|:[var1] updated successfully:|:[var1] erfolgreich aktualisiert
+a:|:[var1] was successfully installed:|:[var1] wurde erfolgreich installiert

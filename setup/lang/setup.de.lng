@@ -1,0 +1,69 @@
+# Translation file for setup
+# Last updated: 15.08.2003 by Fridtjof Busse
+# setup.php
+# set_config.php
+# update.php
+phpWebSite Core Installation:|:phpWebSite Kern-Installation
+phpWebSite Version:|:phpWebSite Version
+Installation Utility:|:Installationswerkzeug
+Your administrative user was successfully created:|:Ihr administrativer Benutzer wurde erfolgreich angelegt
+You must create a deity user account that will have administrative rights to this phpWebSite installation:|:Sie m&uuml;ssen einen Superuser anlegen, der administrative Rechte in dieser phpWebSite-Installation haben soll
+Make sure the password is 5 characters or more and not simple to guess:|:Stellen Sie sicher, dass das Passwort 5 oder mehr Zeichen enth&auml;lt und nicht einfach zu erraten ist
+Please enter the required information to continue:|:Bitte geben Sie die ben&ouml;tigten Informationen ein um fortzufahren
+There was a problem creating the default language table:|:Es gab ein Problem bei der Erstellung der Standard-Sprachtabelle
+Core tables successfully installed:|:Kerntabellen erfolgreich erstellt
+There was a problem installing the core tables:|:Es gab ein Problem bei der Installation der Kerntabellen
+Please check your core and try the installation again:|:Bitte &uuml;berpr&uuml;fen Sie den Kern und probieren Sie es erneut
+Building required modules:|:Erstelle ben&ouml;tigte Module
+Registering Default Language:|:Registriere Standardsprache
+Post Installation Procedures:|:Post-Installationsvorg&auml;nge
+Building extra modules:|:Erstelle Extramodule
+Go to my installation:|:Zu meiner Installation
+You have chosen to override the version checker:|:Sie haben sich entschlossen, den Versionscheck zu &uuml;berschreiben
+Be aware that your version of php is NOT supported:|:Seien Sie sich bewusst, dass Ihr PHP nicht unterst&uuml;tzt wird
+Sorry, but you appear to running PHP version:|:Sorry, aber Sie scheinen folgende Version zu verwenden:
+phpWebSite requires 4.2.2 or above:|:phpWebSite ben&ouml;tigt 4.2.2 oder dar&uuml;ber
+phpWebSite failed a session test:|:ein Session-Test von phpWebSite ist fehlgeschlagen
+If your PHP installation is not configured to allow sessions, you will not be able to run phpWebSite:|:Falls Ihr PHP nicht f&uuml;r die Verwendung von Session konfiguriert ist, werden Sie phpWebSite nicht verwenden k&ouml;nnen
+Please check your session path in your php.ini file and make sure your version of php supports superglobals:|:Bitte &uuml;berpr&uuml;fen Sie Ihren Session-Pfad in der php.ini und stellen Sie sicher, dass Ihre PHP-Version superglobals unterst&uuml;tzt
+greater than version:|:gr&ouml;&szlig; als
+[var1] not found:|:[var1] nicht gefunden
+You will need to create a database of this name before continuing:|:Sie m&uuml;ssen eine Datenbank mit diesem Namen erstellen, bevor Sie fortfahren
+There are tables in this database and you have not set a table prefix:|:Es existieren Tabellen in dieser Datenbank und Sie haben kein Prefix angegeben
+Please do so in your config.php file and return:|:Bitte tun Sie dies in der config.php und kehren Sie wieder zur&uuml;ck
+Welcome to the phpWebSite installation utility:|:Willkommen zum phpWebSite Installations-Werkzeug
+Please enter your installation password to continue.:|:Bitte geben Sie Ihr Installationspasswort ein um fortzufahren
+Continue:|:Weiter
+Username:|:Benutzername
+Password:|:Passwort
+Password Confirmation:|:Passwort Best&auml;tigung
+Email Address:|:Mailadresse
+Bad user name:|:Schlechter Benutzername
+Alphanumeric characters only:|:Nur alphanumerische Zeichen
+No spaces:|:Keine Leerzeichen
+Some strange characters in that password:|:EInige seltsame Zeichen im Passwort
+Couple of letters missing in that password:|:Es fehlen Zeichen in diesem Passwort
+No seriously:|:Nein, ernsthaft
+Even I guessed that one:|:Sogar ich konnte es erraten
+Pick a REAL password:|:W&auml;hlen Sie ein ECHTES Passwort
+Passwords did not match:|:Passw&ouml;rter stimmen nicht &uuml;berein
+Try again:|:Versuchen Sie es erneut
+You must enter a proper email address:|:Sie m&uuml;ssen eine g&uuml;ltige Adresse eingeben
+The modules listed below were found with your installation:|:Die unten aufgelisteten Module wurden in Ihrer Installation gefunden
+These modules are not essential to the operation of phpWebSite:|:Diese Module sind nicht essentiell f&uuml;r die Funktionalit&auml;t von phpWebSite
+If you wish to add or remove modules later, use the Boost Module in your administration panel:|:Falls Sie sp&auml;ter Module entfernen oder hinzuf&uuml;gen m&ouml;chten, verwenden Sie das Boost-Modul im Administrationspanel
+Click the checkbox next to the modules you wish to install, then click the <b>Install Selected Modules</b> button:|:AKtivieren Sie die Box neben dem Modul, das Sie installieren m&ouml;chten und klicken Sie auf den <b>Ausgew&auml;hlte Module installieren</b> Button
+If you do not wish to install any extra modules at this time, click the <b>Install Core Only</b> button:|:Wenn Sie keine weiteren Module installieren wollen, klicken Sie einfach aus den <b>Nur Kern installieren</b> Button
+Toggle All:|:Alle markieren
+Install Selected Modules:|:Ausgew&auml;hlte Module installieren
+Install Core Only:|:Nur Kern installieren
+Updating modules:|:Aktualisiere Module
+phpWebSite Updater:|:phpWebSite Update
+Version [var1] to [var2]:|:Version [var1] zu [var2]
+Welcome to the phpWebSite Updater:|:Willkommen zum phpWebSite Updater
+Enter your Installation Password below:|:Geben Sie unten Ihr Installationspasswort ein
+Unable to connect to branch database for [var1]:|:Keine Verbindung zur Zweig-Datenbank f&uuml;r [var1]
+Updating branch:|:Aktualisiere Zweig
+Unable to load file [var1] for branch [var2]:|:Kann Datei [var1] f&uuml;r Zweig [var2] nicht laden
+Updating branch modules:|:Aktualisiere Zweig-Module
+Check All:|:Alle ausw&auml;hlen

@@ -1,0 +1,23 @@
+da:|:approval
+a:|:Allows you to approve elements from different modules in one convenient place.:|:Godkender indhold fra de øvrige moduler, f.eks. links, oprettelse af brugere mm.
+a:|:Approval List:|:Godkendelses liste
+a:|:Approval View:|:Godkendelses visning
+a:|:Building extra modules:|:Byg ekstra moduler
+a:|:Building required modules:|:Bygger nødvendige moduler
+a:|:Checking language file for [var1]:|:Kontrollerer sprogfil for [var1]
+a:|:Core tables successfully installed:|:Core tabel installation lykkedes
+a:|:Jobs processed:|:Jobs udført
+a:|:Layout for [var1] installed successfully:|:Layout for [var1] installation lykkedes
+a:|:Missing language directory:|:Manglende sprog bibliotek
+a:|:No entries to approve:|:Ingen indlæg at godkende
+a:|:Post Installation Procedures:|:Efter installations procedure
+a:|:Registering Default Language:|:Registrering af standardsprog
+a:|:Registering Layout:|:Registreringslayout
+a:|:[var1] installation successful:|:[var1] installationen lykkedes
+a:|:[var1] post-installation successful:|:[var1] efter-installationen lykkedes
+a:|:Approval:|:Godkendelse
+a:|:Approval Admin:|:Godkendelses administration
+a:|:Awaiting Approval for module: \"[var1]\":|:Afventer godkendelse fra modul: \"[var1]\"
+a:|:Go:|:Fortsæt
+a:|:View:|:Vis
+a:|:You have a submission awaiting approval:|:Du har et forslag der venter på godkendelse

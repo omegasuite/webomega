@@ -1,0 +1,51 @@
+de:|:security
+a:|:.htaccess extra info:|:.htaccess extra Info
+a:|:Add Error Page:|:Fehlerseite hinzuf&uuml;gen
+a:|:Allow List:|:Zugriff erlaubt:
+a:|:Apache Settings:|:Apache Einstellungen
+a:|:Are you sure you want to delete the:|:Sind Sie sicher, dass Sie folgendes l&ouml;schen wollen
+a:|:Batch Add Photos:|:Reihe hinzugefügter Fotos
+a:|:Batch Add:|:Reihe hinzugefügt
+a:|:Content:|:Inhalt
+a:|:Delete Error Page:|:Fehlerseite l&ouml;schen
+a:|:Deny List:|:Sperrliste
+a:|:Deny:|:Sperren
+a:|:Edit htacces info:|:htacces Info &auml;ndern
+a:|:Error Label:|:Fehler Label
+a:|:Error Lable:|:Fehler Lable
+a:|:Error Number:|:Fehlernummer
+a:|:ErrorDocument:|:Fehlerdokument
+a:|:FAQs  :|:FAQs  
+a:|:Go here to manage access to your web site as well as create custom error pages.:|:Hier k&ouml;nnen Sie sowohl den Zugriff auf Ihre Webseiten verwalten als auch angepasste Fehlerseiten erstellen.
+a:|:IP Address:|:IP Addresse
+a:|:Label:|:Label
+a:|:Last:|:Letztes
+a:|:Manage Access:|:Zugriff managen
+a:|:Manage Error Pages:|:Fehlerseiten managen
+a:|:Missing Descriptions:|:Fehlende Beschreibungen
+a:|:Multi-Send Notes:|:Multi-Senden von Mitteilungen
+a:|:Newest:|:Neueste
+a:|:No:|:Nein
+a:|:Number of photos (select before uploading):|:Anzahl der Bilder (wählen Sie aus, bevor Sie hochladen)
+a:|:Oldest:|:Älteste
+a:|:Or:|:Oder
+a:|:Photo Number:|:Bild Nummer
+a:|:Save:|:Speichern
+a:|:Security Admin:|:Sicherheitsadministration
+a:|:Send Options::|:Sende Optionen:
+a:|:Send a note to all users.:|:Sende eine Mitteilung an alle User.
+a:|:Send:|:senden
+a:|:Slide Show:|:Dia Show
+a:|:Sub-Level Bullet Image: :|:Sub-Level Bullet Bild: 
+a:|:Subject:  :|:Subject:  
+a:|:The Photo [var1] was saved but their was a problem creating the thumbnail image.:|:Das Foto [var1] wurde gespeichert, aber es gab ein Problem beim Erstellen des Thumbnail-Bildes.
+a:|:The group send option is disabled since there are no user groups.:|:Die Option sende an Gruppe ist deaktiviert, da es keine Benutzergruppen gibt.
+a:|:The photo album image directory could not be created.:|:Das Fotoalbum /image Verzeichnis konnte nicht erstellt werden.
+a:|:The public by default.:|:Standardm&auml;ssig &ouml;ffentlich.
+a:|:There was a problem uploading the specified image.:|:Es gab ein Problem beim Uploaden Ihres Bildes
+a:|:Thumbnail:|:Thumbnail
+a:|:Time:|:Zeit
+a:|:Top-Level Bullet Image: :|:Top-Level Bullet Bild: 
+a:|:error page:|:Fehlerseite
+a:|:htaccess extra:|:htaccess extra
+a:|:Apache Settings:|:Apache Einstellungen

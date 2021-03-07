@@ -1,0 +1,84 @@
+Announcements Manual
+
+Table of Contents
+-----------------
+1. Creating A New Announcement
+2. The Announcement List
+3. Edit An Existing Announcement
+4. Deleting An Announcement
+5. Approving A User Submitted Announcement
+
+1. Creating A New Announcement
+------------------------------
+This is a step by step description of how to create a new announcement.  The
+assumption is made that the user is currrently logged in as an administrator
+and has the announce module selected:
+
+1. Select "New Announcement" from the menu along the top.
+2. The subject and summary will show up on the main page as a summary of the
+announcement.  The body will show up as the full announcement if a user chooses
+to read more of your announcement.  The subject and summary are required to
+post an announcement.
+3. If an image is provided for the announcement, it will show up in the full
+view for the announcement.  A short description must be provided for the image
+you upload.
+4. If you have created categories for your site, you can select a category for
+your announcement to be put into.  This will allow phpWebSite to automatically
+show related site content when a user views your announcement.
+5. The post on date is the date you wish your announcement to actually show up
+on your main page.  This allows you to queue up several announcements and have
+them "post themselves" at the appropriate times.
+6. The expiration date is the date you wish your announcement to be pulled down
+from the main page.  This allows you to create an announcement that will be
+invalid at a certain date and have phpWebSite automatically pull the announcement
+off the main page on that date.
+7. You can choose to allow comments for each announcement and whether or not to
+allow anonymous submissions to those comments.  Anonymous submissions are simply
+comments submitted by a user who does not have an account on your web site.
+8. Once you have filled in all the neccesssary data for your announcement, click
+the "Save" button to save and you will be given a message indicating that your
+announcement was saved and you will be taken to your list of current announcements
+in the system.
+
+2. The Announcement List
+------------------------
+At various times when using the announce module, you will end up at the announcement
+list page. The announcement list shows the announcements currently saved in the system.
+These announcements can be expired, or even hidden from public view, but they
+will still show up in the announcement list.  There are various actions you can perform
+on an announcement using the list.  These actions are hide, show, edit, and delete.
+Hide and show will either hide an announcement from public view or show an announcement
+that was once hidden from public view.  Edit will send the cooresponding announcement
+into edit mode and allow you to edit the data for that announcement.  Delete will take
+you into a delete confirmation for the cooresponding announcement and will ultimately
+allow you to delete the announcement.
+
+3. Edit An Existing Announcement
+--------------------------------
+To edit an existing announcement:
+1. Find the announcement you wish to edit in the announcement list.
+2. Select the edit button from the actions for the cooresponding announcement.
+3. Change any data you wish to change (reference the create announcement section of
+this document for descriptions of each data piece).
+4. Select the "Save" button to save your changes.
+5. A message will be printed indicating your announcement has been saved and you will
+be taken to the announcement list.
+
+4. Deleting An Announcement
+---------------------------
+To delete an existing announcement:
+1. Find the announcement you wish to delete in the announcement list.
+2. Select the "Delete" button from the actions for the cooresponding announcement.
+3. Confirm the deletion by selecting "Yes" or "No".
+4. If you selected "No" a message is printed indicating the announcement was kept.
+You can select "List Announcements" from the menu across the top to return to the
+announcement listing.
+5. If you selected "Yes" a message is printed indicating the announcement was removed.
+You can select "List Announcements" from the menu across the top to return to the
+announcement listing.
+
+5. Approving A User Submitted Announcement
+------------------------------------------
+If you have enabled the ability for visitors to your site to submit announcements,
+you can view and approve these announcements using the approval module (see approval
+module docs for details).

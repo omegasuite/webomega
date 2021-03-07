@@ -1,0 +1,185 @@
+nl:|:users
+a:|:A Problem Occurred:|:Er is een Probleem Opgetreden
+a:|:A secure cookie will only be sent over a secure connection (HTTPS):|:Een beveiligd cookie zal alleen over een secure verbinding worden verstuurd (HTTPS)
+a:|:ALL:|:ALLE
+a:|:Access:|:Toegang
+a:|:Account Signup:|:Account Aanvraag
+a:|:Add Group:|:Group Toevoegen
+a:|:Add Member:|:Lid Toevoegen
+a:|:Add User:|:Gebruiker Toevoegen
+a:|:Add Users:|:Gebruikers Toevoegen
+a:|:Add to [var1]:|:Voeg toe aan [var1]
+a:|:Administrate your Account:|:Beheer je Account
+a:|:Administrator Modules:|:Beheerder Modules
+a:|:Administrator:|:Beheerder
+a:|:Admins Only:|:Uitsluitend Beheerders
+a:|:All users can apply:|:Alle gebruikers kunnen het gebruiken
+a:|:Allow Cookies:|:Sta Cookies toe
+a:|:Allow New User Signup:|:Sta Nieuwe Gebruikers Aanmelding Toe
+a:|:Allow:|:Toestaan
+a:|:Another deity will need to change your password:|:Een andere Godheid zal je wachtwoord moeten aanpassen
+a:|:Apply for Account:|:Aanmelden voor Account
+a:|:Are you sure you want to delete this user:|:Weet je zeker dat je deze gebruiker wilt verwijderen
+a:|:Authentication Method:|:Authenticatie Methode
+a:|:Available Groups:|:Beschikbare Groupen
+a:|:Available Users:|:Beschikbare Gebruikers
+a:|:Change Cookie Permissions:|:Wijzig Cookie Permissies
+a:|:Change Successful:|:Wijziging Gelukt
+a:|:Change User Defaults:|:Wijzig Gebruiker Standaard Instellingen
+a:|:Change Your Password:|:Wijzig Je Wachtwoord
+a:|:Change my Menu:|:Wijzig mijn Menu
+a:|:Choose an option from the panel above:|:Maak een keuze uit het paneel hierboven
+a:|:Commands:|:Commando's
+a:|:Contact Information:|:Contact Informatie
+a:|:Control Panel:|:Controle Paneel
+a:|:Cookie Refreshed:|:Cookie Ververst
+a:|:Create Group:|:Groep Aanmaken
+a:|:Create User:|:Gebruiker Aanmaken
+a:|:Create a group by clicking on Add Group above:|:Maak een groep aan door te klikken op Groep toevoegen hierboven
+a:|:Default Menu Edit:|:Wijzigen Standaard Menu
+a:|:Default to Control Panel:|:Standaard naar Controle Paneel
+a:|:Deity users are not permitted to use this form:|:Godheden mogen dit formulier niet gebruiken
+a:|:Deity:|:Godheid
+a:|:Directory:|:Map
+a:|:Do you wish to remove their status:|:Wil je hun status verwijderen
+a:|:Domain:|:Domein
+a:|:Done:|:Klaar
+a:|:Drop Group:|:Groep verwijderen
+a:|:Drop Member:|:Lid verwijderen
+a:|:Edit Menu Off:|:Wijzigings Menu Uit
+a:|:Edit Menu On:|:Wijzigings Menu Aan
+a:|:Edit:|:Wijzig
+a:|:Email Address:|:Email Adres
+a:|:Email:|:Email
+a:|:Enter Again:|:Nogmaals invoeren
+a:|:External Authorization is set on site, but authorization file doesn't exist. Please notify system administrator.:|:Externe Authorisatie is ingesteld op de site, maar het authorisatie bestand bestaat niet. Geef a.u.b. bericht door aan een systeembeheerder.
+a:|:External Filename:|:Externe Bestandnaam
+a:|:External PHP function:|:Externe PHP functie
+a:|:Forgot Password:|:Wachtwoord Vergeten
+a:|:Go to signup page:|:Ga naar Aanmeld Pagina
+a:|:Greeting:|:Begroeting
+a:|:Group Name:|:Groep Naam
+a:|:Group created:|:Groep gemaakt
+a:|:Group updated:|:Groep bijgewerkt
+a:|:Hello [var1]:|:Hallo [var1]
+a:|:Home:|:Home
+a:|:If you think you might already have an account, try the lost password option:|:Als je denkt mogelijk al een account te hebben, probeer dan de Wachtwoord vergeten optie eens.
+a:|:In Group:|:In Groep
+a:|:In Groups:|:In Groepen
+a:|:In most cases, this can be left off:|:In de meeste gevallen kan dit Uit blijven
+a:|:Inherits:|:Erft
+a:|:Insert:|:Invoegen
+a:|:Keep in mind that these options only cover user cookies:|:Keep in mind that these options only cover user cookies
+a:|:Limit:|:Limiet
+a:|:Load:|:Laden
+a:|:Local Database:|:Local Database
+a:|:Log In:|:Log In
+a:|:Log Out:|:Log Uit
+a:|:Logout:|:Log uit
+a:|:Make [var1] a Deity:|:Maak [var1] een Godheid
+a:|:Manage Groups:|:Beheer Groepen
+a:|:Manage Users:|:Beheer Gebruikers
+a:|:Manage:|:Beheer
+a:|:Members:|:Leden
+a:|:Missing Settings:|:Ontbrekende Instellingen
+a:|:Missing adminMenu templates:|:Ontbrekende adminMenu sjablonen
+a:|:Missing password:|:Ontbrekend wachtwoord
+a:|:Missing username:|:Ontbrekende gebruikersnaam
+a:|:Module Name:|:Module Naam
+a:|:Module Rights:|:Module Rechten
+a:|:Modules:|:Modules
+a:|:Mortal:|:Sterveling
+a:|:Name:|:Naam
+a:|:New Account Signup:|:Nieuw Account Aanmelding
+a:|:New users can not be accepted until the admin establishes a contact email:|:Nieuwe gebruikers worden pas geaccepteerd nadat de beheerder een contact email verstuurt
+a:|:No groups available:|:Geen Groepen Beschikbaar
+a:|:No groups found:|:Geen Groepen Gevonden
+a:|:No users found:|:Geen gebruikers gevonden
+a:|:No, do leave them mortal:|:Nee, laat ze sterveling blijven
+a:|:No, let them remain a deity:|:Nee, laat ze Godheden blijven
+a:|:None:|:Geen
+a:|:Only approved users can apply:|:Alleen goedgekeurde gebruikers kunnen dit gebruiken
+a:|:Other Information:|:Overige Informatie
+a:|:Password must be five characters or more in length:|:Wachtwoord moet minstens 5 tekens lang zijn
+a:|:Password too familiar:|:Wachtwoord te simpel
+a:|:Password:|:Wachtwoord
+a:|:Passwords did not match:|:Wachtwoorden komen niet overeen
+a:|:Please apply for a new password change form:|:Dien a.u.b. een wachtwoord wijzigingsformulier in.
+a:|:Please check your email for the change of password form:|:Controleer a.u.b. uw email voor het wachtwoord wijzigingsformulier
+a:|:Please contact the systems administrator:|:Neem a.u.b. contact op met de systeem beheerder
+a:|:Please go under Settings in the admin User Manager and enter an user contact email address:|:Ga a.u.b. naar de Instellingen onder Beheer Gebruikers en vul een contact email adres in voor gebruikers
+a:|:Please load new modules into a menu:|:Laad a.u.b. nieuwe modules in een menu
+a:|:Please try again later:|:Probeer het later nog eens a.u.b.
+a:|:Please try another:|:proneer een andere
+a:|:Refresh My Cookie:|:Ververs mijn Cookie
+a:|:Refresh:|:Verversen
+a:|:Remove Member:|:Verwijder Lid
+a:|:Remove:|:Verwijder
+a:|:Request Successful:|:Verzoek Gelukt
+a:|:Search:|:Zoek
+a:|:Secure Cookie:|:Beveiligd Cookie
+a:|:Send Information:|:Stuur Informatie
+a:|:Set Cookie Preferences:|:Stel Cookie Voorkeuren In
+a:|:Settings:|:Instellingen
+a:|:Setup Default Menu:|:Instellen Standaard Menu
+a:|:Setup My Menu:|:Instellen Mijn Menu
+a:|:Shall we deify them:|:Zullen we Godheden van hun maken
+a:|:Show Login Box:|:Toon Login Kader
+a:|:Sign In:|:Aanmelden
+a:|:Simple vs. Domain/Directory:|:Simpel vs. Domein/Directory
+a:|:Simple:|:Simpel
+a:|:Sorry but there is a problem with our email:|:Sorry, maar er is een probeem met onze email
+a:|:Sorry:|:Sorry
+a:|:Subject Line:|:Onderwerp
+a:|:Success:|:Gelukt
+a:|:Thank you for applying for an account:|:Bedankt voor de account aanvraag
+a:|:The Domain/Directory option also includes your web address for greater security:|:De Domein/Directory optie bevat tevens uw web adres voor verhoogde veiligheid
+a:|:The number of minutes you want to phpWebSite to allow the cookie to remain active:|:Aantal minuten dat u phpWebSite toestaat het cookie actief te houden
+a:|:The simple cookie only contains the information and a time limit:|:Het simpele cookie bevat alleen de informatie en een tijd limiet
+a:|:The username you have entered in invalid:|:De Gebruikersnaam die is ingevuld is ongeldig
+a:|:The username you have entered is not permitted to change their password:|:De Gebruikersnaam die is ingevuld mag geen wachtwoord wijzigen
+a:|:This MUST be set:|:Dit MOET zijn ingesteld
+a:|:This allows for easier interaction and administration between sites using the same hub:|:Dit staat eenvoudiger interactie en beheer toe tussen sites gebruikmakend van dezelfde hub
+a:|:This is a mortal:|:Dit is een sterfeling
+a:|:This user is currently a deity:|:Deze gebruiker is momenteel een godheid
+a:|:This value must be greater than 10 minutes:|:Deze waarde moet meer zijn dan 10 minuten
+a:|:Time Limit:|:Tijd Limiet
+a:|:Try again:|:Probeer nog eens
+a:|:Unable to email change form:|:Kan het wijzigings formulier niet versturen per email
+a:|:Unable to locate saved cookie:|:Kan het bewaarde cookie niet vinden
+a:|:Unable to send email from a new user sign-up request:|:Kan geen email versturen na aanmeldingsverzoek nieuwe gebruiker
+a:|:Update Cookie Settings:|:Bijwerken Cookie Instellingen
+a:|:Update Group:|:Bijwerken Groep
+a:|:Update My Information:|:Bijwerken Mijn Informatie
+a:|:Update Permissions:|:Bijwerken Rechten
+a:|:Update User:|:Bijwerken Gebruiker
+a:|:User Admin:|:Gebruikers Beheer
+a:|:User Defaults:|:Gebruikers Standaard Instellingen
+a:|:User Email Contact:|:Gebruikers Email Contact
+a:|:User created:|:Gebruiker Aangemaakt
+a:|:User deleted:|:Gebruiker Verwijderd
+a:|:User information changed successfully:|:Bijwerken Gebruikers Informatie gelukt
+a:|:User is a deity:|:Gebruikers is een Godheid
+a:|:User updated:|:Gebruiker Bijgewerkt
+a:|:Username already in use:|:Gebruikersnaam bestaat al
+a:|:Username may not contain spaces or non-alphanumeric characters:|:Gebruikersnaam mag geen spaties of niet-alfanumerieke tekens bevatten
+a:|:Username:|:Gebruikersnaam
+a:|:WARNING:|:WAARSCHUWING
+a:|:Welcome:|:Welkom
+a:|:When you receive it, log in using your new username and password:|:Zodra je het ontvangt, log in met je nieuwe gebruikersnaam en wachtwoord
+a:|:Yes, make them a deity:|:Ja, maak Godheden van hen
+a:|:Yes, make them mortal:|:Ja, stervelingen van hen
+a:|:You have not requested a password change:|:Je hebt geen wachtwoordwijziging aangevraagd
+a:|:You have run out of time to update your password:|:Je bent over de tijdslimiet heen om je wachtwoord aan te passen
+a:|:You have the option to allow your site to use cookies to assist in user authorization:|:Je hebt de keuze om cookies toe te passen op je site om te helpen bij gebruikers authorisatie
+a:|:You may need to log out for changes to take effect:|:Je moet wellicht uitloggen om het effect van wijzigingen te zien
+a:|:You may now login with your new password:|:Je mag nu inloggen met je nieuwe wachtwoord
+a:|:You must give your group a name:|:Je moet je groep een naam geven
+a:|:Your Modules:|:Jouw Modules
+a:|:Your account verification is sent:|:De verificatie van je account is verstuurd
+a:|:Your password will be sent to your email address:|:Je wactwoord wordt aan je email adres gestuurd
+a:|:Your request is being reviewed:|:Je verzoek wordt bekeken
+a:|:Your username and email combination was refused:|:Je gebruikersnaam en wachtwoord combinatie zijn geweigerd
+a:|:match:|:overeenkomst
+a:|:nobody:|:niemand
+a:|:of:|:van
